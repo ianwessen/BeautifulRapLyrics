@@ -1,0 +1,1987 @@
+$white: #fff;
+$charcoal: #444;
+$black: #000;
+$base-background: #555;
+$base-text: #eee;
+
+body {
+  font: 400 16px/22px 'Open Sans', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: $base-text;
+  background: $base-background;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  line-height: 1.2em;
+  font-weight: 400;
+}
+
+h1 { font-size: 5.063em; }
+h2 { font-size: 3.375em; }
+h3 { font-size: 2.25em; }
+h4 { font-size: 1.5em; }
+h5 { font-size: 1em; }
+h6 { font-size: .8em; }
+p { font-size: 1em; }
+
+header,
+section,
+footer {
+  position: relative;
+  min-height: 50px;
+  padding: 150px 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  width: 960px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  width: 100%;
+  overflow: auto;
+}
+
+.meta-tag {
+  position: absolute;
+  opacity: .75;
+  z-index: 100;
+
+  &.light {
+    color: $white;
+  }
+
+  &.dark {
+    color: $charcoal;
+    span { border-color: $charcoal; }
+  }
+}
+
+.day-index {
+  top: 50px;
+  left: 50%;
+  margin-left: -17px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+
+  span {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    padding-top: 5px;
+    border: 1px solid $white;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+}
+
+.typeface-specimen {
+  bottom: 50px;
+  left: 0;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@mixin absolute-center($width) {
+  position: absolute;
+  width: $width;
+  left: 50%;
+  margin-left: -1 * $width * 0.5
+}
+
+// =============================================================================
+// ==================================  Header  =================================
+// =============================================================================
+
+header {
+  $background: #2f343b;
+  $headline: #e3cda4;
+  $subheadline: #cf665b;
+
+  padding: 100px 0 200px;
+  background: $background;
+  background: -webkit-radial-gradient(center, ellipse cover, #2f343b 0%, #3e454e 100%);
+  background: radial-gradient(ellipse at center, #2f343b 0%, #3e454e 100%);
+
+  .container {
+    width: 700px;
+    text-align: center;
+  }
+
+  h1 {
+    // 100 Days of
+    margin-top: 1em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: $headline;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    // Rap Lyrics
+    margin-bottom: 60px;
+    font-family: 'Alegreya', serif;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: .05em;
+    color: $subheadline;
+  }
+
+  h6 {
+    font-size: 16px;
+    line-height: 1.8em;
+    color: $headline;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin-bottom: 1em;
+    line-height: 1.6em;
+  }
+
+  hr {
+    width: 80px;
+    height: 3px;
+    margin: 2em auto;
+    background: $headline;
+    border: 0;
+  }
+
+  .credits {
+    float: left;
+    width: 300px;
+  }
+
+  .body {
+    float: left;
+    width: 400px;
+  }
+}
+
+// =============================================================================
+// ==============================  Parental Advisory  ==========================
+// =============================================================================
+
+.parental-advisory {
+  background: $white;
+  color: $black;
+
+  .container {
+    width: 380px;
+    overflow: auto;
+  }
+
+  h2,h3,h4 {
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+  }
+
+  .pa--sticker {
+    width: 232px;
+    margin: 0 auto 60px;
+    text-align: center;
+    border: 2px solid $black;
+  }
+
+  h3 {
+    // Parental
+    padding: .1em 0 0 .3em;
+    color: $white;
+    background: $black;
+    letter-spacing: .3em;
+    border: 2px solid $white;
+  }
+
+  h2 {
+    // Advisory
+    padding: .1em .1em 0;
+    letter-spacing: 0.05em;
+  }
+
+  h4 {
+    // Explicit Content
+    padding: 6px;
+    color: $white;
+    background: $black;
+    letter-spacing: .14em;
+    border: 2px solid $white;
+  }
+
+  p {
+    line-height: 2em;
+    text-align: center;
+  }
+}
+
+
+// =============================================================================
+// ==================================  Footer  =================================
+// =============================================================================
+
+footer {
+  color: #999;
+  text-align: center;
+
+  p {
+    line-height: 50px;
+  }
+}
+
+55acee
+
+// =============================================================================
+// ====================================  36  ===================================
+// =============================================================================
+
+.lyric-36 {
+  // Trigger fingers turn to twitter fingers
+}
+
+// =============================================================================
+// ====================================  35  ===================================
+// =============================================================================
+
+.lyric-35 {
+  // I bomb atomically,
+  // SOCRATES’ PHILOSOPHIES
+  // & HYPOTHESES
+  // can’t define how I be droppin these
+  // MOCKERIES,
+  // lyrically perform armed robbery
+
+  padding: 220px 0;
+  background: #3F536E;
+
+  .container {
+    width: 550px;
+    text-align: center;
+  }
+
+  h2,h3,h4,h5 {
+    span {
+      font-family: 'Playfair Display', serif;
+    }
+  }
+
+  h4 {
+    font: 400 30px / 1.4em 'Playfair Display SC', serif;
+
+    &:first-of-type {
+      font-size: 64px;
+    }
+  }
+
+  h2 {
+    font: 400 30px / 1.4em 'Abril Fatface', serif;
+
+    &:first-of-type {
+      font-size: 40px;
+    }
+    &:nth-of-type(2) {
+      font-size: 70px;
+    }
+    &:last-of-type {
+      font-size: 86px;
+    }
+  }
+
+  h5 {
+    font: 400 30px / 1.4em 'Playfair Display SC', serif;
+
+    &:first-of-type {
+      font-size: 31px;
+    }
+    &:last-of-type {
+      margin-bottom: 1em;
+    }
+  }
+
+  h6 {
+    font: 400 22px / 2em 'Playfair Display', serif;
+  }
+
+  hr {
+    height: 14px;
+    background: $white;
+    border: 0;
+  }
+
+}
+
+// =============================================================================
+// ====================================  34  ===================================
+// =============================================================================
+
+.lyric-34 {
+  //	I got nines in the bedroom, Glocks in the kitchen. A shotty by the shower
+  // if you wanna shoot me while I’m shittin’.
+
+  padding: 240px 0;
+  background: #6EA89C;
+
+  .container {
+    width: 540px;
+    text-align: center;
+  }
+
+  .quote {
+    display: block;
+    font-size: 60px;
+  }
+
+  p {
+    font: 700 34px / 1.6em 'Cardo', serif;
+  }
+
+  hr {
+    width: 75px;
+    height: 4px;
+    margin: 2em auto;
+    background: $white;
+    border: 0;
+  }
+
+  h6 {
+    font: 700 22px / 1.6em 'Montserrat', serif;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+
+    span {
+      font-weight: 300;
+    }
+  }
+}
+
+
+// =============================================================================
+// ====================================  33  ===================================
+// =============================================================================
+
+.lyric-33 {
+    // Rock you in your face, stab your brain with your nose bone.
+
+    padding: 260px 0;
+    background: #F2EBC7;
+
+    .container {
+      width: 400px;
+      color: #343642;
+    }
+
+    p {
+      // For all of those who wanna
+      font: 400 42px / 1.6em 'Stint Ultra Condensed', sans-serif;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      // Profile & Pose
+      font: 400 72px / 1em 'Ultra', sans-serif;
+      text-transform: uppercase;
+    }
+
+    h4 {
+      // Rock you in your face, stab your brain with your nose bone
+      margin-bottom: 1em;
+      font: 100 26px / 1.8em 'Roboto Slab', serif;
+      color: #962D3E;
+    }
+
+    h6 {
+      display: inline-block;
+      font: 400 22px / 4em 'Stint Ultra Expanded', sans-serif;
+      text-transform: uppercase;
+      border-top: 2px solid #343642;
+    }
+}
+
+// =============================================================================
+// ====================================  32  ===================================
+// =============================================================================
+
+.lyric-32 {
+  // You are witnessing elegance in the form of a black elephant
+
+  padding: 260px 0;
+  background: #000;
+
+  .container {
+    width: 600px;
+    text-align: center;
+  }
+
+  p {
+    margin-bottom: .5em;
+    font: 900 80px / .8em 'Work Sans', sans-serif;
+    text-transform: uppercase;
+  }
+
+  h6 {
+    font: 100 30px / .8em 'Work Sans', sans-serif;
+    text-transform: uppercase;
+  }
+}
+
+
+// =============================================================================
+// ====================================  31  ===================================
+// =============================================================================
+
+.lyric-31 {
+  // sophisticated ignorance
+  // write my curses in cursive
+
+  padding: 220px 0;
+  background: #405952;
+
+  .container {
+    width: 500px;
+  }
+
+  p {
+    margin-bottom: 1em;
+    font: 400 20px / 1.8em 'Roboto', sans-serif;
+    color: #9C9B7A;
+  }
+
+  h4 {
+    margin-bottom: 1em;
+    font: 100 30px / 1.4em 'Roboto Slab', sans-serif;
+    color: #FFD393;
+  }
+
+  h2 {
+    margin-bottom: .5em;
+    font: 400 80px / 1em 'Satisfy', sans-serif;
+    color: #FF974F;
+  }
+
+  h6 {
+    font: 400 24px / 3em 'Roboto', sans-serif;
+    color: #9C9B7A;
+    border-top: 4px solid #9C9B7A;
+  }
+}
+
+// =============================================================================
+// ====================================  30  ===================================
+// =============================================================================
+
+.lyric-30 {
+  // Fire, water, air, dirt. Fuckin’ magnets. How do they work?
+  position: relative;
+  height: 600px;
+  background: #111;
+
+  background: #7e3636;
+  background:
+  -webkit-linear-gradient(30deg,
+    #0D0620 0%,
+    #15082b 18%,
+    #0C082B 33%,
+    #020006 76%,
+    #050309 100%);
+
+  background: linear-gradient(30deg,
+    #0D0620 0%,
+    #15082b 18%,
+    #0C082B 33%,
+    #020006 76%,
+    #050309 100%);
+
+  overflow: hidden;
+
+  @keyframes twinkle {
+    0%, 30%, 70%, 100% { opacity: 1; }
+    50% { opacity: .333; }
+  }
+
+  .container {
+    @include absolute-center(345px);
+    top: 35%;
+    z-index: 10;
+    text-align: center;
+  }
+
+  p {
+    font: 400 40px / 1.4em 'Questrial', sans-serif;
+    margin-bottom: 1em;
+  }
+
+  h6 {
+    font: 400 20px / 1.4em 'Questrial', sans-serif;
+    opacity: .5;
+    text-transform: uppercase;
+  }
+
+  .star-pane {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('img/stardust.png');
+  }
+
+  .stars-1 {
+  }
+
+  .stars-2 {
+    animation: twinkle 5s linear infinite;
+    transform: rotate(235deg);
+  }
+
+  .stars-3 {
+    animation: twinkle 4s linear infinite;
+    transform: rotate(60deg);
+  }
+
+  .stars-3 {
+    animation: twinkle 6s linear infinite;
+    transform: rotate(110deg);
+  }
+
+}
+
+// =============================================================================
+// ====================================  29  ===================================
+// =============================================================================
+
+.lyric-29 {
+  // Worst rapper on this track third coolest
+  padding: 300px 0;
+  text-align: center;
+  background: #EBECEC;
+
+  .container {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    color: #859FB8;
+    border: 1px solid #859FB8;
+  }
+
+  p {
+    font: 400 24px / 3em 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    line-height: 3em;
+    letter-spacing: 0.08em;
+    padding: 0 3em;
+
+    span {
+      font-weight: 700;
+    }
+  }
+
+  h6 {
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    width: 100px;
+    margin-left: -50px;
+    font: 400 14px / 1.6em 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    background: #EBECEC;
+  }
+}
+
+
+// =============================================================================
+// ====================================  28  ===================================
+// =============================================================================
+
+.lyric-28 {
+  // Nothing was fucking awesome, trying to make it from the bottom
+  // this is feeling as hard as Vince Carter's knee cartilage is.
+  padding: 320px 0;
+  background: #1B3463;
+
+  .container {
+    width: 710px;
+  }
+
+  p {
+    margin-bottom: 2em;
+    font: italic 400 30px / 1.4em 'Alegreya', serif;
+  }
+
+  h6 {
+    font: 700 20px / 1.4em 'Alegreya', serif;
+    text-transform: uppercase;
+  }
+
+}
+
+
+// =============================================================================
+// ====================================  27  ===================================
+// =============================================================================
+
+.lyric-27 {
+  // Like the fly Malcolm X, buy any jeans necessary
+  padding: 160px 0;
+  background: #ED6F60;
+  text-align: center;
+
+  .container {
+    width: 500px;
+    padding: 5em 0;
+    border: 4px double #A35D53;
+    z-index: 10;
+  }
+
+  h2,h3,h6,p {
+    line-height: 1.5em;
+  }
+
+  p, h6 {
+    font-family: 'Arbutus Slab', serif;
+  }
+
+  h2,h3 {
+    font-family: 'Braggadocio', sans-serif;
+  }
+
+  h2 {
+    // jeans
+    font-size: 126px;
+    line-height: 1em;
+    color: #5FCAC7;
+    text-shadow: 0px 8px 0px #CF4836;
+  }
+
+  h3 {
+    // buy any, necessary
+    color: #5FCAC7;
+    text-shadow: 0px 8px 0px #CF4836;
+
+    &:first-of-type {
+      font-size: 76px;
+    }
+    &:last-of-type {
+      font-size: 62px;
+    }
+  }
+
+  h6 {
+    margin-top: 40px;
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 32px;
+    color: #F4F1BB;
+  }
+}
+
+// =============================================================================
+// ====================================  26  ===================================
+// =============================================================================
+
+.lyric-26 {
+  // I seen a baby cry then seconds later she laughed;
+  // The beauty of life, the pain never lasts
+  padding: 240px 0;
+  background: #DBD9CC;
+
+  .container {
+    text-align: center;
+  }
+
+
+  .yin-yang {
+    display: inline-block;
+    position: relative;
+  	width: 96px;
+  	height: 48px;
+  	background: #eee;
+  	border-color: #111;
+  	border-style: solid;
+  	border-width: 2px 2px 50px 2px;
+  	border-radius: 100%;
+  }
+
+  .yin-yang:before {
+  	content: "";
+  	position: absolute;
+  	top: 50%;
+  	left: 0;
+  	background: #eee;
+  	border: 18px solid #111;
+  	border-radius: 100%;
+  	width: 12px;
+  	height: 12px;
+  }
+
+  .yin-yang:after {
+  	content: "";
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	background: #111;
+  	border: 18px solid #eee;
+  	border-radius:100%;
+  	width: 12px;
+  	height: 12px;
+  }
+
+  p {
+    width: 420px;
+    margin: 4em auto 2em;
+    font: 400 22px / 1.8em 'EB Garamond', serif;
+    color: #111;
+  }
+
+  h6 {
+    font: 900 18px / 1.6em 'Raleway', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333;
+  }
+}
+
+
+// =============================================================================
+// ====================================  25  ===================================
+// =============================================================================
+
+.lyric-25 {
+  // Feeling mad hostile, wearing Aeropostale
+  // Flowing like Christ when I speaks the gospel
+
+  padding: 240px 0;
+  text-align: center;
+  background: #694040;
+
+  .container {
+    display: inline-block;
+    padding: 2em 6em;
+    width: auto;
+    color: #444;
+    background: #f0f0f0;
+  }
+
+  p {
+    font: 400 34px / 1.5em "Bangers", sans-serif;
+  }
+
+  h6 {
+    margin-top: 1em;
+    font: 400 18px / 1.4em  "Muli", sans-serif;
+    text-transform: uppercase;
+  }
+
+}
+
+// =============================================================================
+// ====================================  24  ===================================
+// =============================================================================
+
+.lyric-24 {
+  // Life is hell, death's a bitch
+  // And these FUBAR rulers getting rich
+  padding: 240px 0;
+  background: #2A2C2B;
+
+  // background: #485765;
+  // background:
+  // -webkit-linear-gradient(225deg,
+  //   #91AFCB 0%,
+  //   #64798C 18%,
+  //   #5B6D7F 33%,
+  //   #485765 76%,
+  //   #2D363F 100%);
+  //
+  // background: linear-gradient(225deg,
+  //   #91AFCB 0%,
+  //   #64798C 18%,
+  //   #5B6D7F 33%,
+  //   #485765 76%,
+  //   #2D363F 100%);
+
+  .container {
+    width: 400px;
+    padding-bottom: 40px;
+    overflow: auto;
+    color: #D9CB9E;
+    text-align: center;
+  }
+
+  h1 {
+    // El-P
+    margin: 0;
+    font: 700 64px / 1em 'Domine', serif;
+    color: $white;
+  }
+
+  h4 {
+    // Run The Jewels
+    margin-bottom: 1em;
+    font: 400 22px / 3 em 'Work Sans', serif;
+    color: #374140;
+    text-transform: uppercase;
+    border-bottom: 2px solid #374140;
+  }
+
+  p {
+    font: 400 14px / 2 em 'Domine', serif;
+  }
+
+}
+
+// =============================================================================
+// ====================================  23  ===================================
+// =============================================================================
+
+.lyric-23 {
+  // Cause I’m cooler than a polar bears toenails
+  background: #88B1D3;
+  background-image: url('img/asfalt-light.png');
+
+  .container {
+    width: 540px;
+    text-align: center;
+  }
+
+  p {
+    padding-bottom: 60px;
+    font: 400 80px / 1.4em 'Bree Serif', sans-serif;
+    color: #DAEDE2;
+    text-shadow: 0 6px 0 #417378;
+  }
+
+  h6 {
+    font: 400 24px / 1em 'ABeeZee', sans-serif;
+    text-align: center;
+    color: #28578F;
+  }
+}
+
+// =============================================================================
+// ====================================  22  ===================================
+// =============================================================================
+
+.lyric-22 {
+  // I got 99 problems, and they all bitches
+  background: #F5FFFA;
+
+  .container {
+    width: 500px;
+    text-align: center;
+  }
+
+  .row {
+    height: 225px;
+  }
+
+  .row p {
+    font: 400 40px / 50px 'PT Sans Narrow', sans-serif;
+    text-transform: uppercase;
+  }
+
+  .i-got,
+  .problems {
+    color: #BCCA8A;
+  }
+
+  .i-got {
+    float: left;
+    margin-top: 24px;
+  }
+
+  h1 {
+    // 99
+    display: inline-block;
+    font: 400 200px / 200px 'Old Standard TT', serif;
+    color: #F5D08A;
+
+    line-height: 1em;
+    text-align: center;
+  }
+
+  .problems {
+    float: right;
+    margin-top: 130px;
+  }
+
+  h4 {
+    // and they all bitches
+    font: 400 40px/70px 'Old Standard TT', serif;
+    font-style: italic;
+    color: #76949F;
+    border-top: 2px solid #6A6B83;
+    border-bottom: 2px solid #6A6B83;
+  }
+
+  h6 {
+    margin-top: 60px;
+    font: 700 20px / 50px 'PT Sans', sans-serif;
+    color: #6A6B83;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+  }
+
+}
+
+
+// =============================================================================
+// ====================================  21  ===================================
+// =============================================================================
+
+.lyric-21 {
+  // African-American Express
+  padding: 280px 0;
+  background: #4f1a31;
+
+  .container {
+    width: 730px;
+    padding-top: 5em;
+    text-align: left;
+    border-top: 54px solid #C7B07B;
+  }
+
+  p {
+    width: 75%;
+    padding-left: 1em;
+    font: 400 22px / 2em 'Josefin Sans', sans-serif;
+    color: #E8D9AC;
+    letter-spacing: .08em;
+  }
+
+  h2 {
+    font: 400 60px / 1.4em 'Pinyon Script', cursive;
+    color: $white;
+    padding-left: 2em;
+  }
+
+  h2:first-of-type {
+    // African-American
+    margin-top: .5em;
+  }
+
+  h2:last-of-type {
+    // Express
+    margin-bottom: 1.2em;
+  }
+
+  h6 {
+    font: 600 18px / 3em 'Josefin Slab', serif;
+    color: #4f1a31;
+    text-transform: uppercase;
+    text-align: center;
+    background: #C7B07B;
+  }
+}
+
+
+// =============================================================================
+// ====================================  20  ===================================
+// =============================================================================
+
+.lyric-20 {
+  // I'm like hey what's up hello
+  background: #FFFAE4;
+
+  .container {
+    width: 420px;
+    padding: 100px 0;
+  }
+
+  h2 {
+    margin-bottom: .5em;
+    font-family: 'Abril Fatface', serif;
+    color: #40627C;
+  }
+
+  .text-body {
+    position: relative;
+  }
+
+  p {
+    padding: 2em 0 2em 50%;
+    font-family: 'Old Standard TT', serif;
+    font-size: 18px;
+    color: #26393D;
+    line-height: 1.6em;
+    border-top: 1px solid #40627C;
+    border-bottom: 1px solid #40627C;
+  }
+
+  h6 {
+    position: absolute;
+    bottom: -8px;
+    padding: 0 1em;
+    font-size: 18px;
+    color: #40627C;
+    background: #FFFAE4;
+    font-family: 'Old Standard TT', serif;
+    font-style: italic;
+  }
+
+}
+
+// =============================================================================
+// ====================================  19  ===================================
+// =============================================================================
+
+.lyric-19 {
+  // Will Smith don't gotta cuss in his raps to sell records
+  padding: 260px 0;
+  background: #333;
+
+  .container {
+    position: relative;
+    width: 420px;
+    overflow: auto;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+  }
+
+  .left.column {
+    text-align: center;
+  }
+
+  .right.column {
+    padding-left: 2em;
+    border-left: 4px solid #444;
+    box-sizing: border-box;
+  }
+
+  p {
+    margin-bottom: 1em;
+    font: 24px / 2em 'Crimson Text', serif;
+    color: $white;
+  }
+
+  p em {
+    color: #EB5A33;
+  }
+
+  p:last-of-type {
+    margin: 0;
+  }
+
+  h6 {
+    margin-top: 8em;
+    font: 700 20px / 1em 'Crimson Text', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .16em;
+  }
+
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    background: red;
+    height: 100%;
+  }
+
+}
+
+
+// =============================================================================
+// ====================================  18  ===================================
+// =============================================================================
+
+.lyric-18 {
+  // Her beauty is why god created eyeballs
+  background: url('img/milky-way.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .container {
+    width: 740px;
+    padding: 7em 3em 7em;
+    text-align: center;
+    border: 3px solid $white;
+  }
+
+  p {
+    margin-bottom: 1.4em;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-shadow: 1px 2px 8px #333;
+  }
+
+  h6 {
+    font-size: 28px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+  }
+}
+
+
+// =============================================================================
+// ====================================  17  ===================================
+// =============================================================================
+
+.lyric-17 {
+  // Not an average Joe, with an average flow
+  background: #CFC0BD;
+
+  .container {
+    padding: 60px 0;
+  }
+
+  p {
+    font-family: 'Covered By Your Grace', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: #586F6B;
+  }
+
+  p span {
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    color: #7F9183;
+  }
+
+  h6 {
+    margin-top: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    color: #586F6B;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+}
+
+// =============================================================================
+// ====================================  16  ===================================
+// =============================================================================
+
+.lyric-16 {
+  // E.E. Cumming on her face now that's poetry in motion
+  background: #3F6778;
+  background-image: url('img/inspiration-geometry.png');
+  text-align: center;
+
+  .container {
+    padding: 2em 0;
+  }
+
+  p {
+    margin-bottom: 40px;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 50px;
+    transform: rotate(-4deg);
+    color: $white;
+  }
+
+  h6 {
+    display: inline-block;
+    padding: .25em 1.25em;
+    margin: 80px auto 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 36px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    border: 2px solid #DBE9EE;
+    color: #DBE9EE;
+  }
+}
+
+
+// =============================================================================
+// ====================================  15  ===================================
+// =============================================================================
+
+.lyric-15 {
+  // The squareroot of 69 is 8 something, right?
+
+  font-family: 'Neuton', serif;
+  padding: 260px 0;
+  color: #f0f0f0;
+  background: #2F4F4F;
+
+  .container {
+    position: relative;
+    width: 260px;
+    text-align: center;
+  }
+
+  p {
+    margin-bottom: .5em;
+    font-size: 30px;
+    line-height: 1.3em;
+  }
+
+  h6 {
+    margin-top: 60px;
+    font-size: 25px;
+    color: #b36262;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .lbrac,
+  .rbrac {
+    position: absolute;
+    top: 0;
+    font-size: 400px;
+  }
+
+  .lbrac {
+    left: -200px;
+  }
+
+  .rbrac {
+    right: -200px;
+  }
+
+}
+
+
+// =============================================================================
+// ====================================  14  ===================================
+// =============================================================================
+
+.lyric-14 {
+  // Baby girl, you’re so damn fine though.
+  // I'm tryna know if I can hit it from behind though
+
+  padding: 270px 0 320px;
+  font-family: 'EB Garamond', serif;
+  background: #FCFFF5;
+
+  .container {
+    position: relative;
+    width: 600px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 180px;
+    line-height: 50px;
+    color: #D1DBBD;
+  }
+
+  p {
+    padding-bottom: 2em;
+    font-size: 26px;
+    line-height: 1.4em;
+    color: #3E606F;
+    border-bottom: 1px solid #D1DBBD;
+
+    span {
+      font-family: 'Pinyon Script', cursive;
+      font-size: 60px;
+      color: #91AA9D;
+    }
+  }
+
+  h6 {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    width: 200px;
+    margin-left: -100px;
+    font-size: 16px;
+    color: #193441;
+    text-align: center;
+    letter-spacing: 0.2em;
+    background: #FCFFF5;
+    text-transform: uppercase;
+  }
+
+}
+
+
+// =============================================================================
+// ====================================  13  ===================================
+// =============================================================================
+
+.lyric-13 {
+  // I'm not saying I'm the best I'm just saying I'm fucking incredible
+
+  padding: 290px 0 240px;;
+  background: #f0f0f0;
+
+  .container {
+    width: 550px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+  }
+
+  p {
+    font: 400 20px / 1.6em 'Cutive Mono', monospace;
+    color: #232323;
+    background: #f0f0f0;
+    letter-spacing: -.08em;
+  }
+
+  p:last-of-type {
+    margin-bottom: 2em;
+  }
+
+  h6 {
+    display: inline-block;
+    margin-bottom: .45em;
+    font: 900 22px / 1.2em 'Cabin', sans-serif;
+    color: #88A0A8;
+    text-transform: uppercase;
+  }
+}
+
+// =============================================================================
+// ====================================  12  ===================================
+// =============================================================================
+
+.lyric-12 {
+  // Not a business man - I'm a business, man.
+  padding: 180px 0;
+  background: #42826C;
+
+  .container {
+    width: 520px;
+    color: #C0D6A8;
+  }
+
+
+  h2 {
+    margin-bottom: .5em;
+    font: 400 50px / 1.4em 'Gravitas One', serif;
+    text-transform: uppercase;
+  }
+
+  h2:first-of-type {
+    margin-bottom: .333em;
+    font-size: 54px;
+  }
+
+  p {
+    font: 400 40px / 1.4em 'Chivo', sans-serif;
+    text-transform: uppercase;
+  }
+
+  h6 {
+    display: inline-block;
+    padding: .5em 6px 0 0;
+    font: 400 40px / 1.4em 'Chivo', sans-serif;
+    text-transform: uppercase;
+    border-top: 10px solid;
+  }
+}
+
+// =============================================================================
+// ====================================  11  ===================================
+// =============================================================================
+
+.lyric-11 {
+  // Suicidal Thoughts first verse
+  padding: 0;
+  font-family: 'Old Standard TT', serif;
+  color: #000;
+  background: #fff;
+
+  .container {
+    width: 100%;
+    height: 940px;
+  }
+
+  .pane {
+    position: relative;
+    width:50%;
+    padding: 214px 0;
+    float: left;
+    overflow: hidden;
+  }
+
+  .body-text {
+    display: inline-block;
+    width: 300px;
+  }
+
+  .typeface-specimen {
+    display: inline-block;
+    right: 0;
+    width: 125px;
+  }
+
+  .pane--black {
+    background: black;
+    color: white;
+
+    .day-index {
+      left: 100%;
+    }
+
+    .typeface-specimen {
+      right: -62px;
+      left: initial;
+    }
+  }
+
+  .pane--white {
+    background: white;
+    color: black;
+
+    .day-index {
+      left: 0;
+    }
+
+    .typeface-specimen {
+      left: -63px;
+    }
+  }
+
+  .body-text--white {
+    float: right;
+    margin-right: -150px;
+  }
+
+  .body-text--black {
+    float: left;
+    margin-left: -150px;
+  }
+
+  .body-text--transparent {
+    position: absolute;
+    top: 155px;
+    left: 50%;
+    z-index: 10;
+    margin-left: -150px;
+    color: transparent;
+  }
+
+  p {
+    margin-bottom: 2em;
+    font-size: 19px;
+    line-height: 2em;
+    text-align: justify;
+  }
+
+  h6 {
+    text-align: center;
+    font-size: 16px;
+  }
+
+}
+
+
+
+// =============================================================================
+// ====================================  10  ===================================
+// =============================================================================
+
+.lyric-10 {
+  background: #FCE6BD;
+  text-align: center;
+
+  .container {
+    position: relative;
+    padding: 60px 40px;
+    width: 580px;
+    color: $white;
+  }
+
+  p {
+    // I got more drug spots from New York to Canada
+    font: 400 22px / 2em 'Radley', serif;
+    color: #694F5D;
+    text-transform: uppercase;
+  }
+
+  h5 {
+    // Cuz Big L be fuckin with more keys than a janitor
+    margin: .5em 0 2.25em;
+    font: 400 28px / 2.2em 'Rock Salt', cursive;
+    text-transform: uppercase;
+    color: #EE5656;
+  }
+
+  h6 {
+    font: 400 48px / 2em 'Radley', serif;
+    color: #694F5D;
+  }
+}
+
+
+// =============================================================================
+// ====================================  9  ====================================
+// =============================================================================
+
+.lyric-9 {
+  // Y'all couldn't rap this dope with a zig-zag
+  $background: #fff;
+  $green: #3CA55C;
+  $orange: #B5AC49;
+
+  padding: 300px 0;
+  font-family: 'Lora', serif;
+  background: $background;
+
+  .container {
+    width: 620px;
+  }
+
+  p {
+    margin-bottom: 1em;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.4em;
+    background: #3CA55C;
+    background: -webkit-linear-gradient(45deg, rgba(47, 144, 54, 1) 0%, rgba(47, 144, 54, 1) 18%, rgba(208, 150, 37, 1) 33%, rgba(255, 153, 0, 1) 62%, #9c0707 100%);
+    background: linear-gradient(45deg, rgba(47, 144, 54, 1) 0%, rgba(47, 144, 54, 1) 18%, rgba(208, 150, 37, 1) 33%, rgba(255, 153, 0, 1) 62%, #9c0707 100%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  }
+
+  h6 {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: .03em;
+    color: rgba(47, 144, 54, 1);
+    text-align: center;
+  }
+
+}
+
+
+// =============================================================================
+// ====================================  8  ====================================
+// =============================================================================
+
+.lyric-8 {
+  // I jerk off into books and give life to words LEAVING CONCEPTS STUCK TOGETHER YOU’VE PROBABLY NEVER HEARD.
+
+  padding: 220px 0;
+  color:  #f5e9be;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background: #3E8E94;
+
+  .container {
+    width: 600px;
+    padding: 100px 70px 70px;
+    color: #FFE184;
+  }
+
+  p:first-of-type {
+    // I jerk off into books
+    font-size: 59px;
+    font-weight: 700;
+  }
+
+  p:nth-of-type(2) {
+    // and give life to words
+    margin-bottom: 30px;
+    font-size: 59px;
+    font-weight: 700;
+    color: #FFE184;
+  }
+
+  p:last-of-type {
+    width: 570px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #FFE184;
+    line-height: 1.5em;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+  }
+
+  h6 {
+    position: absolute;
+    z-index: 10;
+    background: #3E8E94;
+    padding: 0 1.414em;
+    bottom: 213px;
+    left: 50%;
+    margin-left: -137px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #174C4F;
+  }
+}
+
+// =============================================================================
+// ====================================  7  ====================================
+// =============================================================================
+
+.lyric-7 {
+  // Rodney King ain't never felt a beat like this
+
+  padding: 300px 0;
+  font-family: 'PT Serif', serif;
+  background: #E6EBE0;
+
+  .container {
+    width: 300px;
+  }
+
+  .row {
+    padding: 40px 0;
+  }
+
+  p {
+    font-size: 26px;
+    color: #82AAA4;
+  }
+
+  h6 {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #5D576B;
+    color: #ED6A5A;
+    text-align: center;
+  }
+
+  .speak-like-this,
+  .beat-like-this {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+  }
+
+  .speak-like-this {
+    padding-right: 2em;
+    text-align: right;
+  }
+
+  .beat-like-this {
+    padding-left: 1em;
+  }
+}
+
+// =============================================================================
+// ====================================  6  ====================================
+// =============================================================================
+
+.lyric-6 {
+  padding: 200px;
+  font-family: 'Alegreya Sans', sans-serif;
+  background: #34495E;
+
+  .container {
+    width: 320px;
+  }
+
+  .hexagon {
+    position: relative;
+    width: 500px;
+    height: 288.68px;
+    margin: 144.34px auto;
+    background-color: none;
+    border-right: solid 1px rgba($white, .2);
+    border-left: solid 1px rgba($white, .8);
+  }
+
+  .hexagon:before,
+  .hexagon:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 353.55px;
+    height: 353.55px;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background-color: inherit;
+    left: 72.2233px;
+  }
+
+  .hexagon:before {
+    top: -176.7767px;
+    border-top: solid 1.4142px rgba($white, .2);
+    border-right: solid 1.4142px rgba($white, 1);
+  }
+
+  .hexagon:after {
+    bottom: -176.7767px;
+    border-bottom: solid 1.4142px rgba($white, 1);
+    border-left: solid 1.4142px rgba($white, .2);
+  }
+
+  .text {
+    position: absolute;
+    z-index: 2;
+    width: 500px;
+    text-align: center;
+  }
+
+  p {
+    // One for the money, two for the green, 3,4-methylenedioxy...
+    font-size: 24px;
+    line-height: 2em;
+  }
+
+  p:first-of-type {
+    padding-top: 50px;
+  }
+
+  p:last-of-type {
+    margin-bottom: 2em;
+  }
+
+  h6 {
+    // MF Doom
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 400;
+    // opacity: .333;
+    letter-spacing: 0.08em;
+  }
+}
+
+// =============================================================================
+// ====================================  5  ====================================
+// =============================================================================
+
+.lyric-5 {
+  // I get more ass than a toilet seat
+  $blue: #3498db;
+
+  padding: 0;
+  font-family: 'Roboto Slab', serif;
+  background: #acbac2;
+
+  hr {
+    border: 0;
+    border-top: 1px dashed rgba(0,0,0,.2);
+    margin: 30px 0;
+  }
+
+  .container {
+    width: 520px;
+    padding: 240px 0;
+    height: 100%;
+    background: $white;
+    box-shadow: 0 0 32px 8px rgba(0,0,0,.1);
+  }
+
+  p {
+    width: 65%;
+    margin: 0 auto 1em;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 1.3em;
+    color: $blue;
+    text-align: center;
+  }
+
+  h6 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 3em;
+    letter-spacing: .09em;
+    color: $blue;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+}
+
+// =============================================================================
+// ====================================  4  ====================================
+// =============================================================================
+
+.lyric-4 {
+  // Rock you in Playstation
+  $emphasis: #3e606f;
+  $text: #91aa9d;
+  $attribution: #aa9b83;
+
+  padding: 200px 0;
+  font-family: 'Rock Salt', sans-serif;
+  background: #fcfff5;
+
+  .container {
+    width: 500px;
+  }
+
+  h1 {
+    // Playstation
+    margin-bottom: 50px;
+    font-size: 34px;
+    line-height: 2.6em;
+    color: $emphasis;
+  }
+
+  h2 {
+    // Young bloods
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 2.6em;
+    color: $text;
+  }
+
+  h4 {
+    font: 700 30px / 2em 'Open Sans', sans-serif;
+    color: $attribution;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
+
+
+// =============================================================================
+// ====================================  3  ====================================
+// =============================================================================
+
+.lyric-3 {
+  // Real G's move in silence like lasagna
+  $background: #ffb03b;
+  $silence: #fff0a5;
+  $primary: #8e2800;
+  $secondary: #b64926;
+  $attribution: #468966;
+
+  padding: 200px 0;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  text-transform: uppercase;
+  background: $background;
+
+  h1 {
+    // Silence
+    font-family: 'Lato', sans-serif;
+    font-size: 123px;
+    font-weight: 100;
+    color: $silence;
+    opacity: .8;
+  }
+
+  h2 {
+    // Real G's move in
+    color: $primary;
+    font-weight: 700;
+  }
+
+  h3 {
+    // Like lasagna
+    margin-bottom: 1em;
+    font-size: 67px;
+    font-weight: 700;
+    color: $secondary;
+  }
+
+  h4 {
+    // Lil Wayne
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 700;
+    color: $attribution;
+    text-transform: none;
+  }
+
+}
+
+// =============================================================================
+// ====================================  2  ====================================
+// =============================================================================
+
+.lyric-2 {
+  // Dead in the middle of little Italy
+  $background: #f6f0e3;
+  $text: #2c3e50;
+  $attribution: #e99366;
+
+  font-family: 'Vollkorn', serif;
+  padding: 300px 0;
+  background: $background;
+
+  .body {
+    width: 300px;
+    margin: 0 auto;
+    overflow-y: hidden;
+    text-align: center;
+  }
+
+  .lyric {
+    padding: 2em 0;
+    margin-bottom: 2em;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 1.6em;
+    color: $text;
+    border-top: 1px solid rgba($text, .5);
+    border-bottom: 1px solid rgba($text, .5);
+  }
+
+  .attribution {
+    font-weight: 700;
+    letter-spacing: .083em;
+    color: $attribution;
+    text-transform: uppercase;
+  }
+}
+
+// =============================================================================
+// ====================================  1  ====================================
+// =============================================================================
+
+.lyric-1 {
+  // I never sleep, cuz sleep is the cousin of death
+
+  $background: #c0392b;
+  $text: #fff;
+
+  font-family: 'Oswald', sans-serif;
+  color: $text;
+  text-transform: uppercase;
+  background: $background;
+
+  .container {
+    width: 500px;
+    padding: 80px 0;
+  }
+
+  .row {
+    height: 380px;
+    padding-top: 60px;
+    overflow: auto;
+  }
+
+  h1 {
+    font-size: 300px;
+    line-height: 1em;
+    opacity: .1;
+  }
+
+  p {
+    margin-right: 20px;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .body {
+    position: absolute;
+    width: 500px;
+    padding-top: 100px;
+  }
+
+  .attribution {
+    float: left;
+    width: 485px;
+  }
+}
