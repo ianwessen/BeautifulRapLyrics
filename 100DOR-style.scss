@@ -4,6 +4,67 @@ $black: #000;
 $base-background: #555;
 $base-text: #eee;
 
+@import url(https://fonts.googleapis.com/css?family=ABeeZee);
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
+@import url(https://fonts.googleapis.com/css?family=Alegreya:400i,700);
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
+@import url(https://fonts.googleapis.com/css?family=Anton);
+@import url(https://fonts.googleapis.com/css?family=Arbutus+Slab);
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(https://fonts.googleapis.com/css?family=Arimo:700);
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+@import url(https://fonts.googleapis.com/css?family=Bevan);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+@import url(https://fonts.googleapis.com/css?family=Cabin:700);
+@import url(https://fonts.googleapis.com/css?family=Cardo);
+@import url(https://fonts.googleapis.com/css?family=Chivo);
+@import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,400i);
+@import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
+@import url(https://fonts.googleapis.com/css?family=Domine);
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
+@import url(https://fonts.googleapis.com/css?family=Exo);
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(https://fonts.googleapis.com/css?family=Gentium+Book+Basic);
+@import url(https://fonts.googleapis.com/css?family=Gravitas+One);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:600);
+@import url(https://fonts.googleapis.com/css?family=Lato:100,400,400i);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:300,900);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Monoton);
+@import url(https://fonts.googleapis.com/css?family=Muli:400);
+@import url(https://fonts.googleapis.com/css?family=Neuton:400,700);
+@import url(https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i);
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Ovo:400);
+@import url(https://fonts.googleapis.com/css?family=Pinyon+Script);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display+SC);
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400i);
+@import url(https://fonts.googleapis.com/css?family=Questrial);
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Righteous:400);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(https://fonts.googleapis.com/css?family=Stint+Ultra+Condensed);
+@import url(https://fonts.googleapis.com/css?family=Stint+Ultra+Expanded);
+@import url(https://fonts.googleapis.com/css?family=Sarina);
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+@import url(https://fonts.googleapis.com/css?family=Ultra);
+@import url(https://fonts.googleapis.com/css?family=Vollkorn:400,400i,700);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:100,300,900);
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+
 body {
   font: 400 16px/22px 'Open Sans', sans-serif;
   -moz-osx-font-smoothing: grayscale;
@@ -106,175 +167,214 @@ a {
   margin-left: -1 * $width * 0.5
 }
 
+
 // =============================================================================
-// ==================================  Header  =================================
+// ====================================  42  ===================================
 // =============================================================================
 
-header {
-  $background: #2f343b;
-  $headline: #e3cda4;
-  $subheadline: #cf665b;
+.lyric-42 {
+  // Jackie Robinson
 
-  padding: 100px 0 200px;
-  background: $background;
-  background: -webkit-radial-gradient(center, ellipse cover, #2f343b 0%, #3e454e 100%);
-  background: radial-gradient(ellipse at center, #2f343b 0%, #3e454e 100%);
+  padding: 200px 0;
+  background: #245C88;
+  text-align: center;
 
   .container {
-    width: 700px;
-    text-align: center;
+    // width:
   }
 
   h1 {
-    // 100 Days of
-    margin-top: 1em;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 60px;
-    font-weight: 700;
-    color: $headline;
-    text-transform: uppercase;
+    margin-bottom: .25em;
+    font: 400 96px / 1em 'Oleo Script', cursive;
+    transform: rotate(-4deg);
   }
 
   h2 {
-    // Rap Lyrics
-    margin-bottom: 60px;
-    font-family: 'Alegreya', serif;
-    font-size: 70px;
-    font-style: italic;
-    font-weight: 400;
-    letter-spacing: .05em;
-    color: $subheadline;
+    font: 400 58px / 1.2em 'Bevan', serif;
+    text-transform: uppercase;
+  }
+
+  p {
+    font: 400 28px / 3em 'Coustard', serif;
+    text-transform: uppercase;
   }
 
   h6 {
-    font-size: 16px;
-    line-height: 1.8em;
-    color: $headline;
-    text-transform: uppercase;
-  }
-
-  p {
-    margin-bottom: 1em;
-    line-height: 1.6em;
-  }
-
-  hr {
-    width: 80px;
-    height: 3px;
-    margin: 2em auto;
-    background: $headline;
-    border: 0;
-  }
-
-  .credits {
-    float: left;
-    width: 300px;
-  }
-
-  .body {
-    float: left;
-    width: 400px;
+    margin-top: 1em;
+    font: 400 48px / 2em 'Coustard', serif;
+    color: #E16058;
   }
 }
 
 // =============================================================================
-// ==============================  Parental Advisory  ==========================
+// ====================================  41  ===================================
 // =============================================================================
 
-.parental-advisory {
-  background: $white;
-  color: $black;
+.lyric-41 {
+  // Uncommon Valor
+
+  padding: 240px 0;
+  background: #eee;
 
   .container {
-    width: 380px;
-    overflow: auto;
+    width: 860px;
   }
 
-  h2,h3,h4 {
-    font-family: 'Fjalla One', sans-serif;
-    text-transform: uppercase;
+  .intro {
+    font-weight: 700;
   }
 
-  .pa--sticker {
-    width: 232px;
-    margin: 0 auto 60px;
-    text-align: center;
-    border: 2px solid $black;
+  .indent {
+    padding-right: 2em;
   }
 
-  h3 {
-    // Parental
-    padding: .1em 0 0 .3em;
-    color: $white;
-    background: $black;
-    letter-spacing: .3em;
-    border: 2px solid $white;
-  }
-
-  h2 {
-    // Advisory
-    padding: .1em .1em 0;
-    letter-spacing: 0.05em;
-  }
-
-  h4 {
-    // Explicit Content
-    padding: 6px;
-    color: $white;
-    background: $black;
-    letter-spacing: .14em;
-    border: 2px solid $white;
+  h1 {
+    float: right;
+    color: #374251;
+    font: 700 48px / 1.5em 'Vollkorn', serif;
+    margin-top: 2.7em;
   }
 
   p {
-    line-height: 2em;
+    margin: 0;
+    font: 400 14px / 1.5em 'Vollkorn', serif;
+    color: #374251;
+    text-align: justify;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+  }
+
+  blockquote {
+    display: block;
+    width: 240px;
+    padding: 2em 1em 1em;
+    margin: 0 0 3em;
+    color: #999;
+    border-top: 1px solid #374251;
+    border-bottom: 1px solid #374251;
+
+    span {
+      display: block;
+      margin-bottom: 1em;
+      font: 400 16px / 1.5em 'Vollkorn', serif;
+      font-style: italic;
+    }
+
+    span:nth-of-type(2) {
+      text-align: right;
+    }
+  }
+
+  h6 {
+    width: 200px;
+    margin: 3em auto;
+    padding: .25em .5em;
+    font: 400 16px / 1.5em 'Vollkorn', serif;
+    color: #374251;
+    text-transform: uppercase;
     text-align: center;
   }
 }
 
-
 // =============================================================================
-// ==================================  Footer  =================================
+// ====================================  40  ===================================
 // =============================================================================
 
-footer {
-  color: #999;
+.lyric-40 {
+  // YOU COULDN’T MAKE THE FANS THROW UP THEIR HANDS IF THEY SWALLOWED THEIR FINGERS
+
+  height: 630px;
+  background: #3B596A;
   text-align: center;
 
   p {
-    line-height: 50px;
+    @include absolute-center(700px);
+    z-index: 10;
+    top: 350px;
+    font: 700 24px / 3em 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
   }
+
+  span.lyric:nth-of-type(1) {
+    color: #3F9A82;
+  }
+  span.lyric:nth-of-type(2) {
+    color: #A1CD73;
+  }
+  span.lyric:nth-of-type(3) {
+    color: #ECDB60;
+  }
+
+  h6 {
+    @include absolute-center(170px);
+    top: 200px;
+    font: 400 128px / 1em 'Ovo', serif;
+    color: #427676;
+    text-transform: uppercase;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+
 }
-
-// =============================================================================
-// ==============================  Non-Responsive  =============================
-// =============================================================================
-
-.non-responsive {
-  position: fixed;
-  height: 100vh;
-  width: 100vw;
-  z-index: 100;
-  background: #555;
-
-  p {
-    padding-top: 40vh;
-    width: 300px;
-    max-width: 100%;
-    line-height: 1.6em;
-    margin: 0 auto;
-  }
-
-  @media (min-width: 800px) {
-    display: none;
-  }
-}
-
-
 
 // =============================================================================
 // ====================================  39  ===================================
 // =============================================================================
+
+
+.lyric-39 {
+    //Swimmin' laps around a bottle of Louie the Thirteenth. Jumpin’ off of a mountain into a sea of codeine. I’m at the top of the top, but still I climb. And if I should ever fall, the ground will then turn to wine.
+
+    position: relative;
+    height: 1200px;
+    background: #BE90D4;
+    // background:
+    //   -webkit-linear-gradient(45deg,
+    //     #7C4098 0%,
+    //     #9B63B5 18%,
+    //     #BE90D4 43%,
+    //     #DDBFEB 80%,
+    //     #F5EAFB 100%);
+    //
+    //   background: linear-gradient(45deg,
+    //     #7C4098 0%,
+    //     #9B63B5 18%,
+    //     #BE90D4 43%,
+    //     #DDBFEB 80%,
+    //     #F5EAFB 100%);
+
+    .container {
+        width: 700px;
+        text-align: center;
+    }
+
+    $shadow-offset: 4px;
+
+    p {
+        font: 400 50px / 2em 'Bevan', serif;
+    }
+
+    p.foreground {
+        @include absolute-center(700px);
+        top: 200px;
+        z-index: 10;
+        color: #fff;
+    }
+
+    p.background {
+        position: absolute;
+        left: 50%;
+        margin-left: -350px - $shadow-offset;
+        top: 200px;
+        width: 700px;
+        z-index: 0;
+        color: #BE90D4;
+        text-shadow: -$shadow-offset $shadow-offset 0 darken(#BE90D4, 30%);
+        // transition: 0.3s;
+    }
+  }
 
 // =============================================================================
 // ====================================  38  ===================================
@@ -285,7 +385,7 @@ footer {
   // like I'm fucking in an elevator
 
   position: relative;
-  height: 480px;
+  height: 420px;
 
   .container {
     @include absolute-center(540px);
@@ -320,26 +420,6 @@ footer {
     left: 0;
   }
 
-  .triangle-up {
-    display: inline-block;
-  	width: 0;
-  	height: 0;
-  	border-left: 40px solid transparent;
-  	border-right: 40px solid transparent;
-  	border-bottom: 65px solid #EBE3DF;
-  }
-
-
-  .triangle-down {
-    display: inline-block;
-    margin-top: 100px;
-  	width: 0;
-  	height: 0;
-  	border-left: 40px solid transparent;
-  	border-right: 40px solid transparent;
-  	border-top: 65px solid #252628;
-  }
-
   .right-pane--text {
     color: #252628;
   }
@@ -357,8 +437,9 @@ footer {
   h6 {
     display: inline-block;
     margin-top: 80px;
-    padding: 0 1em;
-    font: 400 16px / 2em 'Libre Baskerville', serif;
+    padding: 0 1.5em;
+    font: 400 14px / 2.8em 'Libre Baskerville', serif;
+    letter-spacing: .08em;
     color: #252628;
     background: #EBE3DF;
     text-align: center;
@@ -386,13 +467,13 @@ footer {
     text-align: center;
   }
 
-  p:first-of-type {
+  h2 {
     // Screams
     font: 400 108px / 1em 'Righteous', sans-serif;
     color: #FF974F;
   }
 
-  p:nth-of-type(2) {
+  h3 {
     // from the haters
     font: 400 80px / 1em 'Righteous', sans-serif;
     color: #FF974F;
@@ -409,13 +490,13 @@ footer {
     }
   }
 
-  p:nth-of-type(3) {
+  h4 {
     // got a nice ring to it
     font: 400 76px / 1em 'Monoton', sans-serif;
     color: #F77A52;
   }
 
-  p:nth-of-type(4) {
+  h5 {
     // I guess every super hero needs his theme music
     margin-bottom: 2em;
     font: 400 39px / 1.2em 'Righteous', sans-serif;
@@ -499,7 +580,8 @@ footer {
     font: 400 30px / 1.4em 'Playfair Display SC', serif;
 
     &:first-of-type {
-      font-size: 64px;
+      // I bomb atomically
+      font-size: 62px;
     }
   }
 
@@ -545,7 +627,7 @@ footer {
 // =============================================================================
 
 .lyric-34 {
-  //	I got nines in the bedroom, Glocks in the kitchen. A shotty by the shower
+  // I got nines in the bedroom, Glocks in the kitchen. A shotty by the shower
   // if you wanna shoot me while I’m shittin’.
 
   padding: 240px 0;
@@ -615,7 +697,7 @@ footer {
     h4 {
       // Rock you in your face, stab your brain with your nose bone
       margin-bottom: 1em;
-      font: 100 26px / 1.8em 'Roboto Slab', serif;
+      font: 200 26px / 1.8em 'Roboto Slab', serif;
       color: #962D3E;
     }
 
@@ -726,7 +808,7 @@ footer {
 
   @keyframes twinkle {
     0%, 30%, 70%, 100% { opacity: 1; }
-    50% { opacity: .333; }
+    50% { opacity: .2; }
   }
 
   .container {
@@ -870,12 +952,12 @@ footer {
   }
 
   h2,h3 {
-    font-family: 'Braggadocio', sans-serif;
+    font-family: 'Sarina', sans-serif;
   }
 
   h2 {
     // jeans
-    font-size: 126px;
+    font-size: 140px;
     line-height: 1em;
     color: #5FCAC7;
     text-shadow: 0px 8px 0px #CF4836;
@@ -888,10 +970,10 @@ footer {
     text-shadow: 0px 8px 0px #CF4836;
 
     &:first-of-type {
-      font-size: 76px;
+      font-size: 96px;
     }
     &:last-of-type {
-      font-size: 62px;
+      font-size: 84px;
     }
   }
 
@@ -1017,22 +1099,6 @@ footer {
   padding: 240px 0;
   background: #2A2C2B;
 
-  // background: #485765;
-  // background:
-  // -webkit-linear-gradient(225deg,
-  //   #91AFCB 0%,
-  //   #64798C 18%,
-  //   #5B6D7F 33%,
-  //   #485765 76%,
-  //   #2D363F 100%);
-  //
-  // background: linear-gradient(225deg,
-  //   #91AFCB 0%,
-  //   #64798C 18%,
-  //   #5B6D7F 33%,
-  //   #485765 76%,
-  //   #2D363F 100%);
-
   .container {
     width: 400px;
     padding-bottom: 40px;
@@ -1051,14 +1117,14 @@ footer {
   h4 {
     // Run The Jewels
     margin-bottom: 1em;
-    font: 400 22px / 3 em 'Work Sans', serif;
+    font: 400 20px / 2em 'Work Sans', serif;
     color: #374140;
     text-transform: uppercase;
     border-bottom: 2px solid #374140;
   }
 
   p {
-    font: 400 14px / 2 em 'Domine', serif;
+    font: 400 14px / 2em 'Domine', serif;
   }
 
 }
@@ -1115,7 +1181,7 @@ footer {
 
   .i-got,
   .problems {
-    color: #BCCA8A;
+    color: #76949F;
   }
 
   .i-got {
@@ -1261,11 +1327,12 @@ footer {
 .lyric-19 {
   // Will Smith don't gotta cuss in his raps to sell records
   padding: 260px 0;
-  background: #333;
+  $background: #3E2525;
+  background: $background;
 
   .container {
     position: relative;
-    width: 420px;
+    width: 460px;
     overflow: auto;
   }
 
@@ -1280,13 +1347,13 @@ footer {
 
   .right.column {
     padding-left: 2em;
-    border-left: 4px solid #444;
+    border-left: 4px solid lighten($background, 7%);
     box-sizing: border-box;
   }
 
   p {
     margin-bottom: 1em;
-    font: 24px / 2em 'Crimson Text', serif;
+    font: 18px / 3em 'Crimson Text', serif;
     color: $white;
   }
 
@@ -1299,19 +1366,10 @@ footer {
   }
 
   h6 {
-    margin-top: 8em;
+    margin-top: 6em;
     font: 700 20px / 1em 'Crimson Text', sans-serif;
     text-transform: uppercase;
     letter-spacing: .16em;
-  }
-
-  .background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    background: red;
-    height: 100%;
   }
 
 }
@@ -1329,7 +1387,7 @@ footer {
   background-repeat: no-repeat;
 
   .container {
-    width: 600px;
+    width: 740px;
     padding: 6em;
     text-align: center;
     border: 3px solid $white;
@@ -1402,8 +1460,8 @@ footer {
 
   p {
     margin-bottom: 40px;
-    font-family: 'Architects Daughter', cursive;
-    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+    font-size: 54px;
     transform: rotate(-4deg);
     color: $white;
   }
@@ -1413,7 +1471,7 @@ footer {
     padding: .25em 1.25em;
     margin: 80px auto 0;
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 36px;
+    font-size: 32px;
     letter-spacing: .08em;
     text-transform: uppercase;
     border: 2px solid #DBE9EE;
@@ -1442,8 +1500,9 @@ footer {
 
   p {
     margin-bottom: .5em;
-    font-size: 30px;
+    font-size: 24px;
     line-height: 1.3em;
+    letter-spacing: .02em;
   }
 
   h6 {
@@ -1541,10 +1600,11 @@ footer {
     width: 550px;
     padding-bottom: 30px;
     box-sizing: border-box;
+    text-align: center;
   }
 
   p {
-    font: 400 20px / 1.6em 'Cutive Mono', monospace;
+    font: 400 20px / 2em 'Cutive Mono', monospace;
     color: #232323;
     background: #f0f0f0;
     letter-spacing: -.08em;
@@ -1557,7 +1617,7 @@ footer {
   h6 {
     display: inline-block;
     margin-bottom: .45em;
-    font: 900 22px / 1.2em 'Cabin', sans-serif;
+    font: 900 18px / 1.2em 'Cabin', sans-serif;
     color: #88A0A8;
     text-transform: uppercase;
   }
@@ -1727,12 +1787,17 @@ footer {
     margin: .5em 0 2.25em;
     font: 400 28px / 2.2em 'Rock Salt', cursive;
     text-transform: uppercase;
+    letter-spacing: .2em;
     color: #EE5656;
   }
 
   h6 {
-    font: 400 48px / 2em 'Radley', serif;
+    display: inline-block;
+    padding: 1em;
+    font: 400 22px / 2em 'Radley', serif;
     color: #694F5D;
+    text-transform: uppercase;
+    border-top: 2px solid #694F5D;
   }
 }
 
@@ -1771,8 +1836,10 @@ footer {
     font-size: 24px;
     font-weight: 700;
     letter-spacing: .03em;
-    color: rgba(47, 144, 54, 1);
+    color: #444;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
   }
 
 }
@@ -1786,50 +1853,49 @@ footer {
   // I jerk off into books and give life to words LEAVING CONCEPTS STUCK TOGETHER YOU’VE PROBABLY NEVER HEARD.
 
   padding: 220px 0;
-  color:  #f5e9be;
-  font-family: 'Roboto', sans-serif;
   text-align: center;
   background: #3E8E94;
+  font-family: 'Roboto', sans-serif;
 
   .container {
     width: 600px;
-    padding: 100px 70px 70px;
     color: #FFE184;
   }
 
-  p:first-of-type {
-    // I jerk off into books
-    font-size: 59px;
+  p {
+    font-size: 56px;
+    letter-spacing: -.04em;
+  }
+
+  h5 {
+    margin-top: 2em;
+    font-size: 30px;
     font-weight: 700;
-  }
-
-  p:nth-of-type(2) {
-    // and give life to words
-    margin-bottom: 30px;
-    font-size: 59px;
-    font-weight: 700;
-    color: #FFE184;
-  }
-
-  p:last-of-type {
-    width: 570px;
-    margin: 0 auto;
-    font-size: 18px;
-    color: #FFE184;
-    line-height: 1.5em;
-    letter-spacing: -0.08em;
+    line-height: 1em;
+    letter-spacing: -0.1em;
+    word-spacing: -.2em;
     text-transform: uppercase;
+
+    span {
+      display: inline-block;
+    }
+    span:nth-of-type(4n) {
+      transform: rotate(5deg);
+    }
+    span:nth-of-type(4n+1) {
+      transform: rotate(2deg);
+    }
+    span:nth-of-type(4n+2) {
+      transform: rotate(-5deg);
+    }
+    span:nth-of-type(4n+3) {
+      transform: rotate(-2deg);
+    }
   }
 
   h6 {
-    position: absolute;
-    z-index: 10;
     background: #3E8E94;
-    padding: 0 1.414em;
-    bottom: 213px;
-    left: 50%;
-    margin-left: -137px;
-    margin-top: 10px;
+    margin-top: 3em;
     font-size: 20px;
     color: #174C4F;
   }
@@ -1890,10 +1956,10 @@ footer {
 // =============================================================================
 
 .lyric-6 {
-  padding: 200px;
+  padding: 200px 0;
   font-family: 'Alegreya Sans', sans-serif;
-  background: #34495E;
-  background-image: url('img/escheresque.png');
+  background: #3D6A3B;
+  background-image: url('img/cartographer.png');
 
   .container {
     width: 400px;
@@ -1904,10 +1970,6 @@ footer {
     // One for the money, two for the green, 3,4-methylenedioxy...
     font-size: 24px;
     line-height: 2em;
-  }
-
-  p:first-of-type {
-    padding-top: 50px;
   }
 
   p:last-of-type {
@@ -2155,5 +2217,183 @@ footer {
   .attribution {
     float: left;
     width: 485px;
+  }
+}
+
+// =============================================================================
+// ==================================  Header  =================================
+// =============================================================================
+
+header {
+  $background: #2f343b;
+  $headline: #e3cda4;
+  $subheadline: #cf665b;
+
+  padding: 100px 0 200px;
+  background: $background;
+  background: -webkit-radial-gradient(center, ellipse cover, #2f343b 0%, #3e454e 100%);
+  background: radial-gradient(ellipse at center, #2f343b 0%, #3e454e 100%);
+
+  .container {
+    width: 700px;
+    text-align: center;
+  }
+
+  h1 {
+    // 100 Days of
+    margin-top: 1em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: $headline;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    // Rap Lyrics
+    margin-bottom: 60px;
+    font-family: 'Alegreya', serif;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: .05em;
+    color: $subheadline;
+  }
+
+  h6 {
+    font-size: 16px;
+    line-height: 1.8em;
+    color: $headline;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin-bottom: 1em;
+    line-height: 1.6em;
+  }
+
+  hr {
+    width: 80px;
+    height: 3px;
+    margin: 2em auto;
+    background: $headline;
+    border: 0;
+  }
+
+  .credits {
+    float: left;
+    width: 300px;
+  }
+
+  .body {
+    float: left;
+    width: 400px;
+  }
+}
+
+// =============================================================================
+// ==============================  Parental Advisory  ==========================
+// =============================================================================
+
+.parental-advisory {
+  background: $white;
+  color: $black;
+
+  .container {
+    width: 380px;
+    overflow: auto;
+  }
+
+  h2,h3,h4 {
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+  }
+
+  .pa--sticker {
+    width: 232px;
+    margin: 0 auto 60px;
+    text-align: center;
+    border: 2px solid $black;
+  }
+
+  h3 {
+    // Parental
+    padding: .1em 0 0 .3em;
+    color: $white;
+    background: $black;
+    letter-spacing: .3em;
+    border: 2px solid $white;
+  }
+
+  h2 {
+    // Advisory
+    padding: .1em .1em 0;
+    letter-spacing: 0.05em;
+  }
+
+  h4 {
+    // Explicit Content
+    padding: 6px;
+    color: $white;
+    background: $black;
+    letter-spacing: .14em;
+    border: 2px solid $white;
+  }
+
+  p {
+    line-height: 2em;
+    text-align: center;
+  }
+}
+
+
+// =============================================================================
+// ==================================  Footer  =================================
+// =============================================================================
+
+footer {
+  color: #999;
+  text-align: center;
+
+  p {
+    line-height: 50px;
+  }
+}
+
+// =============================================================================
+// ==============================  Non-Responsive  =============================
+// =============================================================================
+
+.non-responsive {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: 100;
+  background: #333;
+  display: table;
+  table-layout: fixed;
+
+  .container {
+    display: table-cell;
+    margin: 0 auto;
+    width: 200px;
+    vertical-align: middle;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  h5 {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 1em 0;
+  }
+
+  p {
+    line-height: 1.6em;
+  }
+
+  @media (min-width: 800px) {
+    display: none;
   }
 }
