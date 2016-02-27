@@ -11,7 +11,7 @@ $base-text: #eee;
 @import url(https://fonts.googleapis.com/css?family=Amatic+SC);
 @import url(https://fonts.googleapis.com/css?family=Anton);
 @import url(https://fonts.googleapis.com/css?family=Arbutus+Slab);
-@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(https://fonts.googleapis.com/css?family=Archivo+Narrow);
 @import url(https://fonts.googleapis.com/css?family=Arimo:700);
 @import url(https://fonts.googleapis.com/css?family=Bangers);
 @import url(https://fonts.googleapis.com/css?family=Bevan);
@@ -19,7 +19,7 @@ $base-text: #eee;
 @import url(https://fonts.googleapis.com/css?family=Cabin:700);
 @import url(https://fonts.googleapis.com/css?family=Cardo);
 @import url(https://fonts.googleapis.com/css?family=Chivo);
-@import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
+@import url(https://fonts.googleapis.com/css?family=Coustard);
 @import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,400i);
 @import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
 @import url(https://fonts.googleapis.com/css?family=Domine);
@@ -35,7 +35,7 @@ $base-text: #eee;
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i);
 @import url(https://fonts.googleapis.com/css?family=Merriweather:300,900);
-@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700);
 @import url(https://fonts.googleapis.com/css?family=Monoton);
 @import url(https://fonts.googleapis.com/css?family=Muli:400);
 @import url(https://fonts.googleapis.com/css?family=Neuton:400,700);
@@ -49,6 +49,7 @@ $base-text: #eee;
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i);
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display+SC);
 @import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400i);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:700);
 @import url(https://fonts.googleapis.com/css?family=Questrial);
 @import url(https://fonts.googleapis.com/css?family=Raleway:100,400,700,900);
 @import url(https://fonts.googleapis.com/css?family=Righteous:400);
@@ -167,6 +168,147 @@ a {
   margin-left: -1 * $width * 0.5
 }
 
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+// =============================================================================
+// ====================================  45  ===================================
+// =============================================================================
+
+.lyric-45 {
+  height: 540px;
+  color: #fdfdfd;
+  background: #19AEA9;
+  text-align: center;
+
+  .circle {
+    position: absolute;
+    z-index: 0;
+    top: 240px;
+    height: 300px;
+    width: 300px;
+    left: 50%;
+    margin-left: -150px;
+    border-radius: 50%;
+    text-align: center;
+    background: #18A8A2;
+  }
+
+  p {
+    position: absolute;
+    display: inline-block;
+    top: 3em;
+    width: 400px;
+    margin-left: -200px;
+    font: 400 22px / 1.6em 'Montserrat', sans-serif;
+  }
+
+  p:last-of-type {
+    top: auto;
+    bottom: 1.75em;
+  }
+
+  h2 {
+    position: absolute;
+    top: 385px;
+    width: 100%;
+    font: 400 42px / 1.75em 'Arvo', sans-serif;
+    background: #149798;
+  }
+
+  h6 {
+    position: absolute;
+    top: 560px;
+    width: 100%;
+    font: 300 34px / 1.75em 'Montserrat', sans-serif;
+    color: #149798;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+// =============================================================================
+// ====================================  44  ===================================
+// =============================================================================
+
+.lyric-44 {
+  // I can hear sweat trickle down your cheek.
+  // Your heartbeat sound like sasquatch feet. Thundering, shaking the concrete.
+  $background: #7f85ac;
+
+  background: $background;
+
+  .container {
+    padding: 10em 0 7em;
+    width: 680px;
+  }
+
+  h1 {
+    margin-bottom: 40px;
+    font: 900 96px / .9em 'Source Serif Pro', serif;
+    color: desaturate(
+    darken($background, 8%), 2%
+    );
+  }
+
+  p {
+    font: 300 32px / 1.4em 'Source Sans Pro', sans-serif;
+    color: #404E4D;
+  }
+
+  h6 {
+    display: inline-block;
+    padding: 1em 0;
+    margin: 2em 0;
+    font: 900 24px / 1.4em 'Source Serif Pro', serif;
+    color: #404E4D;
+    text-transform: uppercase;
+    border-top: 6px solid #404E4D;
+  }
+}
+
+// =============================================================================
+// ====================================  43  ===================================
+// =============================================================================
+
+.lyric-43 {
+  // I got nuts to bust, and butts to fuck and ups to shut and sluts to fuckin' uppercut.
+  background: url('img/nebula-purple.jpg');
+  background-size: cover;
+  height: 600px;
+
+  .text-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 400px 0 350px;
+    color: #d9d5a6;
+    text-align: center;
+    background: rgba(#000, .6)
+  }
+
+  p {
+    font: 400 20px / 1.4em 'PT Serif', serif;
+    width: 380px;
+    margin: 0 auto 1.5em;
+  }
+
+  h6 {
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+}
 
 // =============================================================================
 // ====================================  42  ===================================
@@ -176,33 +318,37 @@ a {
   // Jackie Robinson
 
   padding: 200px 0;
-  background: #245C88;
+  background: #466AAB;
   text-align: center;
 
   .container {
-    // width:
+    @include absolute-center(600px);
+    top: 260px;
   }
 
   h1 {
     margin-bottom: .25em;
-    font: 400 96px / 1em 'Oleo Script', cursive;
-    transform: rotate(-4deg);
-  }
-
-  h2 {
-    font: 400 58px / 1.2em 'Bevan', serif;
-    text-transform: uppercase;
+    font: 400 620px / .8em 'Ultra', sans-serif;
+    text-align: center;
+    opacity: .3;
   }
 
   p {
-    font: 400 28px / 3em 'Coustard', serif;
+    font: 400 24px / 2.1em 'Archivo Narrow', sans-serif;
+    color: $white;
     text-transform: uppercase;
+
+    span {
+      font-size: 36px;
+      font-family: 'Bevan';
+      letter-spacing: .04em;
+    }
   }
 
   h6 {
-    margin-top: 1em;
-    font: 400 48px / 2em 'Coustard', serif;
-    color: #E16058;
+    margin-top: 3em;
+    font: 400 24px / 2em 'Archivo Narrow', sans-serif;
+    text-transform: uppercase;
   }
 }
 
@@ -229,15 +375,16 @@ a {
   }
 
   h1 {
-    float: right;
+    margin: 0 0 .75em;
     color: #374251;
-    font: 700 48px / 1.5em 'Vollkorn', serif;
-    margin-top: 2.7em;
+    font: 900 68px / 1.6em 'Alegreya Sans', serif;
+    text-align: center;
+    border-top: 4px solid #374251;
+    border-bottom: 4px solid #374251;
   }
 
   p {
-    margin: 0;
-    font: 400 14px / 1.5em 'Vollkorn', serif;
+    font: 400 15px / 1.35em 'Vollkorn', serif;
     color: #374251;
     text-align: justify;
     -webkit-column-count: 3;
@@ -245,33 +392,13 @@ a {
     column-count: 3;
   }
 
-  blockquote {
-    display: block;
-    width: 240px;
-    padding: 2em 1em 1em;
-    margin: 0 0 3em;
-    color: #999;
-    border-top: 1px solid #374251;
-    border-bottom: 1px solid #374251;
-
-    span {
-      display: block;
-      margin-bottom: 1em;
-      font: 400 16px / 1.5em 'Vollkorn', serif;
-      font-style: italic;
-    }
-
-    span:nth-of-type(2) {
-      text-align: right;
-    }
-  }
-
   h6 {
-    width: 200px;
-    margin: 3em auto;
+    margin: 2em auto;
     padding: .25em .5em;
-    font: 400 16px / 1.5em 'Vollkorn', serif;
+    font: 900 16px / 2em 'Alegreya Sans', serif;
+    letter-spacing: .08em;
     color: #374251;
+    // color: #eee;
     text-transform: uppercase;
     text-align: center;
   }
@@ -328,36 +455,23 @@ a {
     //Swimmin' laps around a bottle of Louie the Thirteenth. Jumpin’ off of a mountain into a sea of codeine. I’m at the top of the top, but still I climb. And if I should ever fall, the ground will then turn to wine.
 
     position: relative;
-    height: 1200px;
+    height: 900px;
     background: #BE90D4;
-    // background:
-    //   -webkit-linear-gradient(45deg,
-    //     #7C4098 0%,
-    //     #9B63B5 18%,
-    //     #BE90D4 43%,
-    //     #DDBFEB 80%,
-    //     #F5EAFB 100%);
-    //
-    //   background: linear-gradient(45deg,
-    //     #7C4098 0%,
-    //     #9B63B5 18%,
-    //     #BE90D4 43%,
-    //     #DDBFEB 80%,
-    //     #F5EAFB 100%);
 
     .container {
-        width: 700px;
         text-align: center;
     }
 
+    $wayne-width: 600px;
     $shadow-offset: 4px;
 
     p {
-        font: 400 50px / 2em 'Bevan', serif;
+        font: 400 50px / 1.3em 'Bevan', serif;
     }
 
+
     p.foreground {
-        @include absolute-center(700px);
+        @include absolute-center($wayne-width);
         top: 200px;
         z-index: 10;
         color: #fff;
@@ -366,13 +480,12 @@ a {
     p.background {
         position: absolute;
         left: 50%;
-        margin-left: -350px - $shadow-offset;
+        margin-left: -$wayne-width/2 - $shadow-offset;
         top: 200px;
-        width: 700px;
+        width: $wayne-width;
         z-index: 0;
         color: #BE90D4;
         text-shadow: -$shadow-offset $shadow-offset 0 darken(#BE90D4, 30%);
-        // transition: 0.3s;
     }
   }
 
@@ -634,7 +747,7 @@ a {
   background: #6EA89C;
 
   .container {
-    width: 540px;
+    width: 590px;
     text-align: center;
   }
 
@@ -1067,7 +1180,10 @@ a {
 
   padding: 240px 0;
   text-align: center;
-  background: #694040;
+  background: #5f2c82;
+  background: -webkit-linear-gradient(45deg, #5f2c82 , #49a09d);
+  background: linear-gradient(45deg, #5f2c82 , #49a09d);
+
 
   .container {
     display: inline-block;
@@ -1245,7 +1361,7 @@ a {
     padding-left: 1em;
     font: 400 22px / 2em 'Josefin Sans', sans-serif;
     color: #E8D9AC;
-    letter-spacing: .08em;
+    // letter-spacing: .08em;
   }
 
   h2 {
@@ -1265,7 +1381,7 @@ a {
   }
 
   h6 {
-    font: 600 18px / 3em 'Josefin Slab', serif;
+    font: 700 14px / 3em 'Josefin Sans', serif;
     color: #4f1a31;
     text-transform: uppercase;
     text-align: center;
@@ -1557,7 +1673,7 @@ a {
 
   p {
     padding-bottom: 2em;
-    font-size: 26px;
+    font-size: 28px;
     line-height: 1.4em;
     color: #3E606F;
     border-bottom: 1px solid #D1DBBD;
@@ -1575,12 +1691,16 @@ a {
     left: 50%;
     width: 200px;
     margin-left: -100px;
-    font-size: 16px;
+    font-size: 18px;
     color: #193441;
     text-align: center;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.04em;
     background: #FCFFF5;
-    text-transform: uppercase;
+    // text-transform: uppercase;
+
+    span {
+      // font-size: 24px;
+    }
   }
 
 }
@@ -1597,15 +1717,16 @@ a {
   background: #f0f0f0;
 
   .container {
-    width: 550px;
+    width: 640px;
     padding-bottom: 30px;
+    font: 400 20px / 2em 'Cutive Mono', monospace;
     box-sizing: border-box;
     text-align: center;
   }
 
   p {
-    font: 400 20px / 2em 'Cutive Mono', monospace;
     color: #232323;
+    font: 400 24px / 1.6em 'Cutive Mono', monospace;
     background: #f0f0f0;
     letter-spacing: -.08em;
   }
@@ -1615,9 +1736,9 @@ a {
   }
 
   h6 {
+    font: 400 20px / 2em 'Cutive Mono', monospace;
     display: inline-block;
     margin-bottom: .45em;
-    font: 900 18px / 1.2em 'Cabin', sans-serif;
     color: #88A0A8;
     text-transform: uppercase;
   }
@@ -2082,10 +2203,8 @@ a {
 
 .lyric-3 {
   // Real G's move in silence like lasagna
-  // $background: #ffb03b;
-  // $silence: #fff0a5;
-  $silence: #ffb03b;
-  $background: #fff0a5;
+  $background: #ffb03b;
+  $silence: #fff0a5;
   $primary: #8e2800;
   $secondary: #b64926;
   $attribution: #468966;
