@@ -20,7 +20,7 @@ $base-text: #eee;
 @import url(https://fonts.googleapis.com/css?family=Cardo);
 @import url(https://fonts.googleapis.com/css?family=Chivo);
 @import url(https://fonts.googleapis.com/css?family=Coustard);
-@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,400i);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600);
 @import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
 @import url(https://fonts.googleapis.com/css?family=Domine);
 @import url(https://fonts.googleapis.com/css?family=EB+Garamond);
@@ -62,6 +62,7 @@ $base-text: #eee;
 @import url(https://fonts.googleapis.com/css?family=Sarina);
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 @import url(https://fonts.googleapis.com/css?family=Ultra);
+@import url(https://fonts.googleapis.com/css?family=UnifrakturMaguntia);
 @import url(https://fonts.googleapis.com/css?family=Vollkorn:400,400i,700);
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:100,300,900);
 @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
@@ -181,6 +182,67 @@ a {
 }
 
 // =============================================================================
+// ====================================  46  ===================================
+// =============================================================================
+
+.lyric-46 {
+  text-align: center;
+  background: #F4F7D9;
+  color: #3E423A;
+
+  .container {
+    width: 600px;
+  }
+  
+  h1,h2,h3 {
+    font-family: 'UnifrakturMaguntia', cursive;
+    color: #7D7575;
+    line-height: 1.4em;
+  }
+  
+  h1 {
+    margin-top: -50px;
+    background: #F4F7D9;
+    letter-spacing: .15em;
+  }
+  
+  h2 {
+    margin-bottom: .5em;
+    opacity: .5;
+    border-bottom: 4px double #7D7575;
+  }
+  
+  p {
+    width: 250px;
+    margin: 0 auto;
+    font: 600 14px / 1.8em 'Crimson Text', serif;
+    text-transform: uppercase;
+  }
+  
+  p > em {
+    font-size: 32px;
+    line-height: 1.6em;
+    opacity: .5;
+  }
+  
+  p:last-of-type {
+    font: 600 14px / 1.8em 'Crimson Text', serif;
+  }
+  
+  .pretty-huge-dick {
+    display: inline-block;
+    padding: 0 3em 1em;
+    margin: 60px auto 40px;
+    border: 1px solid #7D7575;
+    
+    & > p {
+      letter-spacing: .08em;
+      text-transform: none;
+    }
+  }
+}
+
+// =============================================================================
 // ====================================  45  ===================================
 // =============================================================================
 
@@ -192,15 +254,15 @@ a {
 
   .circle {
     position: absolute;
-    z-index: 0;
     top: 240px;
-    height: 300px;
-    width: 300px;
     left: 50%;
+    z-index: 0;
+    width: 300px;
+    height: 300px;
     margin-left: -150px;
-    border-radius: 50%;
     text-align: center;
     background: #18A8A2;
+    border-radius: 50%;
   }
 
   p {
@@ -243,7 +305,7 @@ a {
 .lyric-44 {
   // I can hear sweat trickle down your cheek.
   // Your heartbeat sound like sasquatch feet. Thundering, shaking the concrete.
-  $background: #7f85ac;
+  $background: #404E4D;
 
   background: $background;
 
@@ -255,14 +317,12 @@ a {
   h1 {
     margin-bottom: 40px;
     font: 900 96px / .9em 'Source Serif Pro', serif;
-    color: desaturate(
-    darken($background, 8%), 2%
-    );
+    color: #7f85ac;
   }
 
   p {
     font: 300 32px / 1.4em 'Source Sans Pro', sans-serif;
-    color: #404E4D;
+    color: darken(#7f85ac, 10%);
   }
 
   h6 {
@@ -270,9 +330,7 @@ a {
     padding: 1em 0;
     margin: 2em 0;
     font: 900 24px / 1.4em 'Source Serif Pro', serif;
-    color: #404E4D;
-    text-transform: uppercase;
-    border-top: 6px solid #404E4D;
+    color: darken(#7f85ac, 10%);
   }
 }
 
@@ -375,12 +433,10 @@ a {
   }
 
   h1 {
-    margin: 0 0 .75em;
+    margin: 0 0 .5em;
     color: #374251;
     font: 900 68px / 1.6em 'Alegreya Sans', serif;
     text-align: center;
-    border-top: 4px solid #374251;
-    border-bottom: 4px solid #374251;
   }
 
   p {
