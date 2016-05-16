@@ -20,7 +20,7 @@ $base-text: #eee;
 @import url(https://fonts.googleapis.com/css?family=Cardo);
 @import url(https://fonts.googleapis.com/css?family=Chivo);
 @import url(https://fonts.googleapis.com/css?family=Coustard);
-@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,700);
 @import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
 @import url(https://fonts.googleapis.com/css?family=Domine);
 @import url(https://fonts.googleapis.com/css?family=EB+Garamond);
@@ -186,9 +186,16 @@ a {
 // =============================================================================
 
 .lyric-46 {
+  // EVEN THOUGH
+  // I WENT TO COLLEGE
+  // &
+  // DROPPED OUT OF SCHOOL QUICK, I ALWAYS HAD A
+  // PHD
+  // a PRETTY HUGE DICK
+  color: #7D7575;
   text-align: center;
   background: #F4F7D9;
-  color: #3E423A;
+  background-image: url('img/beige-paper.png');
 
   .container {
     width: 600px;
@@ -203,26 +210,32 @@ a {
   h1 {
     margin-top: -50px;
     background: #F4F7D9;
+    background-image: url('img/beige-paper.png');
     letter-spacing: .15em;
   }
   
   h2 {
-    margin-bottom: .5em;
     opacity: .5;
-    border-bottom: 4px double #7D7575;
+  }
+  
+  hr {
+    border: 0;
+    width: 75px;
+    height: 4px;
+    background: #7D7575;
+    margin: 1.5em auto 2.5em;
   }
   
   p {
     width: 250px;
     margin: 0 auto;
-    font: 600 14px / 1.8em 'Crimson Text', serif;
+    font: 700 14px / 1.8em 'Crimson Text', serif;
     text-transform: uppercase;
   }
   
   p > em {
     font-size: 32px;
     line-height: 1.6em;
-    opacity: .5;
   }
   
   p:last-of-type {
@@ -322,15 +335,11 @@ a {
 
   p {
     font: 300 32px / 1.4em 'Source Sans Pro', sans-serif;
-    color: darken(#7f85ac, 10%);
+    color: rgba(#7f85ac, .6);
   }
 
-  h6 {
-    display: inline-block;
-    padding: 1em 0;
+  p:last-of-type {
     margin: 2em 0;
-    font: 900 24px / 1.4em 'Source Serif Pro', serif;
-    color: darken(#7f85ac, 10%);
   }
 }
 
@@ -1777,7 +1786,6 @@ a {
     padding-bottom: 30px;
     font: 400 20px / 2em 'Cutive Mono', monospace;
     box-sizing: border-box;
-    text-align: center;
   }
 
   p {
@@ -2183,7 +2191,6 @@ a {
   .container {
     width: 520px;
     padding: 240px 0;
-    height: 100%;
     background: $white;
     box-shadow: 0 0 32px 8px rgba(0,0,0,.1);
   }
