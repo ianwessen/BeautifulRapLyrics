@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for i in {000..100}
+do
+    touch "lyric-$(printf "%03d" "$i").scss"
+done
