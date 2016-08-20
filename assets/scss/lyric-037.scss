@@ -1,0 +1,65 @@
+// =============================================================================
+// ====================================  37  ===================================
+// =============================================================================
+
+.lyric-37 {
+  // Screams
+  // from the haters,
+  // got a nice ring to it.
+  // I guess every superhero needs his theme music
+
+  padding: 200px 0;
+  background: #332532;
+
+  .container {
+	position: relative;
+	width: 450px;
+	text-align: center;
+  }
+
+  h2 {
+	// Screams
+	font: 400 108px / 1em 'Righteous', sans-serif;
+	color: #FF974F;
+  }
+
+  h3 {
+	// from the haters
+	font: 400 80px / 1em 'Righteous', sans-serif;
+	color: #FF974F;
+	text-align: right;
+
+	span {
+	  position: absolute;
+	  top: 118px;
+	  left: 10px;
+	  font-size: 40px;
+	  line-height: 1em;
+	  text-align: center;
+	  border-bottom: 16px solid #ff974f;
+	}
+  }
+
+  h4 {
+	// got a nice ring to it
+	font: 400 76px / 1em 'Monoton', sans-serif;
+	color: #F77A52;
+  }
+
+  h5 {
+	// I guess every super hero needs his theme music
+	margin-bottom: 2em;
+	font: 400 39px / 1.2em 'Righteous', sans-serif;
+	color: #A49A87;
+
+	span {
+	  font-size: 42px;
+	}
+  }
+
+  h6 {
+	font: 400 40px / 1em 'Righteous', sans-serif;
+	color: #644D52;
+	text-transform: uppercase;
+  }
+}

@@ -1,0 +1,51 @@
+
+
+// =============================================================================
+// ====================================  7  ====================================
+// =============================================================================
+
+.lyric-7 {
+  // Rodney King ain't never felt a beat like this
+
+  padding: 300px 0;
+  font-family: 'PT Serif', serif;
+  background: #E6EBE0;
+
+  .container {
+	width: 300px;
+  }
+
+  .row {
+	padding: 40px 0;
+  }
+
+  p {
+	font-size: 26px;
+	color: #82AAA4;
+  }
+
+  h6 {
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #5D576B;
+	color: #ED6A5A;
+	text-align: center;
+  }
+
+  .speak-like-this,
+  .beat-like-this {
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+  }
+
+  .speak-like-this {
+	padding-right: 2em;
+	text-align: right;
+  }
+
+  .beat-like-this {
+	padding-left: 1em;
+  }
+}

@@ -1,0 +1,44 @@
+@import 'variables';
+
+// =============================================================================
+// ====================================  42  ===================================
+// =============================================================================
+
+.lyric-42 {
+  // Jackie Robinson
+
+  padding: 300px 0;
+  background: #466AAB;
+  overflow: auto;
+
+  .container {
+	top: 280px;
+	width: 520px;
+	overflow: hidden;
+  }
+
+  h1 {
+	font: 400 200px / 1em 'Ultra', sans-serif;
+	text-align: center;
+  }
+
+  p {
+	padding-top: 1.2em;
+	font: 700 14px / 2.2em 'Archivo Narrow', sans-serif;
+	color: $white;
+	text-transform: uppercase;
+	letter-spacing: .15em;
+
+	span {
+		display: block;
+	}
+  }
+
+  h6 {
+	font: 400 32px / 1.5em 'Bevan', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	color: #466AAB;
+	background: #fff;
+  }
+}

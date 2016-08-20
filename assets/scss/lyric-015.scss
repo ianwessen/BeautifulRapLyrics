@@ -1,0 +1,50 @@
+
+// =============================================================================
+// ====================================  15  ===================================
+// =============================================================================
+
+.lyric-15 {
+  // The squareroot of 69 is 8 something, right?
+
+  font-family: 'Neuton', serif;
+  padding: 260px 0;
+  color: #f0f0f0;
+  background: #2F4F4F;
+
+  .container {
+	position: relative;
+	width: 260px;
+	text-align: center;
+  }
+
+  p {
+	margin-bottom: .5em;
+	font-size: 24px;
+	line-height: 1.3em;
+	letter-spacing: .02em;
+  }
+
+  h6 {
+	margin-top: 60px;
+	font-size: 25px;
+	color: #b36262;
+	text-align: center;
+	text-transform: uppercase;
+  }
+
+  .lbrac,
+  .rbrac {
+	position: absolute;
+	top: 0;
+	font-size: 400px;
+  }
+
+  .lbrac {
+	left: -200px;
+  }
+
+  .rbrac {
+	right: -200px;
+  }
+
+}

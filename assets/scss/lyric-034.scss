@@ -1,0 +1,46 @@
+
+@import 'variables';
+
+// =============================================================================
+// ====================================  34  ===================================
+// =============================================================================
+
+.lyric-34 {
+  // I got nines in the bedroom, Glocks in the kitchen. A shotty by the shower
+  // if you wanna shoot me while I’m shittin’.
+
+  padding: 240px 0;
+  background: #6EA89C;
+
+  .container {
+	width: 590px;
+	text-align: center;
+  }
+
+  .quote {
+	display: block;
+	font-size: 60px;
+  }
+
+  p {
+	font: 700 34px / 1.6em 'Cardo', serif;
+  }
+
+  hr {
+	width: 75px;
+	height: 4px;
+	margin: 2em auto;
+	background: $white;
+	border: 0;
+  }
+
+  h6 {
+	font: 700 22px / 1.6em 'Montserrat', serif;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+
+	span {
+	  font-weight: 300;
+	}
+  }
+}

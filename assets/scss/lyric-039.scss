@@ -1,0 +1,35 @@
+// =============================================================================
+// ====================================  39  ===================================
+// =============================================================================
+
+.lyric-39 {
+	//Swimmin' laps around a bottle of Louie the Thirteenth. Jumpin’ off of a mountain into a sea of codeine. I’m at the top of the top, but still I climb. And if I should ever fall, the ground will then turn to wine.
+
+	position: relative;
+	background: #BE90D4;
+	
+	.container {
+		padding: 60px 0;
+		width: 700px;
+		text-align: right;
+	}
+
+	p {
+		width: 600px;
+		font: 400 48px / 1.3em 'Bevan', serif;
+		color: lighten(#BE90D4, 20%);
+	}
+	
+	p:last-of-type {
+		margin-top: 1em;
+		font: 400 18px / 2em 'Lato', serif;
+		color: #fff;
+	}
+
+	h6 {
+		margin-top: 60px;
+		font: 400 20px / 1.6em 'Lato', serif;
+		text-align: center;
+		color: darken(#BE90D4, 30%);
+	}
+  }

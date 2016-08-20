@@ -1,0 +1,48 @@
+
+
+
+// =============================================================================
+// ====================================  20  ===================================
+// =============================================================================
+
+.lyric-20 {
+  // I'm like hey what's up hello
+  background: #FFFAE4;
+
+  .container {
+	width: 420px;
+	padding: 100px 0;
+  }
+
+  h2 {
+	margin-bottom: .5em;
+	font-family: 'Abril Fatface', serif;
+	color: #40627C;
+  }
+
+  .text-body {
+	position: relative;
+  }
+
+  p {
+	padding: 2em 0 2em 50%;
+	font-family: 'Old Standard TT', serif;
+	font-size: 18px;
+	color: #26393D;
+	line-height: 1.6em;
+	border-top: 1px solid #40627C;
+	border-bottom: 1px solid #40627C;
+  }
+
+  h6 {
+	position: absolute;
+	bottom: -8px;
+	padding: 0 1em;
+	font-size: 18px;
+	color: #40627C;
+	background: #FFFAE4;
+	font-family: 'Old Standard TT', serif;
+	font-style: italic;
+  }
+
+}

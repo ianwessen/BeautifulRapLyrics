@@ -1,0 +1,66 @@
+// =============================================================================
+// ====================================  22  ===================================
+// =============================================================================
+
+.lyric-22 {
+  // I got 99 problems, and they all bitches
+  background: #F5FFFA;
+
+  .container {
+	width: 500px;
+	text-align: center;
+  }
+
+  .row {
+	height: 225px;
+  }
+
+  .row p {
+	font: 400 40px / 50px 'PT Sans Narrow', sans-serif;
+	text-transform: uppercase;
+  }
+
+  .i-got,
+  .problems {
+	color: #76949F;
+  }
+
+  .i-got {
+	float: left;
+	margin-top: 24px;
+  }
+
+  h1 {
+	// 99
+	display: inline-block;
+	font: 400 200px / 200px 'Old Standard TT', serif;
+	color: #F5D08A;
+
+	line-height: 1em;
+	text-align: center;
+  }
+
+  .problems {
+	float: right;
+	margin-top: 130px;
+  }
+
+  h4 {
+	// and they all bitches
+	font: 400 40px/70px 'Old Standard TT', serif;
+	font-style: italic;
+	color: #76949F;
+	border-top: 2px solid #6A6B83;
+	border-bottom: 2px solid #6A6B83;
+  }
+
+  h6 {
+	margin-top: 60px;
+	font: 700 20px / 50px 'PT Sans', sans-serif;
+	color: #6A6B83;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .08em;
+  }
+
+}

@@ -1,0 +1,50 @@
+@import 'variables';
+
+
+// =============================================================================
+// ====================================  21  ===================================
+// =============================================================================
+
+.lyric-21 {
+  // African-American Express
+  padding: 280px 0;
+  background: #4f1a31;
+
+  .container {
+	width: 730px;
+	padding-top: 5em;
+	text-align: left;
+  }
+
+  p {
+	width: 75%;
+	padding-left: 1em;
+	font: 400 22px / 2em 'Josefin Sans', sans-serif;
+	color: #E8D9AC;
+	// letter-spacing: .08em;
+  }
+
+  h2 {
+	font: 400 60px / 1.4em 'Pinyon Script', cursive;
+	color: $white;
+	padding-left: 2em;
+  }
+
+  h2:first-of-type {
+	// African-American
+	margin-top: .5em;
+  }
+
+  h2:last-of-type {
+	// Express
+	margin-bottom: 1.2em;
+  }
+
+  h6 {
+	font: 700 14px / 3em 'Josefin Sans', serif;
+	color: #4f1a31;
+	text-transform: uppercase;
+	text-align: center;
+	background: #C7B07B;
+  }
+}

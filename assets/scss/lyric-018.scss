@@ -1,0 +1,31 @@
+@import 'variables';
+
+// =============================================================================
+// ====================================  18  ===================================
+// =============================================================================
+
+.lyric-18 {
+  // Her beauty is why god created eyeballs
+  background: url('img/milky-way.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .container {
+	width: 740px;
+	padding: 6em;
+	text-align: center;
+	border: 3px solid $white;
+	box-sizing: border-box;
+  }
+
+  p {
+	margin-bottom: 1.4em;
+	font: 700 36px / 1.6em 'Playfair Display', sans-serif;
+  }
+
+  h6 {
+	font-size: 28px;
+	font-family: 'Alegreya Sans', sans-serif;
+  }
+}

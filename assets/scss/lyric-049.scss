@@ -1,0 +1,32 @@
+// Supercalifragalisticexpialidocious 
+
+.lyric-49 {
+	
+	padding: 200px 0;
+	background-color: #1f4e5f;
+	background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(#fff,.1) 35px, rgba(#fff,.1) 70px);
+
+	.container {
+		width: 900px;
+		text-align: center;
+	}
+	
+	p {
+		font: 400 35px/1.4em 'Kumar One Outline', cursive;
+		color: #fff;
+	}
+	
+	h6 {
+		margin-top: 3em;
+		font-size: 22px;
+		font-weight: 700;
+		letter-spacing: .12em;
+		text-transform: uppercase;
+		color: #1f4e5f;
+		text-shadow:
+			-1px -1px 0 #79a8a9,
+			1px -1px 0 #79a8a9,
+			-1px 1px 0 #79a8a9,
+			1px 1px 0 #79a8a9;
+	}
+}

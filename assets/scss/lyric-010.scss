@@ -1,0 +1,42 @@
+@import 'variables';
+
+// =============================================================================
+// ====================================  10  ===================================
+// =============================================================================
+
+.lyric-10 {
+  background: #FCE6BD;
+  text-align: center;
+
+  .container {
+	position: relative;
+	padding: 60px 40px;
+	width: 580px;
+	color: $white;
+  }
+
+  p {
+	// I got more drug spots from New York to Canada
+	font: 400 22px / 2em 'Radley', serif;
+	color: #694F5D;
+	text-transform: uppercase;
+  }
+
+  h5 {
+	// Cuz Big L be fuckin with more keys than a janitor
+	margin: .5em 0 2.25em;
+	font: 400 28px / 2.2em 'Rock Salt', cursive;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	color: #EE5656;
+  }
+
+  h6 {
+	display: inline-block;
+	padding: 1em;
+	font: 400 22px / 2em 'Radley', serif;
+	color: #694F5D;
+	text-transform: uppercase;
+	border-top: 2px solid #694F5D;
+  }
+}

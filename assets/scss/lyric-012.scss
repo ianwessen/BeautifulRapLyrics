@@ -1,0 +1,40 @@
+
+// =============================================================================
+// ====================================  12  ===================================
+// =============================================================================
+
+.lyric-12 {
+  // Not a business man - I'm a business, man.
+  padding: 180px 0;
+  background: #42826C;
+
+  .container {
+	width: 520px;
+	color: #C0D6A8;
+  }
+
+
+  h2 {
+	margin-bottom: .5em;
+	font: 400 50px / 1.4em 'Gravitas One', serif;
+	text-transform: uppercase;
+  }
+
+  h2:first-of-type {
+	margin-bottom: .333em;
+	font-size: 54px;
+  }
+
+  p {
+	font: 400 40px / 1.4em 'Chivo', sans-serif;
+	text-transform: uppercase;
+  }
+
+  h6 {
+	display: inline-block;
+	padding: .5em 6px 0 0;
+	font: 400 40px / 1.4em 'Chivo', sans-serif;
+	text-transform: uppercase;
+	border-top: 10px solid;
+  }
+}

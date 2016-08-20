@@ -1,0 +1,36 @@
+@import 'variables';
+
+// =============================================================================
+// ====================================  16  ===================================
+// =============================================================================
+
+.lyric-16 {
+  // E.E. Cumming on her face now that's poetry in motion
+  background: #3F6778;
+  background-image: url('img/inspiration-geometry.png');
+  text-align: center;
+
+  .container {
+	padding: 2em 0;
+  }
+
+  p {
+	margin-bottom: 40px;
+	font-family: 'Pacifico', cursive;
+	font-size: 54px;
+	transform: rotate(-4deg);
+	color: $white;
+  }
+
+  h6 {
+	display: inline-block;
+	padding: .25em 1.25em;
+	margin: 80px auto 0;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 32px;
+	letter-spacing: .08em;
+	text-transform: uppercase;
+	border: 2px solid #DBE9EE;
+	color: #DBE9EE;
+  }
+}

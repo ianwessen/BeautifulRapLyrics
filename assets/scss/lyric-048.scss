@@ -1,0 +1,52 @@
+// =============================================================================
+// ====================================  48  ===================================
+// =============================================================================
+
+// Now that's practicing sacrilegious activism Attack is for battle, and practical rap with wisdom Actually, it's pragmatic capitalism for actors that crack under pressure and collapse when I get 'em Monch is medicinal man made medical marijuana With a phase plasma rifle like I'm searchin' for Sarah Conner’
+
+.lyric-48 {
+	background: #1b2f1b;
+	// background: -webkit-radial-gradient(center, cover, #2f343b 0%, #3e454e 100%);
+	// background: radial-gradient(center, #2f343b 0%, #3e454e 100%);
+	
+	.container {
+		width: 580px;
+		padding: 8em 0;
+		text-align: right;
+	}
+	
+	p {
+		margin: 0 0 2em;
+		font: 400 20px / 36px 'Exo', sans-serif;
+		color: #2b8a35;
+		text-shadow: 1px 1px 16px #2b8a35, 0px 0px 1em #2b8a35, 0px 0px 2em #2b8a35;
+	}
+	
+	h6 {
+		font: 400 20px / 36px 'Exo', sans-serif;
+		color: #2b8a35;
+		text-shadow: 1px 1px 16px #2b8a35, 0px 0px 1em #2b8a35, 0px 0px 2em #2b8a35;
+	}
+	
+	
+	@for $i from 1 through 8 {
+		p span:nth-of-type(#{$i}) {
+			animation-delay: $i * 1.17s;
+		}
+	}
+	
+	p span {
+		animation: flicker 3s linear infinite;
+	}
+	
+	@keyframes flicker {
+		0% { opacity: 1; }
+		14% { opacity: 1; text-shadow: 1px 1px 16px #2b8a35, 0px 0px 1em #2b8a35, 0px 0px 2em #2b8a35; }
+		15% { opacity: .8; text-shadow: 0; }
+		16% { opacity: 1; text-shadow: 1px 1px 16px #2b8a35, 0px 0px 1em #2b8a35, 0px 0px 2em #2b8a35; }
+		19% { opacity: 1; }
+		20% { opacity: .5; }
+		21% { opacity: 1; }
+		100% { opacity: 1; }
+	}
+}

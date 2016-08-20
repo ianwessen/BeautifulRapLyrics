@@ -1,0 +1,12 @@
+$white: #fff;
+$charcoal: #444;
+$black: #000;
+$base-background: #555;
+$base-text: #eee;
+
+@mixin absolute-center($width) {
+  position: absolute;
+  width: $width;
+  left: 50%;
+  margin-left: -1 * $width * 0.5
+}

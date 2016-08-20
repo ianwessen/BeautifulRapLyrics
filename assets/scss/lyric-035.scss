@@ -1,0 +1,73 @@
+@import 'variables';
+
+// =============================================================================
+// ====================================  35  ===================================
+// =============================================================================
+
+.lyric-35 {
+  // I bomb atomically,
+  // SOCRATES’ PHILOSOPHIES
+  // & HYPOTHESES
+  // can’t define how I be droppin these
+  // MOCKERIES,
+  // lyrically perform armed robbery
+
+  padding: 220px 0;
+  background: #3F536E;
+
+  .container {
+	width: 550px;
+	text-align: center;
+  }
+
+  h2,h3,h4,h5 {
+	span {
+	  font-family: 'Playfair Display', serif;
+	}
+  }
+
+  h4 {
+	font: 400 30px / 1.4em 'Playfair Display SC', serif;
+
+	&:first-of-type {
+	  // I bomb atomically
+	  font-size: 62px;
+	}
+  }
+
+  h2 {
+	font: 400 30px / 1.4em 'Abril Fatface', serif;
+
+	&:first-of-type {
+	  font-size: 40px;
+	}
+	&:nth-of-type(2) {
+	  font-size: 70px;
+	}
+	&:last-of-type {
+	  font-size: 86px;
+	}
+  }
+
+  h5 {
+	font: 400 30px / 1.4em 'Playfair Display SC', serif;
+
+	&:first-of-type {
+	  font-size: 31px;
+	}
+	&:last-of-type {
+	  margin-bottom: 1em;
+	}
+  }
+
+  h6 {
+	font: 400 22px / 2em 'Playfair Display', serif;
+  }
+
+  hr {
+	height: 14px;
+	background: $white;
+	border: 0;
+  }
+
+}

@@ -1,0 +1,55 @@
+@import 'variables';
+
+// =============================================================================
+// ====================================  19  ===================================
+// =============================================================================
+
+.lyric-19 {
+  // Will Smith don't gotta cuss in his raps to sell records
+  padding: 260px 0;
+  $background: #3E2525;
+  background: $background;
+
+  .container {
+	position: relative;
+	width: 460px;
+	overflow: auto;
+  }
+
+  .column {
+	float: left;
+	width: 50%;
+  }
+
+  .left.column {
+	text-align: center;
+  }
+
+  .right.column {
+	padding-left: 2em;
+	border-left: 4px solid lighten($background, 7%);
+	box-sizing: border-box;
+  }
+
+  p {
+	margin-bottom: 1em;
+	font: 18px / 3em 'Crimson Text', serif;
+	color: $white;
+  }
+
+  p em {
+	color: #EB5A33;
+  }
+
+  p:last-of-type {
+	margin: 0;
+  }
+
+  h6 {
+	margin-top: 6em;
+	font: 700 20px / 1em 'Crimson Text', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .16em;
+  }
+
+}

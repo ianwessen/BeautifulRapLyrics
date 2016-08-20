@@ -1,0 +1,41 @@
+@import 'variables';
+
+// =============================================================================
+// ====================================  24  ===================================
+// =============================================================================
+
+.lyric-24 {
+  // Life is hell, death's a bitch
+  // And these FUBAR rulers getting rich
+  padding: 240px 0;
+  background: #2A2C2B;
+
+  .container {
+	width: 400px;
+	padding-bottom: 40px;
+	overflow: auto;
+	color: #D9CB9E;
+	text-align: center;
+  }
+
+  h1 {
+	// El-P
+	margin: 0;
+	font: 700 64px / 1em 'Domine', serif;
+	color: $white;
+  }
+
+  h4 {
+	// Run The Jewels
+	margin-bottom: 1em;
+	font: 400 20px / 2em 'Work Sans', serif;
+	color: #374140;
+	text-transform: uppercase;
+	border-bottom: 2px solid #374140;
+  }
+
+  p {
+	font: 400 14px / 2em 'Domine', serif;
+  }
+
+}

@@ -1,0 +1,37 @@
+
+// =============================================================================
+// ====================================  38  ===================================
+// =============================================================================
+
+.lyric-38 {
+  // They say I'm up and coming
+  // like I'm fucking in an elevator
+
+	position: relative;
+	text-align: center;
+	background: #EBE3DF;
+	color: #252628;
+	padding: 0 0 200px;
+	
+	.top-pane {
+		padding-top: 200px;
+		background:  #252628;
+		color: #EBE3DF
+	}
+
+	p {
+		font: 400 24px / 2em 'Libre Baskerville', serif;
+	}
+
+  h6 {
+	display: inline-block;
+	margin-top: 50px;
+	padding: 0 1.5em;
+	font: 700 14px / 2.8em 'Libre Baskerville', serif;
+	letter-spacing: .08em;
+	border: 1px solid #252628;
+	text-align: center;
+	text-transform: uppercase;
+  }
+
+}

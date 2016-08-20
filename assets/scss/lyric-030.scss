@@ -1,0 +1,81 @@
+@import 'variables';
+
+// =============================================================================
+// ====================================  30  ===================================
+// =============================================================================
+
+.lyric-30 {
+  // Fire, water, air, dirt. Fuckin’ magnets. How do they work?
+  position: relative;
+  height: 600px;
+  background: #111;
+  overflow: hidden;
+
+  background: #7e3636;
+  background:
+  -webkit-linear-gradient(30deg,
+	#0D0620 0%,
+	#15082b 18%,
+	#0C082B 33%,
+	#020006 76%,
+	#050309 100%);
+
+  background: linear-gradient(30deg,
+	#0D0620 0%,
+	#15082b 18%,
+	#0C082B 33%,
+	#020006 76%,
+	#050309 100%);
+
+  overflow: hidden;
+
+  @keyframes twinkle {
+	0%, 30%, 70%, 100% { opacity: 1; }
+	50% { opacity: .2; }
+  }
+
+  .container {
+	@include absolute-center(345px);
+	top: 35%;
+	z-index: 10;
+	text-align: center;
+  }
+
+  p {
+	font: 400 40px / 1.4em 'Questrial', sans-serif;
+	margin-bottom: 1em;
+  }
+
+  h6 {
+	font: 400 20px / 1.4em 'Questrial', sans-serif;
+	opacity: .5;
+	text-transform: uppercase;
+  }
+
+  .star-pane {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: url('img/stardust.png');
+  }
+
+  .stars-1 {
+  }
+
+  .stars-2 {
+	animation: twinkle 5s linear infinite;
+	transform: rotate(235deg);
+  }
+
+  .stars-3 {
+	animation: twinkle 4s linear infinite;
+	transform: rotate(60deg);
+  }
+
+  .stars-3 {
+	animation: twinkle 6s linear infinite;
+	transform: rotate(110deg);
+  }
+
+}

@@ -1,0 +1,43 @@
+
+
+// =============================================================================
+// ====================================  29  ===================================
+// =============================================================================
+
+.lyric-29 {
+  // Worst rapper on this track third coolest
+  padding: 300px 0;
+  text-align: center;
+  background: #EBECEC;
+
+  .container {
+	position: relative;
+	display: inline-block;
+	width: auto;
+	color: #859FB8;
+	border: 1px solid #859FB8;
+  }
+
+  p {
+	font: 400 24px / 3em 'Josefin Sans', sans-serif;
+	text-transform: uppercase;
+	line-height: 3em;
+	letter-spacing: 0.08em;
+	padding: 0 3em;
+
+	span {
+	  font-weight: 700;
+	}
+  }
+
+  h6 {
+	position: absolute;
+	bottom: -12px;
+	left: 50%;
+	width: 100px;
+	margin-left: -50px;
+	font: 400 14px / 1.6em 'Josefin Sans', sans-serif;
+	text-transform: uppercase;
+	background: #EBECEC;
+  }
+}

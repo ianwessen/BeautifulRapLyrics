@@ -1,0 +1,43 @@
+@import 'variables';
+
+// =============================================================================
+// ====================================  40  ===================================
+// =============================================================================
+
+.lyric-40 {
+  // YOU COULDN’T MAKE THE FANS THROW UP THEIR HANDS IF THEY SWALLOWED THEIR FINGERS
+
+  height: 630px;
+  background: #3B596A;
+  text-align: center;
+
+  p {
+	@include absolute-center(700px);
+	z-index: 10;
+	top: 350px;
+	font: 700 24px / 3em 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+  }
+
+  span.lyric:nth-of-type(1) {
+	color: #3F9A82;
+  }
+  span.lyric:nth-of-type(2) {
+	color: #A1CD73;
+  }
+  span.lyric:nth-of-type(3) {
+	color: #ECDB60;
+  }
+
+  h6 {
+	@include absolute-center(170px);
+	top: 200px;
+	font: 400 128px / 1em 'Ovo', serif;
+	color: #427676;
+	text-transform: uppercase;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+  }
+
+}

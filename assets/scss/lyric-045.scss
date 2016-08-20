@@ -1,0 +1,55 @@
+// =============================================================================
+// ====================================  45  ===================================
+// =============================================================================
+
+// methylenedioxymethamphetamine
+.lyric-45 {
+  height: 540px;
+  color: #fdfdfd;
+  background: #19AEA9;
+  background-image: url('public/img/geometric-green-blue.png');
+  background-size: cover;
+  text-align: center;
+
+  .frame {
+	position: absolute;
+	top: 240px;
+	left: 50%;
+	z-index: 0;
+	width: 500px;
+	height: 320px;
+	margin-left: -250px;
+	text-align: center;
+	background: rgba(#18A8A2,.3);
+  }
+
+  p {
+	position: absolute;
+	display: inline-block;
+	top: 3em;
+	width: 400px;
+	margin-left: -200px;
+	font: 500 18px / 2em 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .04em;
+  }
+
+  h2 {
+	position: absolute;
+	top: 390px;
+	width: 100%;
+	font: 400 32px / 2em 'Montserrat', sans-serif;
+	background: #149798;
+	letter-spacing: .04em;
+  }
+
+  h6 {
+	position: absolute;
+	top: 490px;
+	width: 100%;
+	font: 300 22px / 1.75em 'Montserrat', sans-serif;
+	color: #149798;
+	text-align: center;
+	text-transform: uppercase;
+  }
+}

@@ -1,0 +1,97 @@
+
+
+
+// =============================================================================
+// ====================================  11  ===================================
+// =============================================================================
+
+.lyric-11 {
+  // Suicidal Thoughts first verse
+  padding: 0;
+  font-family: 'Old Standard TT', serif;
+  color: #000;
+  background: #fff;
+
+  .container {
+	width: 100%;
+	height: 940px;
+  }
+
+  .pane {
+	position: relative;
+	width:50%;
+	padding: 214px 0;
+	float: left;
+	overflow: hidden;
+  }
+
+  .body-text {
+	display: inline-block;
+	width: 300px;
+  }
+
+  .typeface-specimen {
+	display: inline-block;
+	right: 0;
+	width: 125px;
+  }
+
+  .pane--black {
+	background: black;
+	color: white;
+
+	.day-index {
+	  left: 100%;
+	}
+
+	.typeface-specimen {
+	  right: -62px;
+	  left: initial;
+	}
+  }
+
+  .pane--white {
+	background: white;
+	color: black;
+
+	.day-index {
+	  left: 0;
+	}
+
+	.typeface-specimen {
+	  left: -63px;
+	}
+  }
+
+  .body-text--white {
+	float: right;
+	margin-right: -150px;
+  }
+
+  .body-text--black {
+	float: left;
+	margin-left: -150px;
+  }
+
+  .body-text--transparent {
+	position: absolute;
+	top: 155px;
+	left: 50%;
+	z-index: 10;
+	margin-left: -150px;
+	color: transparent;
+  }
+
+  p {
+	margin-bottom: 2em;
+	font-size: 19px;
+	line-height: 2em;
+	text-align: justify;
+  }
+
+  h6 {
+	text-align: center;
+	font-size: 16px;
+  }
+
+}

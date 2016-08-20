@@ -1,0 +1,60 @@
+
+
+
+// =============================================================================
+// ====================================  14  ===================================
+// =============================================================================
+
+.lyric-14 {
+  // Baby girl, you’re so damn fine though.
+  // I'm tryna know if I can hit it from behind though
+
+  padding: 270px 0 320px;
+  font-family: 'EB Garamond', serif;
+  background: #FCFFF5;
+
+  .container {
+	position: relative;
+	width: 600px;
+	text-align: center;
+  }
+
+  h2 {
+	font-size: 180px;
+	line-height: 50px;
+	color: #D1DBBD;
+  }
+
+  p {
+	padding-bottom: 2em;
+	font-size: 28px;
+	line-height: 1.4em;
+	color: #3E606F;
+	border-bottom: 1px solid #D1DBBD;
+
+	span {
+	  font-family: 'Pinyon Script', cursive;
+	  font-size: 60px;
+	  color: #91AA9D;
+	}
+  }
+
+  h6 {
+	position: absolute;
+	bottom: -10px;
+	left: 50%;
+	width: 200px;
+	margin-left: -100px;
+	font-size: 18px;
+	color: #193441;
+	text-align: center;
+	letter-spacing: 0.04em;
+	background: #FCFFF5;
+	// text-transform: uppercase;
+
+	span {
+	  // font-size: 24px;
+	}
+  }
+
+}

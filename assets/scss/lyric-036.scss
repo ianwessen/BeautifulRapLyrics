@@ -1,0 +1,37 @@
+@import 'variables';
+
+// =============================================================================
+// ====================================  36  ===================================
+// =============================================================================
+
+.lyric-36 {
+  // Trigger fingers turn to twitter fingers
+
+  text-align: center;
+  padding: 260px 0;
+  background: #55acee;
+
+  p {
+	font: 400 40px / 2em 'Source Sans Pro', sans-serif;
+	color: $white;
+  }
+
+  h6 {
+	font: 400 30px / 2em 'Source Sans Pro', sans-serif;
+	color: #e1e8ed;
+  }
+
+  @keyframes blink {
+	0%, 25%, 75%, 100% { opacity: 1 }
+	30%, 70% { opacity: 0 }
+  }
+
+  .cursor {
+	display: inline-block;
+	height: 36px;
+	background: $white;
+	width: 3px;
+	animation: blink .75s ease-in-out infinite;
+  }
+
+}

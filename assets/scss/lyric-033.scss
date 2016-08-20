@@ -1,0 +1,43 @@
+
+
+// =============================================================================
+// ====================================  33  ===================================
+// =============================================================================
+
+.lyric-33 {
+	// Rock you in your face, stab your brain with your nose bone.
+
+	padding: 260px 0;
+	background: #F2EBC7;
+
+	.container {
+	  width: 400px;
+	  color: #343642;
+	}
+
+	p {
+	  // For all of those who wanna
+	  font: 400 42px / 1.6em 'Stint Ultra Condensed', sans-serif;
+	  text-transform: uppercase;
+	}
+
+	h2 {
+	  // Profile & Pose
+	  font: 400 72px / 1em 'Ultra', sans-serif;
+	  text-transform: uppercase;
+	}
+
+	h4 {
+	  // Rock you in your face, stab your brain with your nose bone
+	  margin-bottom: 1em;
+	  font: 200 26px / 1.8em 'Roboto Slab', serif;
+	  color: #962D3E;
+	}
+
+	h6 {
+	  display: inline-block;
+	  font: 400 22px / 4em 'Stint Ultra Expanded', sans-serif;
+	  text-transform: uppercase;
+	  border-top: 2px solid #343642;
+	}
+}
