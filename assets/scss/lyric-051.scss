@@ -1,0 +1,45 @@
+.lyric-51 {
+	
+	.meta-tag {
+		opacity: .5;
+	}
+	
+	padding: 180px 0;
+	background: #f0f0f0;
+	text-align: center;
+
+	.container {
+		position: relative;
+		width: 600px;
+	}
+	
+	h3 {
+		// We don't do drive bys
+		margin: 20px 0 35px;
+		font: 400 5rem/1em 'Lobster', script;
+		text-align: center;
+		color: #c16f70;
+	}
+	
+	h5 {
+		// We park infront of hosues and shoot
+		font: 700 2rem/1em 'Cabin', script;
+		text-align: center;
+		color: #575977;
+		text-transform: uppercase;
+	}
+	
+	p {
+		// and if the police come...
+		font: 400 2rem/1.4em 'Cabin', script;
+		text-align: center;
+		color: #a8bcd0;
+	}
+	
+	h6 {
+		margin-top: 4rem;
+		font: 400 1.6rem/1.6em 'Cabin', script;
+		background: #575977;
+		color: #f0f0f0;
+	}
+}

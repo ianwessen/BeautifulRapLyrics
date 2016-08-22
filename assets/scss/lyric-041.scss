@@ -5,46 +5,43 @@
 // =============================================================================
 
 .lyric-41 {
-  // Uncommon Valor
+	// Uncommon Valor
 
-  padding: 240px 0;
-  background: #eee;
+	padding: 180px 0;
+	background: #eee;
 
-  .container {
-	width: 720px;
-  }
+	.container {
+		width: 640px;
+	}
 
-  .intro {
-	font-weight: 700;
-  }
+	.intro {
+		font-weight: 700;
+	}
 
-  .indent {
-	padding-right: 2em;
-  }
+	.indent {
+		padding-right: 2em;
+	}
 
-  h1 {
-	margin: 0;
-	color: #374251;
-	font: 900 68px / 1.6em 'Alegreya Sans', serif;
-	text-align: center;
-  }
+	h1 {
+		margin: 0;
+		color: #374251;
+		font: 900 4.6rem / 1em 'PT Serif', serif;
+	}
 
-  p {
-	font: 400 16px / 1.45em 'Vollkorn', serif;
-	color: #374251;
-	text-align: justify;
-	-webkit-column-count: 2;
-	-moz-column-count: 2;
-	column-count: 2;
-  }
+	p {
+		font: 400 13px / 1.6em 'PT Serif', serif;
+		color: #374251;
+		-webkit-column-count: 3;
+		-moz-column-count: 3;
+		column-count: 3;
+	}
 
-  h6 {
-	margin: 0 auto 2em;
-	padding: .25em .5em;
-	font: 400 20px / 2em 'Alegreya', serif;
-	color: #374251;
-	border-bottom: 1px solid #374251;
-	font-style: italic;
-	text-align: center;
-  }
+	h6 {
+		margin: 0 auto;
+		padding: .5em 0 2em;
+		font: 700 20px / 2em 'PT Serif', serif;
+		color: #bbb;
+		text-transform: uppercase;
+		// font-style: italic;
+	}
 }

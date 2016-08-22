@@ -9,19 +9,17 @@
 .lyric-13 {
   // I'm not saying I'm the best I'm just saying I'm fucking incredible
 
-  padding: 290px 0 240px;;
+  padding: 290px 0;
   background: #f0f0f0;
 
   .container {
-	width: 640px;
-	padding-bottom: 30px;
-	font: 400 20px / 2em 'Cutive Mono', monospace;
+	  text-align: center;
 	box-sizing: border-box;
   }
 
   p {
 	color: #232323;
-	font: 400 24px / 1.6em 'Cutive Mono', monospace;
+	font: 400 18px / 1.6em 'Cutive Mono', monospace;
 	background: #f0f0f0;
 	letter-spacing: -.08em;
   }
@@ -31,10 +29,10 @@
   }
 
   h6 {
-	font: 400 20px / 2em 'Cutive Mono', monospace;
+	font: 400 16px / 2em 'Cutive Mono', monospace;
 	display: inline-block;
 	margin-bottom: .45em;
-	color: #88A0A8;
+	color: #6771ab;
 	text-transform: uppercase;
   }
 }

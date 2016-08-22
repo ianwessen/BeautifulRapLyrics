@@ -1,18 +1,33 @@
-// =============================================================================
-// ====================================  48  ===================================
-// =============================================================================
+@import 'variables';
 
 // Now that's practicing sacrilegious activism Attack is for battle, and practical rap with wisdom Actually, it's pragmatic capitalism for actors that crack under pressure and collapse when I get 'em Monch is medicinal man made medical marijuana With a phase plasma rifle like I'm searchin' for Sarah Conner’
 
 .lyric-48 {
-	background: #1b2f1b;
-	// background: -webkit-radial-gradient(center, cover, #2f343b 0%, #3e454e 100%);
-	// background: radial-gradient(center, #2f343b 0%, #3e454e 100%);
+	background: #222;
 	
 	.container {
 		width: 580px;
 		padding: 8em 0;
-		text-align: right;
+	}
+	
+	.circuit {
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: red;
+		position: absolute;
+		background: url('../../img/circuit.jpg');
+		background-size: cover;
+		opacity: .03;
+	}
+	
+	hr {
+		margin-bottom: 2em;
+		height: 3px;
+		background-color: #2b8a35;
+		border: 0;
+		box-shadow: 1px 1px 16px #2b8a35;
 	}
 	
 	p {
@@ -29,14 +44,14 @@
 	}
 	
 	
-	@for $i from 1 through 8 {
-		p span:nth-of-type(#{$i}) {
+	@for $i from 1 through 20 {
+		.container span:nth-of-type(#{$i}) {
 			animation-delay: $i * 1.17s;
 		}
 	}
 	
-	p span {
-		animation: flicker 3s linear infinite;
+	.container span {
+		animation: flicker 9s linear infinite;
 	}
 	
 	@keyframes flicker {
