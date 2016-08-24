@@ -2,28 +2,33 @@
 // methylenedioxymethamphetamine
 .lyric-45 {
 	
-	padding: 180px 0 140px;
-	color: #fdfdfd;
-	background: #19AEA9;
-	background-image: url('../../img/geometric-green-blue.png');
-	background-size: cover;
-	text-align: center;
+	height: 600px;
+	color: #000;
+	background: #fff;
+	background-image: url('../../img/MDMA.png');
+	background-size: 25%;
+	background-position: center 40%;
+	background-repeat: no-repeat;
+	
+	.container {
+		top: 50%;
+		left: 50%;
+		position: absolute;
+		padding: 3em 2em 2em;
+		width: auto;
+		background: #FEFFE7;
+		box-shadow: 1px 1px 16px rgba(0,0,0,.1);
+	}
 
-	h2 {
-		display: inline-block;
-		padding: 1em;
-		margin-bottom: 1em;
-		font: 400 26px / 1em 'Montserrat', sans-serif;
-		background: #149798;
-		letter-spacing: .04em;
+	p {
+		font: 400 18px / 1em 'Merriweather', sans-serif;
 	}
 
 	h6 {
-		display: inline-block;
-		padding: 1em;
-		font: 700 26px / 1.75em 'Montserrat', sans-serif;
-		color: #149798;
-		text-align: center;
-		text-transform: uppercase;
+		margin-top: 1em;
+		font: 400 15px / 1.75em 'Merriweather', sans-serif;
+		// color: #ddd;
+		// letter-spacing: .25em;
+		opacity: .5;
 	}
 }

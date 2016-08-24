@@ -1,0 +1,29 @@
+@import 'variables';
+
+.lyric-54 {
+	background: #fff;
+	text-align: center;
+	height: 580px;
+	
+	p:first-of-type {
+		@include absolute-center(800px);
+		top: 10rem;
+		font: 400 6rem/1.2em 'Oswald', sans-serif;
+		color: #f6f6f6;
+		text-transform: uppercase;
+	}
+	
+	p:last-of-type {
+		@include absolute-center(800px);
+		top: 17rem;
+		font: 400 6rem/1.2em 'Grand Hotel', script;
+		color: #FEE16C;
+	}
+	
+	h6 {
+		@include absolute-center(400px);
+		bottom: 12rem;
+		color: #999;
+	}
+	
+}

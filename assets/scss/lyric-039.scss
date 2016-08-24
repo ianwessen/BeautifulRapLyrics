@@ -2,36 +2,42 @@
 .lyric-39 {
 	//Swimmin' laps around a bottle of Louie the Thirteenth. Jumpin’ off of a mountain into a sea of codeine. I’m at the top of the top, but still I climb. And if I should ever fall, the ground will then turn to wine.
 
-	padding: 150px 0 80px;
+	padding: 200px 0;
 	position: relative;
-	background: #BE90D4;
+	background: #EECDA3;
+	background: -webkit-linear-gradient(to bottom, #EECDA3 , #EF629F);
+	background: linear-gradient(to bottom, #EECDA3 , #EF629F);
+	        
+
 	
 	.container {
-		width: 360px;
+		width: 600px;
 		text-align: center;
 	}
 
 	h2 {
 		margin-bottom: 20px;
 		font: 400 42px / 1.3em 'Bevan', serif;
-		color: lighten(#BE90D4, 20%);
+		color: #fff;
 		text-shadow: -4px 4px 0px darken(#BE90D4, 30%);
 	}
 	
 	p {
+		margin: 4em auto;
+		width: 50px;
 		font: 400 22px / 2em 'Lato', serif;
 		font-style: italic;
-		color: lighten(#BE90D4, 20%);
+		color: #fff;
 		text-shadow: -1px 2px 0px darken(#BE90D4, 30%);
 	}
 
 	h6 {
 		width: 150px;
-		margin: 2em auto;
+		margin: 1.5em auto;
 		padding: 2em;
 		font: 900 20px / 1.6em 'Lato', serif;
 		text-transform: uppercase;
-		color: darken(#BE90D4, 30%);
-		border-top: 4px solid darken(#BE90D4, 30%);
+		color: #fff;
+		text-shadow: -1px 2px 0px darken(#BE90D4, 30%);
 	}
   }

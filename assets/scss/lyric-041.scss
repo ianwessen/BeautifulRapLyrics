@@ -7,12 +7,8 @@
 .lyric-41 {
 	// Uncommon Valor
 
-	padding: 180px 0;
+	padding: 260px 0;
 	background: #eee;
-
-	.container {
-		width: 640px;
-	}
 
 	.intro {
 		font-weight: 700;
@@ -29,7 +25,7 @@
 	}
 
 	p {
-		font: 400 13px / 1.6em 'PT Serif', serif;
+		font: 400 15px / 1.6em 'PT Serif', serif;
 		color: #374251;
 		-webkit-column-count: 3;
 		-moz-column-count: 3;
@@ -42,6 +38,5 @@
 		font: 700 20px / 2em 'PT Serif', serif;
 		color: #bbb;
 		text-transform: uppercase;
-		// font-style: italic;
 	}
 }

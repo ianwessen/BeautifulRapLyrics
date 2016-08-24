@@ -10,54 +10,52 @@
 // a PRETTY HUGE DICK
 
 .lyric-46 {
-  color: #7D7575;
-  text-align: center;
-  background: #F4F7D9;
-  background-image: url('../../img/beige-paper.png');
+	padding: 290px 0;
+	color: #7D7575;
+	text-align: center;
+	background: #e8e8e8;
 
-  .container {
-	width: 600px;
-  }
   
   h1,h2,h3 {
 	font-family: 'UnifrakturMaguntia', cursive;
 	color: #7D7575;
-	line-height: 1.4em;
+	line-height: 1.2em;
   }
   
   h1 {
 	margin-top: -50px;
-	background: #F4F7D9;
-	background-image: url('../../img/beige-paper.png');
-	letter-spacing: .15em;
+	background: #e8e8e8;
+	letter-spacing: .1em;
   }
   
   h2 {
-	opacity: .25;
+	font-size: 6rem;
+	line-height: 1em;
+	opacity: .1;
   }
   
   hr {
-	border: 0;
-	width: 50px;
-	height: 4px;
-	background: #7D7575;
-	margin: 1.5em auto 2.5em;
+	border: 1px solid #7D7575;
+	width: 160px;
+	height: 1px;
+	
+	margin: 4em auto;
   }
  
   p {
 	width: 370px;
 	margin: 0 auto;
-	font: 400 16px / 2em 'Crimson Text', serif;
-	letter-spacing: .06em;
+	font: 400 18px / 2em 'Crimson Text', serif;
   }
 
   .pretty-huge-dick {
 	display: inline-block;
 	padding: 0 1em 1em;
 	margin: 60px auto 40px;
-	border: 1px solid #7D7575;
+	border: 3px double #7D7575;
 	
 	& > p {
+		width: 300px;
 		font-weight: 700;
 		letter-spacing: .08em;
 		text-transform: none;
