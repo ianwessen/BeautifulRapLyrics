@@ -1,5 +1,49 @@
 .lyric-55 {
+	padding: 0 0 300px;
+	background: #6B62AC;
+	
 	h2,h3 {
 		font-family: 'Abril Fatface', serif;
 	}
+	
+	.container {
+		padding: 300px 20px 0px 40px;
+		width: 400px;
+		border-left: 2px solid #fff;
+	}
+	
+	h2 {
+		// E's 
+		display: inline-block;
+		position: relative;
+		z-index: 10;
+		font-size: 164px;
+		line-height: .8em;
+		background: #6B62AC;
+	}
+	
+	h3 {
+		// My dick is like an accent mark
+		margin-bottom: 20px;
+		font-size: 48px;
+	}
+	
+	p {
+		// It's all about the over
+		font: 400 40px/1.6em 'IM FELL Great Primer', serif;
+		font-style: italic;
+		&:last-of-type {
+			padding-left: 13px;
+		}
+	}
+	
+	h6 {
+		width: 600px;
+		margin-top: -122px;
+		text-align: right;
+		font: 400 28px/1.6em 'IM FELL Great Primer', serif;
+		font-style: italic;
+		border-top: 2px solid #fff;
+	}
+	
 }
