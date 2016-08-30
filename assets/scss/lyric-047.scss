@@ -5,7 +5,7 @@
 .lyric-47 {
 	
 	height: 500px;
-	background-color: lighten(#34495e, 15%);
+	background-color: #617182;
 	text-align: center;
 	
 	.dish {
@@ -29,7 +29,7 @@
 		
 		p {
 			width: 200%;
-			margin-top: 3em;
+			margin-top: 3.5em;
 			margin-left: -50%;
 			font: 700 2.2em/1.5em 'Lato', sans-serif;
 			font-style: italic;
@@ -38,13 +38,13 @@
 		
 		h6 {
 			@include absolute-center(200px);
-			margin-top: 3em;
-			font-size: 18px;
+			margin-top: 1em;
+			font-size: 22px;
 			font-weight: 700;
 			line-height: 2.4em;
-			letter-spacing: .16em;
+			letter-spacing: .1em;
 			text-transform: uppercase;
-			background: #34495e;
+			color: #34495e;
 		}
 	}
 	

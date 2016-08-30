@@ -37,10 +37,6 @@
 	color: $white;
   }
 
-  p em {
-	color: #EB5A33;
-  }
-
   p:last-of-type {
 	margin: 0;
   }
@@ -48,6 +44,7 @@
   h6 {
 	margin-top: 6em;
 	font: 700 20px / 1em 'Crimson Text', sans-serif;
+	color: lighten($background, 10%);
 	text-transform: uppercase;
 	letter-spacing: .16em;
   }

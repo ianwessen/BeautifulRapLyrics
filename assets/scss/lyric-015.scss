@@ -6,14 +6,13 @@
 .lyric-15 {
   // The squareroot of 69 is 8 something, right?
 
-  font-family: 'Neuton', serif;
   padding: 260px 0;
   color: #f0f0f0;
   background: #2F4F4F;
 
   .container {
 	position: relative;
-	width: 260px;
+	width: 360px;
 	text-align: center;
   }
 
@@ -21,30 +20,29 @@
 	margin-bottom: .5em;
 	font-size: 24px;
 	line-height: 1.3em;
+	font-family: 'Neuton', serif;
 	letter-spacing: .02em;
   }
 
   h6 {
-	margin-top: 60px;
-	font-size: 25px;
-	color: #b36262;
+	margin-top: 30px;
+	font-size: 18px;
+	font-family: 'Neuton', serif;
 	text-align: center;
+	opacity: .5;
 	text-transform: uppercase;
   }
 
   .lbrac,
   .rbrac {
 	position: absolute;
-	top: 0;
+	top: -20px;
 	font-size: 400px;
+	font-family: 'Neuton', serif;
+	opacity: .2;
   }
 
-  .lbrac {
-	left: -200px;
-  }
-
-  .rbrac {
-	right: -200px;
-  }
+  .lbrac { left: -160px; }
+  .rbrac { right: -160px; }
 
 }
