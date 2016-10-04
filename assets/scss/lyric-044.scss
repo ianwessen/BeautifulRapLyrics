@@ -21,9 +21,13 @@
 
   p {
 	font: 300 22px / 1.4em 'Source Sans Pro', sans-serif;
+	color:lighten(#2B2B42,40%);
+
   }
 
   p:last-of-type {
 	margin: 2em 0;
+	// color: #fff;
+	color:lighten(#2B2B42,60%);
   }
 }

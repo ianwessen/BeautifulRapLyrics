@@ -8,6 +8,11 @@
 		text-align: center;
 	}
 	
+	p:last-of-type {
+		margin-top: -5em;
+		color: #aaa;
+	}
+	
 	img {
 		display: block;
 		margin: 0 auto;

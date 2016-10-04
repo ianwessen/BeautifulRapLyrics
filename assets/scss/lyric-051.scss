@@ -1,16 +1,15 @@
 .lyric-51 {
-	
-	.meta-tag {
-		opacity: .5;
-	}
-	
+
 	padding: 180px 0;
-	background: #f0f0f0;
+	background: #fff;
+	background-image: url('../../img/escheresque.png');
 	text-align: center;
+	background-size: 100px;
 
 	.container {
 		position: relative;
 		width: 600px;
+		transform: rotate(-6deg);
 	}
 	
 	h3 {
@@ -23,25 +22,24 @@
 	
 	h5 {
 		// We park infront of hosues and shoot
-		font: 700 2rem/1em 'Cabin', script;
+		font: 700 2.6rem/1em 'Cabin', script;
 		text-align: center;
 		color: #575977;
-		text-transform: uppercase;
 	}
 	
 	p {
 		// and if the police come...
-		font: 400 2rem/1.4em 'Cabin', script;
+		font: 700 40px/1.4em 'Cabin', script;
 		text-align: center;
-		color: #a8bcd0;
+		color: #575977;
 	}
 	
 	h6 {
+		display: inline-block;
+		width: 300px;
 		margin-top: 4rem;
 		font: 400 1.6rem/3em 'Cabin', script;
 		background: #575977;
 		color: #f0f0f0;
-		border-left: 100px solid #f0f0f0;
-		border-right: 100px solid #f0f0f0;
 	}
 }

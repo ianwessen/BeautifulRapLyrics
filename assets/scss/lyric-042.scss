@@ -7,37 +7,46 @@
 .lyric-42 {
   // Jackie Robinson
 
-  padding: 180px 0 220px;
-  background: #466AAB;
-  overflow: auto;
-
-  .container {
-	width: 580px;
-	overflow: hidden;
-  }
-
-  h1 {
-	font: 400 200px / 1.2em 'Ultra', sans-serif;
-	text-align: center;
-  }
-
-  p {
-	padding-top: 2.3em;
-	font: 300 22px / 1.6em 'Roboto Slab', serif;
-	color: $white;
-
-	span {
-		display: block;
-	}
-  }
-
-  h6 {
-	font: 200 32px / 2.8em 'Roboto Slab', sans-serif;
-	text-transform: uppercase;
-	text-align: center;
-	// letter-spacing: .2em;
-	color: #fff;
+	padding: 180px 0 120px;
 	background: #466AAB;
-	border-top: 20px solid #fff;
-  }
+	background: -webkit-radial-gradient(top, ellipse cover, lighten(#466AAB,5%) 0%, darken(#466AAB,2%) 100%);
+	background: radial-gradient(ellipse at top, lighten(#466AAB,5%) 0%, darken(#466AAB,2%) 100%);
+
+	overflow: auto;
+
+	.container {
+		position: relative;
+		z-index: 2;
+		width: 230px;
+		overflow: hidden;
+		text-align: center;
+	}
+
+	h1 {
+		position: absolute;
+		z-index: 1;
+		top: 40px;
+		left: 50%;
+		font: 400 500px / 1.2em 'Ultra', sans-serif;
+		text-align: center;
+		color: darken(#466AAB,5%);
+		transform: translateX(-50%);
+		opacity: .333;
+	}
+
+	p {
+		padding-top: 1.2em;
+		font: 300 22px / 1.6em 'Roboto Slab', serif;
+		color: $white;
+
+		span {
+			display: block;
+		}
+	}
+
+	h6 {
+		font: 700 22px / 8em 'Roboto Slab', sans-serif;
+		text-transform: uppercase;
+		color: #fff;
+	}
 }

@@ -1,0 +1,46 @@
+
+@import 'variables';
+
+.lyric-56 {
+	padding: 260px 0 220px;
+	font-family: 'Bitter', serif;
+	color: #D7B377;
+	background: #2B4162;
+	
+	.container {
+		text-align: center;
+		width: 190px;
+	}
+	
+	p {
+		font-size: 1.4rem;
+		line-height: 1.8em;
+	}
+	
+	p:nth-of-type(3),
+	p:nth-of-type(5),
+	p:nth-of-type(7)
+	 {
+	 	font-family: 'Oswald', sans-serif;
+ 		text-transform: uppercase;
+		margin: 1rem 0;
+ 		line-height: 1.6em;
+		color: lighten(#385F71,8%);
+		border-top: 6px solid #385F71;
+		border-bottom: 6px solid #385F71;
+	}
+	p:nth-of-type(3) { font-size: 2.6rem;}
+	p:nth-of-type(5) { font-size: 3.2rem;}
+	p:nth-of-type(7) { font-size: 2.7rem;}
+	p:nth-of-type(8) { font-size: 1.2rem;}
+	
+	h6 {
+		margin-top: 4rem;
+		background: darken(#2B4162,8%);
+		color: lighten(#385F71,30%);
+		font: 900 1.5rem/2em 'Montserrat', sans-serif;
+		text-transform: uppercase;
+		text-align: center;
+		letter-spacing: .2em;
+	}
+}
