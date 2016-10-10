@@ -2,30 +2,24 @@
 	padding: 0;
 	background-image: url('../../../public/img/canyon-red-erosion.jpeg');
 	background-size: cover;
-        
-	
 	
 	.container {
 		padding: 20rem 0;
-		background: #280000; /* fallback for old browsers */
-		background: -webkit-linear-gradient(315deg, rgba(#280000,1) , rgba(#004e92,.75)); /* Chrome 10-25, Safari 5.1-6 */
-		background: linear-gradient(315deg, rgba(#280000,1), rgba(#004e92,.75)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		background: #280000;
+		background: -webkit-linear-gradient(315deg, rgba(#280000,1) , rgba(#004e92,.75));
+		background: linear-gradient(315deg, rgba(#280000,1), rgba(#004e92,.75));
 		width: 100%;
 	}
 	
 	h2 {
-		width: 920px;
+		width: 860px;
 		margin: 0 auto;
-		font: 900 4rem/1.4em 'Merriweather', serif;
+		font: 900 3.6rem/1.4em 'Merriweather', serif;
 		text-transform: uppercase;
-		// background: -webkit-linear-gradient(90deg, #fff 0%, rgba(#fff,0) 100%);
-		// background: linear-gradient(90deg, #fff 0%, rgba(#fff,0) 100%);
-		//   -webkit-background-clip: text;
-		//   -webkit-text-fill-color: transparent;
 	}
 	
 	h6 {
-		width: 920px;
+		width: 860px;
 		margin: 1.5rem auto 0;
 		font: 900 1.5rem/1.4em 'Merriweather', serif;
 	}

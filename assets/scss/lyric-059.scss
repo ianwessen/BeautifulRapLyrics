@@ -1,0 +1,30 @@
+
+.lyric-59 {
+	
+	padding: 0;
+	background-image: url('../../../public/img/galaxy.jpg');
+	background-size: cover;
+	background-position: -10% center;
+
+	.container {
+		padding: 300px 0;
+		width: 100%;
+		text-align: center;
+		background: rgba(#171c33,.8);
+	}
+	
+	p {
+		font: 400 2rem/1.4em 'Shrikhand', sans-serif;
+		background: -webkit-linear-gradient(90deg, #FEFFE7 0%, #FF5E3E 100%);
+		background: linear-gradient(90deg, #FEFFE7 0%, #FF5E3E 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+	
+	h6 {
+		margin-top: 2em;
+		font-weight: 900;
+	}
+
+}
+
