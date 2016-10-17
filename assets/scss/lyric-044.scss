@@ -6,28 +6,29 @@
 // Your heartbeat sound like sasquatch feet. Thundering, shaking the concrete.
 .lyric-44 {
 
-	background: #2B2B42;
+	background: #878E76;
 
   .container {
 	padding: 10em 0 7em;
 	width: 460px;
-	color:lighten(#2B2B42,20%);
   }
 
   h1 {
 	margin-bottom: 40px;
-	font: 900 72px / .9em 'Source Serif Pro', serif;
+	font: 900 72px / .9em 'Source Sans Pro', serif;
+	color: #BBDB9B;
   }
 
   p {
-	font: 300 22px / 1.4em 'Source Sans Pro', sans-serif;
-	color:lighten(#2B2B42,40%);
+	font: 300 22px / 1.4em 'Source Serif Pro', sans-serif;
+	color: #fff;
 
   }
 
   p:last-of-type {
 	margin: 2em 0;
-	// color: #fff;
-	color:lighten(#2B2B42,60%);
+	color: #9DB4AB;
+	font-weight: 700;
+	font-family: 'Source Sans Pro', serif;
   }
 }
