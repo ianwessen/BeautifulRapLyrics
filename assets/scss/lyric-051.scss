@@ -1,19 +1,17 @@
 .lyric-51 {
 
-	padding: 240px 0;
+	padding: 150px 0;
 	background: #d4e0eb;
-	background-image: url('../../img/arabesque.png');
 	text-align: center;
 	background-size: 100px;
 
 	.container {
-		padding: 60px 30px 0;
+		padding: 80px 40px 0;
 		position: relative;
 		width: 400px;
 		background: lighten(#d4e0eb,10%);
 		border-radius: 50%;
-		border: 30px solid darken(#d4e0eb,10%);
-		// transform: rotate(-6deg);
+		border: 60px solid darken(#d4e0eb,10%);
 	}
 	
 	h3 {
@@ -27,23 +25,25 @@
 	
 	h5 {
 		// We park infront of hosues and shoot
-		font: 400 1.4rem/1em 'Cabin', script;
-		text-align: center;
+		font: 700 1.4rem/1em 'Work Sans', script;
 		color: #575977;
+		text-align: center;
+		text-transform: uppercase;
 	}
 	
 	p {
 		// and if the police come...
-		font: 400 1.4rem/1.4em 'Cabin', script;
-		text-align: center;
+		font: 400 1rem/1.4em 'Work Sans', script;
 		color: #575977;
+		text-align: center;
+		text-transform: uppercase;
 	}
 	
 	h6 {
 		display: inline-block;
 		width: 180px;
 		margin-top: 2rem;
-		font: 700 1.2rem/2.2em 'Cabin', script;
+		font: 700 1.2rem/2.2em 'Work Sans', script;
 		background: #575977;
 		color: #f0f0f0;
 	}

@@ -22,12 +22,12 @@
 	
 	.sidebar {
 		position: absolute;
-		top: 0;
-		left: 0;
+		top: 30px;
+		bottom: 30px;
+		left: 30px;
 		width: 180px;
-		height: 100%;
 		background: #D5C5B9;
-		opacity: .15;
+		opacity: .2;
 	}
 	
 	h2 {
@@ -45,7 +45,7 @@
 	
 	p {
 		margin-top: 40px;
-		padding: 0 0 0 200px;
+		padding: 0 0 0 220px;
 		color: #857187;
 		font: 400 .9rem/1.5em 'Vollkorn', serif;
 	}
