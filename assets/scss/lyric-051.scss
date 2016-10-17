@@ -1,44 +1,49 @@
 .lyric-51 {
 
-	padding: 180px 0;
-	background: #fff;
-	background-image: url('../../img/wov.png');
+	padding: 240px 0;
+	background: #d4e0eb;
+	background-image: url('../../img/arabesque.png');
 	text-align: center;
 	background-size: 100px;
 
 	.container {
+		padding: 60px 30px 0;
 		position: relative;
-		width: 600px;
-		transform: rotate(-6deg);
+		width: 400px;
+		background: lighten(#d4e0eb,10%);
+		border-radius: 50%;
+		border: 30px solid darken(#d4e0eb,10%);
+		// transform: rotate(-6deg);
 	}
 	
 	h3 {
 		// We don't do drive bys
-		margin: 20px 0 35px;
-		font: 400 5rem/1em 'Lobster', script;
-		text-align: center;
+		margin: 30px 0 35px;
+		font: 400 4rem/1em 'Lobster', script;
 		color: #c16f70;
+		text-align: center;
+		transform: rotate(-6deg);
 	}
 	
 	h5 {
 		// We park infront of hosues and shoot
-		font: 700 2.6rem/1em 'Cabin', script;
+		font: 400 1.4rem/1em 'Cabin', script;
 		text-align: center;
 		color: #575977;
 	}
 	
 	p {
 		// and if the police come...
-		font: 700 40px/1.4em 'Cabin', script;
+		font: 400 1.4rem/1.4em 'Cabin', script;
 		text-align: center;
 		color: #575977;
 	}
 	
 	h6 {
 		display: inline-block;
-		width: 300px;
-		margin-top: 4rem;
-		font: 400 1.6rem/3em 'Cabin', script;
+		width: 180px;
+		margin-top: 2rem;
+		font: 700 1.2rem/2.2em 'Cabin', script;
 		background: #575977;
 		color: #f0f0f0;
 	}

@@ -2,10 +2,16 @@
 @import 'variables';
 
 .lyric-56 {
-	padding: 260px 0 220px;
+	padding: 200px 0 150px;
 	font-family: 'Bitter', serif;
 	color: #D7B377;
+	text-shadow: 2px 2px 0 #2B4162,
+	3px 3px 0 #2B4162,
+	4px 4px 0 #2B4162;
 	background: #2B4162;
+	background: #4B79A1; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom right, #4B79A1 , #283E51); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom right, #4B79A1 , #283E51); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	
 	.container {
 		text-align: center;
@@ -24,23 +30,20 @@
 	 	font-family: 'Oswald', sans-serif;
  		text-transform: uppercase;
 		margin: 1rem 0;
- 		line-height: 1.6em;
-		color: lighten(#385F71,8%);
-		border-top: 6px solid #385F71;
-		border-bottom: 6px solid #385F71;
+ 		line-height: .8em;
+		color: lighten(#385F71,30%);
 	}
 	p:nth-of-type(3) { font-size: 2.6rem;}
-	p:nth-of-type(5) { font-size: 3.2rem;}
-	p:nth-of-type(7) { font-size: 2.7rem;}
+	p:nth-of-type(5) { font-size: 3rem;}
+	p:nth-of-type(7) { font-size: 2.6rem;}
 	p:nth-of-type(8) { font-size: 1.2rem;}
 	
 	h6 {
-		margin-top: 4rem;
-		background: darken(#2B4162,8%);
-		color: lighten(#385F71,30%);
-		font: 700 1.5rem/2em 'Bitter', serif;
+		color: lighten(#385F71,8%);
+		font-family: 'Oswald', sans-serif;
+		font-size: 2rem;
+		line-height: 4em;
 		text-transform: uppercase;
 		text-align: center;
-		letter-spacing: .1em;
 	}
 }
