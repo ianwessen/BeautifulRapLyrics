@@ -4,23 +4,34 @@
 	font-family: 'Lato', sans-serif;
 	text-align: center;
 	text-transform: uppercase;
-	background: #4c7454;
+	background: #577e92;
 	
 	p {
 		font-size: 4rem;
-		line-height: 1.4em;
+		line-height: 1.6em;
 		font-weight: 100;
+		color: white;
+		   -webkit-text-fill-color: #577e92;
+		   -webkit-text-stroke-width: 1px;
+		   -webkit-text-stroke-color: white;
 		span { display: block }
-		span:nth-of-type(1) { font-size: 4.2rem; }
-		span:nth-of-type(3) { font-size: 3.2rem; }
+		span:nth-of-type(1),
+		span:nth-of-type(3) {
+			text-transform: none;
+		}
 	}
 	
 	h6 {
-		margin-top: 2em;
-		font-size: 1.4em;
-		font-weight: 700;
-		letter-spacing: 1.6em;
+		padding: .25em .75em;
+		display: inline-block;
+		margin: 3em 0 0 -.25em;
+		font-size: 1.6rem;
+		font-weight: 400;
+		letter-spacing: .08em;
+		background: darken(#577e92,20%);
 		
-		a { padding-left: 2em; }
+		a { 
+			color: #fff;
+		}
 	}
 }

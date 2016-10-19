@@ -1,52 +1,21 @@
 .lyric-60 {
 	
-	padding: 260px 0;
-	background: #857187;
+	padding: 200px 0;
+	background: #222;
+	p,h6 { 
+		font-size: 1.6rem;
+		line-height: 1.4em;
+	}
 	
 	.container {
-		width: 580px;
+		width: 310px;
+		font-family: "Archivo Black", sans-serif;
+		color: #393939;
+		
+		p span {
+			color: #5f5f5f;
+		}
 	}
-	
-	.paper {
-		position: relative;
-		padding: 6em 2em 4em;
-		background: #F8F8F8;
-		box-sizing: border-box;
-	}
-	
-	.body {
-		position: relative;
-		height: 100%;
-		z-index: 10;
-	}
-	
-	.sidebar {
-		position: absolute;
-		top: 30px;
-		bottom: 30px;
-		left: 30px;
-		width: 180px;
-		background: #D5C5B9;
-		opacity: .2;
-	}
-	
-	h2 {
-		padding: 80px 0 0 60px;
-		font: 900 4rem/1.5em 'Playfair Display', serif;
-		font-style: italic;
-		color: #D5C5B9;
-	}
-	
-	h6 {
-		padding-left: 60px;
-		font: 900 1.5rem/1em 'Vollkorn', serif;
-		color: #ACDBD0;
-	}
-	
-	p {
-		margin-top: 40px;
-		padding: 0 0 0 220px;
-		color: #857187;
-		font: 400 .9rem/1.5em 'Vollkorn', serif;
-	}
+
 }
+

@@ -33,18 +33,23 @@
 	
 	p {
 		// and if the police come...
-		font: 400 1rem/1.4em 'Work Sans', script;
+		margin: 0;
+		padding: 1em 1em;
+		font: 700 1.1rem/1.8em 'Work Sans', script;
+		display: inline-block;
 		color: #575977;
 		text-align: center;
 		text-transform: uppercase;
+		background: #d4e0eb;
+		background: lighten(#d4e0eb,10%);
+		border: 2px solid #575977;
 	}
 	
 	h6 {
 		display: inline-block;
 		width: 180px;
-		margin-top: 2rem;
+		margin-top: -2em;
 		font: 700 1.2rem/2.2em 'Work Sans', script;
 		background: #575977;
-		color: #f0f0f0;
 	}
 }

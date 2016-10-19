@@ -3,48 +3,24 @@
 
 .lyric-56 {
 	padding: 200px 0 150px;
-	font-family: 'Bitter', serif;
-	color: #D7B377;
-	background: #4B79A1;
-	background: -webkit-linear-gradient(to bottom right, #4B79A1 , #283E51);
-	background: linear-gradient(to bottom right, #4B79A1 , #283E51);
+	color: #F4F2F3;
+	background: #8aa88b;
 	
 	.container {
+		width: 450px;
 		text-align: center;
-		width: 240px;
-		text-shadow: 2px 2px 0 #2B4162,
-		3px 3px 0 #2B4162,
-		4px 4px 0 #2B4162,
-		5px 5px 0 #2B4162,
-		6px 6px 0 #2B4162;
+		
+		span {
+			padding: 0 .25em;
+			background: #230903;
+		}
 	}
 	
 	p {
-		font-size: 1.6rem;
-		line-height: 1.8em;
+		font: 400 1.6rem/1.6em 'Bitter', serif;
 	}
-	
-	p:nth-of-type(3),
-	p:nth-of-type(5),
-	p:nth-of-type(7)
-	 {
- 		text-transform: uppercase;
-		margin: 1rem 0;
- 		line-height: .8em;
-		font-weight: 700;
-	}
-	p:nth-of-type(3) { font-size: 2rem;}
-	p:nth-of-type(5) { font-size: 2.5rem;}
-	p:nth-of-type(7) { font-size: 2.1rem;}
-	p:nth-of-type(8) { font-size: 1.2rem;}
 	
 	h6 {
-		color: lighten(#385F71,8%);
-		// font-family: 'Oswald', sans-serif;
-		font-size: 1.7rem;
-		line-height: 4em;
-		letter-spacing: .5em;
-		text-transform: uppercase;
-		text-align: center;
+		font: 700 2rem/4em 'Cabin', sans-serif;
 	}
 }

@@ -9,9 +9,13 @@
 
 	padding: 200px 0;
 	background: #eee;
+	
+	.container {
+		width: 685px;
+	}
 
 	.intro {
-		font-weight: 700;
+		font-weight: 740;
 	}
 
 	.indent {
@@ -25,11 +29,11 @@
 	}
 
 	p {
-		font: 400 15px / 1.6em 'PT Serif', serif;
+		font: 400 15px / 1.7em 'PT Serif', serif;
 		color: #374251;
-		-webkit-column-count: 3;
-		-moz-column-count: 3;
-		column-count: 3;
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+		column-count: 2;
 	}
 
 	h6 {

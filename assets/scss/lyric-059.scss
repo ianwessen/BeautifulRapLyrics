@@ -1,31 +1,52 @@
-
 .lyric-59 {
 	
-	padding: 0;
-	background-image: url('../../../public/img/galaxy.jpg');
-	background-size: cover;
-	background-position: -10% center;
-
+	padding: 260px 0;
+	background: #857187;
+	
 	.container {
-		padding: 300px 0;
-		width: 100%;
-		text-align: center;
-		background: rgba(#171c33,.8);
+		width: 580px;
 	}
 	
-	p {
-		font: 400 2rem/1.4em 'Shrikhand', sans-serif;
-		background: -webkit-linear-gradient(90deg, #FEFFE7 0%, #FF5E3E 100%);
-		background: linear-gradient(90deg, #FEFFE7 0%, #FF5E3E 100%);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
+	.paper {
+		position: relative;
+		padding: 6em 2em 4em;
+		background: #F8F8F8;
+		box-sizing: border-box;
+	}
+	
+	.body {
+		position: relative;
+		height: 100%;
+		z-index: 10;
+	}
+	
+	.sidebar {
+		position: absolute;
+		top: 30px;
+		bottom: 30px;
+		left: 30px;
+		width: 180px;
+		background: #D5C5B9;
+		opacity: .2;
+	}
+	
+	h2 {
+		padding: 80px 0 0 60px;
+		font: 900 4rem/1.5em 'Playfair Display', serif;
+		font-style: italic;
+		color: #D5C5B9;
 	}
 	
 	h6 {
-		font: 900 1rem/1.2em 'Work Sans', sans-serif;
-		margin-top: 2em;
-		text-transform: uppercase;
+		padding-left: 60px;
+		font: 900 1.5rem/1em 'Vollkorn', serif;
+		color: #ACDBD0;
 	}
-
+	
+	p {
+		margin-top: 40px;
+		padding: 0 0 0 220px;
+		color: #857187;
+		font: 400 .9rem/1.5em 'Vollkorn', serif;
+	}
 }
-

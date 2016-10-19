@@ -1,20 +1,29 @@
 .lyric-61 {
 	
-	padding: 200px 0;
-	background: #222;
-	p,h6 { 
-		font-size: 1.6rem;
-		line-height: 1.4em;
+	padding: 0;
+	background-image: url('../../../public/img/galaxy.jpg');
+	background-size: cover;
+	background-position: -10% center;
+
+	.container {
+		padding: 300px 0;
+		width: 100%;
+		text-align: center;
+		background: rgba(#171c33,.8);
 	}
 	
-	.container {
-		width: 310px;
-		font-family: "Archivo Black", sans-serif;
-		color: #393939;
-		
-		p span {
-			color: #5f5f5f;
-		}
+	p {
+		font: 400 2rem/1.4em 'Shrikhand', sans-serif;
+		background: -webkit-linear-gradient(90deg, #FEFFE7 0%, #FF5E3E 100%);
+		background: linear-gradient(90deg, #FEFFE7 0%, #FF5E3E 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+	
+	h6 {
+		font: 900 1rem/1.2em 'Work Sans', sans-serif;
+		margin-top: 2em;
+		text-transform: uppercase;
 	}
 
 }
