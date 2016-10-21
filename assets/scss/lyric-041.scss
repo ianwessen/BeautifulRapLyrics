@@ -11,15 +11,21 @@
 	background: #eee;
 	
 	.container {
-		width: 685px;
+		width: 760px;
+		overflow: auto;
 	}
 
 	.intro {
-		font-weight: 740;
+		font-weight: 700;
 	}
 
 	.indent {
 		padding-right: 2em;
+	}
+	
+	.pull-left,
+	.pull-right {
+		width: 48%;
 	}
 
 	h1 {
@@ -29,16 +35,16 @@
 	}
 
 	p {
-		font: 400 15px / 1.7em 'PT Serif', serif;
+		margin: 0;
+		font: 400 16px / 1.6em 'PT Serif', serif;
 		color: #374251;
-		-webkit-column-count: 2;
-		-moz-column-count: 2;
-		column-count: 2;
+		letter-spacing: .01em;
+		text-indent: 1em;
 	}
 
 	h6 {
 		display: inline-block;
-		margin: .5em 0 2em;
+		margin: .5em 0 4em;
 		padding: 0 .75em;
 		font: 700 20px / 2em 'PT Serif', serif;
 		color: #eee;
