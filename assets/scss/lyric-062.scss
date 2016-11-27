@@ -1,0 +1,27 @@
+.lyric-62 {
+	background: #C65146;
+	padding: 250px 0;
+	
+	.container {
+		width: 500px;
+		text-align: center;
+	}
+	
+	p {
+		font: 700 2rem/1.8em 'Oswald', sans-serif;
+		color: #3E4348;
+		text-transform: uppercase;
+	}
+	
+	p span {
+		padding: 0 .25em;
+		background: rgba(#000,.4);
+	}
+	
+	h6 {
+		margin-top: 3rem;
+		font: 700 2rem/1.8em 'Oswald', sans-serif;
+		color: #EC6A5C;
+		text-transform: uppercase;
+	}
+}
