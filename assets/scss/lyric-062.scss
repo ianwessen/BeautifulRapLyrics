@@ -1,5 +1,5 @@
 .lyric-62 {
-	background: #C65146;
+	background: #fff;
 	padding: 250px 0;
 	
 	.container {
@@ -8,19 +8,31 @@
 	}
 	
 	p {
-		font: 700 2rem/1.8em 'Oswald', sans-serif;
+		font: 700 2rem/2em 'Oswald', sans-serif;
 		color: #3E4348;
 		text-transform: uppercase;
 	}
 	
 	p span {
-		padding: 0 .25em;
-		background: rgba(#000,.4);
+		display: block;
+		
+		&:first-of-type {
+			font: 700 6rem/1.2em 'Oswald', sans-serif;
+		}
+		
+		&:nth-of-type(2) {
+			font: 700 8.8rem/1.2em 'Oswald', sans-serif;
+		}
+		
+		&:last-of-type {
+			font: 700 4rem/1.2em 'Oswald', sans-serif;
+		}
 	}
 	
+	
 	h6 {
-		margin-top: 3rem;
-		font: 700 2rem/1.8em 'Oswald', sans-serif;
+		margin-top: 1rem;
+		font: 700 5rem/2em 'Oswald', sans-serif;
 		color: #EC6A5C;
 		text-transform: uppercase;
 	}

@@ -16,22 +16,22 @@
 
 	p {
 		margin: 0 auto;
-		width: 180px;
-		font: 400 22px / 3em 'Lato', serif;
+		width: 400px;
+		font: 400 48px / 3em 'Lato', serif;
 		font-style: italic;
 		color: #fff;
 		text-shadow: 0px 1px 0px darken(#BE90D4, 30%),
-		0px 2px 0px darken(#BE90D4, 30%);
+		-2px 3px 0px darken(#BE90D4, 30%);
 	}
 
 	h6 {
 		width: 150px;
 		margin: 0 auto;
 		padding: 2em;
-		font: 900 20px / 1.6em 'Lato', serif;
+		font: 900 26px / 1.6em 'Lato', serif;
 		text-transform: uppercase;
 		color: #fff;
 		text-shadow: 0px 1px 0px darken(#BE90D4, 30%),
-		0px 2px 0px darken(#BE90D4, 30%);
+		-2px 3px 0px darken(#BE90D4, 30%);
 	}
   }

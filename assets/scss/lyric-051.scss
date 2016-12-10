@@ -6,50 +6,45 @@
 	background-size: 100px;
 
 	.container {
-		padding: 80px 40px 0;
+		padding: 105px 40px 55px;
 		position: relative;
-		width: 400px;
+		width: 540px;
 		background: lighten(#d4e0eb,10%);
 		border-radius: 50%;
 		border: 60px solid darken(#d4e0eb,10%);
 	}
 	
-	h3 {
-		// We don't do drive bys
-		margin: 30px 0 0;
-		font: 400 4rem/1em 'Lobster', script;
-		color: #c16f70;
-		text-align: center;
-		transform: rotate(-6deg);
-	}
-	
 	h5 {
-		// We park infront of hosues and shoot
-		font: 700 1.4rem/1em 'Work Sans', script;
+		// We don't do drive bys
+		font: 400 1.5rem/1em 'Work Sans', script;
 		color: #575977;
 		text-align: center;
-		text-transform: uppercase;
+	}
+	
+	h3 {
+		// We park infront of hosues and shoot
+		margin: 30px 0 10px;
+		font: 400 4rem/1.1em 'Playfair Display', script;
+		font-style: italic;
+		color: #c16f70;
+		text-align: center;
 	}
 	
 	p {
 		// and if the police come...
 		margin: 0;
 		padding: 1em 1em;
-		font: 700 1.1rem/1.8em 'Work Sans', script;
+		font: 400 1.5rem/1.8em 'Work Sans', script;
 		display: inline-block;
 		color: #575977;
 		text-align: center;
-		text-transform: uppercase;
-		// background: #d4e0eb;
-		// background: lighten(#d4e0eb,10%);
-		// border: 2px solid #575977;
 	}
 	
 	h6 {
 		display: inline-block;
-		width: 180px;
-		margin-top: -2em;
-		font: 700 1.2rem/2.2em 'Work Sans', script;
+		margin-top: .5em;
+		width: 160px;
+		font: 400 1.6rem/2em 'Work Sans', script;
 		background: #575977;
 	}
 }
