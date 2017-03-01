@@ -28,5 +28,10 @@
   "bugs": {
     "url": "https://github.com/ianwessen/100DOR/issues"
   },
-  "homepage": "https://github.com/ianwessen/100DOR#readme"
+  "homepage": "https://github.com/ianwessen/100DOR#readme",
+  "dependencies": {
+    "gulp-data": "^1.2.1",
+    "gulp-pug": "^3.2.0",
+    "pug": "^2.0.0-beta6"
+  }
 }

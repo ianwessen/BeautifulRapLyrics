@@ -6,27 +6,38 @@
 		width: 500px;
 		text-align: center;
 	}
-	
+
 	p {
-		font: 700 2rem/2em 'Oswald', sans-serif;
+		display: block;
+    font: 700 2rem/2em 'Oswald', sans-serif;
 		color: #3E4348;
 		text-transform: uppercase;
-	}
-	
-	p span {
-		display: block;
 		
-		&:first-of-type {
-			font: 700 6rem/1.2em 'Oswald', sans-serif;
-		}
-		
-		&:nth-of-type(2) {
-			font: 700 8.8rem/1.2em 'Oswald', sans-serif;
-		}
-		
-		&:last-of-type {
-			font: 700 4rem/1.2em 'Oswald', sans-serif;
-		}
+    &.either,
+    &.or,
+    &.stretcher {
+      line-height: 4em;
+      background: #3E4348;
+      color: #fff;
+    }
+    
+    &.m-y-o-b,
+    &.b-y-o {
+      line-height: .666em;
+      text-shadow:
+        -1px -1px 0 #fff,
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        1px 1px 0 #fff;  
+    }
+    
+    &.m-y-o-b {
+      font-size: 10rem;
+    }
+    
+    &.b-y-o {
+      font-size: 14rem;
+    }
 	}
 	
 	
