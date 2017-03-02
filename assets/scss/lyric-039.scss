@@ -5,33 +5,27 @@
 	padding: 200px 0;
 	position: relative;
 	background: #EECDA3;
-	background: -webkit-linear-gradient(to bottom, #EECDA3 , #EF629F);
-	background: linear-gradient(to bottom, #EECDA3 , #EF629F);
+	background: -webkit-linear-gradient(to bottom right, #EECDA3 , #EF629F);
+	background: linear-gradient(to bottom right, #EECDA3 , #EF629F);
 
 	
 	.container {
-		width: 600px;
+		width: 580px;
 		text-align: center;
 	}
 
 	p {
-		margin: 0 auto;
-		width: 400px;
-		font: 400 48px / 3em 'Lato', serif;
-		font-style: italic;
-		color: #fff;
-		text-shadow: 0px 1px 0px darken(#BE90D4, 30%),
-		-2px 3px 0px darken(#BE90D4, 30%);
+		font: 400 36px / 2em 'Bevan', serif;
+		color: lighten(#EECDA3,15%);
+		text-shadow: 3px 3px 0px darken(#BE90D4, 30%),
 	}
 
 	h6 {
-		width: 150px;
 		margin: 0 auto;
 		padding: 2em;
-		font: 900 26px / 1.6em 'Lato', serif;
+		font: 900 26px / 1.6em 'Lato', sans-serif;
 		text-transform: uppercase;
-		color: #fff;
-		text-shadow: 0px 1px 0px darken(#BE90D4, 30%),
-		-2px 3px 0px darken(#BE90D4, 30%);
+		color: lighten(#EECDA3,15%);
+		text-shadow: 3px 3px 0px darken(#BE90D4, 30%),
 	}
-  }
+}

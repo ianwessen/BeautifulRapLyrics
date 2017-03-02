@@ -5,31 +5,38 @@
 // I can hear sweat trickle down your cheek.
 // Your heartbeat sound like sasquatch feet. Thundering, shaking the concrete.
 .lyric-44 {
-
 	background: #878E76;
 
 	.container {
-		padding: 10em 0 7em;
+    position: relative;
+    z-index: 2;
+		padding: 6em 0 3em;
 		width: 460px;
 		text-align: center;
 	}
 
 	h1 {
-		margin-bottom: 40px;
-		font: 900 72px / 1.4em 'Source Serif Pro', serif;
-		color: #BBDB9B;
+    position: absolute;
+    z-index: -1;
+    top: 2rem;
+    left: 50%;
+    width: 540px;
+    margin-bottom: 40px;
+		font: 900 88px / 1 'Source Serif Pro', serif;
+		color: lighten(#878E76,5%);
+    transform: translateX(-50%);
 	}
 
 	p {
-		font: 300 22px / 3em 'Source Serif Pro', serif;
-		color: #fff;
+		font: 300 22px / 2em 'Source Serif Pro', serif;
+    color: #bbdb88;
 	}
 
   p:last-of-type {
-	margin: 2em 0;
-	color: #c5e0d6;
-	font-weight: 700;
-	font-family: 'Source Sans Pro', serif;
-	white-space: nowrap;
+  	margin: 3em 0;
+  	color: #c5e0d6;
+  	font-weight: 700;
+  	font-family: 'Source Sans Pro', serif;
+  	white-space: nowrap;
   }
 }

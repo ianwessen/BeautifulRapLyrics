@@ -7,10 +7,11 @@
 	
 	p:first-of-type {
 		@include absolute-center(800px);
-		top: 10rem;
-		font: 400 6rem/1.2em 'Oswald', sans-serif;
-		color: #f6f6f6;
+		top: 17rem;
+		font: 400 4.6rem/1.6em 'Oswald', sans-serif;
+		color: #F0f0f0;
 		text-transform: uppercase;
+    transform: rotate(-5deg);
 	}
 	
 	p:last-of-type {
@@ -21,8 +22,9 @@
 	}
 	
 	h6 {
+    font-size: 1.4rem;
 		@include absolute-center(400px);
-		bottom: 12rem;
+		bottom: 18rem;
 		color: #999;
 	}
 	

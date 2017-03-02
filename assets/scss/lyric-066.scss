@@ -1,0 +1,44 @@
+.lyric-66 {
+  height: 400px;
+  background: #2B2B42;
+  text-align: center;
+  
+  .foreground,
+  .background {
+    position: absolute;
+    width: 600px;
+    transform: translateX(-50%);
+  }
+  
+  .foreground {
+    z-index: 2;
+    top: 200px;
+    font-size: 5.6rem;
+    line-height: 1.1em;
+    font-family: 'Yellowtail', cursive;
+    color: #475E8A;
+  }
+  
+  .background {
+    z-index: 1;
+    top: 210px;
+    font-family: 'Oswald', sans-serif;;
+    font-size: 4.5rem;
+    line-height: 1.3em;
+    text-transform: uppercase;
+    color: #1D1D2C;
+  }
+  
+  h6 {
+    position: absolute;
+    width: 400px;
+    left: 50%;
+    bottom: 200px;
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: #475E8A;
+    transform: translateX(-50%);
+  }
+  
+}

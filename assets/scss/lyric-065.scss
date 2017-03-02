@@ -1,0 +1,61 @@
+.lyric-65 {
+  font-family: 'Rubik', sans-serif;
+  background: #87B4CB;
+  background: -webkit-linear-gradient(to top, darken(#87B4CB,15%) , #87B4CB); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, darken(#87B4CB,15%) , #87B4CB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  overflow: hidden;
+
+  .container {
+    width: 600px;
+    padding: 100px 0;
+    text-align: right;
+  }
+  
+  .cloud-container {
+    position: absolute;
+    width: 100%;
+    
+    &.foreground {
+      top: 325px;
+      animation: 20s drift linear infinite;
+      opacity: .4;
+      & > .cloud { width: 375px; }
+    }
+    
+    &.midground {
+      top: 255px;
+      animation: 30s drift linear infinite;
+      opacity: .333;
+      & > .cloud { width: 225px; }
+    }
+    
+    &.background {
+      top: 205px;
+      animation: 45s drift linear infinite;
+      opacity: .2;
+      & > .cloud { width: 125px; }
+    }
+  }
+  
+  p {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  h6 {
+    margin-top: 1em;
+    font-weight: 300;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+  }
+}
+
+@keyframes drift {
+  0% {
+    transform: translateX(-400px);
+  }
+  100% {
+    transform: translateX(calc(100% + 400px));
+  }
+}

@@ -1,14 +1,22 @@
 .lyric-64 {
-  height: 600px;
+  height: 620px;
   
-  background: #0B486B; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #0B486B , #F56217); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #0B486B , #F56217); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-          
+  // background: #457f9f; /* fallback for old browsers */
+  // background: -webkit-linear-gradient(to bottom, #457f9f, #F56217); /* Chrome 10-25, Safari 5.1-6 */
+  // background: linear-gradient(to bottom, #457f9f, #F56217); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  background: #7e74b2;
+  background: -moz-linear-gradient(-45deg, #7e74b2 9%, #b3a2c2 36%, #e2cdbe 66%, #f6cf97 85%, #f4a77a 100%);
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(9%, #7e74b2), color-stop(36%, #b3a2c2), color-stop(66%, #e2cdbe), color-stop(85%, #f6cf97), color-stop(100%, #f4a77a));
+  background: -webkit-linear-gradient(-45deg, #7e74b2 9%, #b3a2c2 36%, #e2cdbe 66%, #f6cf97 85%, #f4a77a 100%);
+  background: -o-linear-gradient(-45deg, #7e74b2 9%, #b3a2c2 36%, #e2cdbe 66%, #f6cf97 85%, #f4a77a 100%);
+  background: -ms-linear-gradient(-45deg, #7e74b2 9%, #b3a2c2 36%, #e2cdbe 66%, #f6cf97 85%, #f4a77a 100%);
+  background: linear-gradient(135deg, #7e74b2 9%, #b3a2c2 36%, #e2cdbe 66%, #f6cf97 85%, #f4a77a 100%);
+  
   .mountain {
     position: absolute;
     z-index: 0;
-    bottom: 100px;
+    bottom: 200px;
     width: 100%;
   }
   
@@ -17,7 +25,7 @@
     z-index: 0;
     bottom: 0;
     width: 100%;
-    height: 100px;
+    height: 200px;
     background: #000;
   }
   
@@ -26,18 +34,21 @@
     z-index: 2;
     width: 520px;
     padding-top: 300px;
+    text-align: center;
   }
   
   p {
     font-weight: 700;
     font-family: 'Noto Sans', sans-serif;
     font-size: 3rem;
-    color: #fff;
+    color: lighten(#CF665B,30%);
+    text-shadow: 1px 1px 12px rgba(0,0,0,.333);
   }
   
   p em {
     font-weight: 400;
     font-family: 'Covered By Your Grace', cursive;
+    color: lighten(#CF665B,15%);
   }
   
   h6 {

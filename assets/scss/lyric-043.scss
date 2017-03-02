@@ -6,14 +6,15 @@
 .lyric-43 {
 	background: url('../../img/calm-lake-mountains.jpg');
 	background-size: cover;
-	height: 600px;
+  // background-position: fixed;
+	height: 450px;
 
 	.text-container {
 		position: absolute;
 		top: 0;
 		width: 100%;
 		height: 100%;
-		padding: 400px 0 350px;
+		padding: 360px 0 350px;
 		color: #fff;
 		text-align: center;
 		background: rgba(#000, .6)
