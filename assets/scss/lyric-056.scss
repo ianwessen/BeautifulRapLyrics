@@ -1,10 +1,11 @@
-
 @import 'variables';
+
 
 .lyric-56 {
 	padding: 200px 0 150px;
 	color: #F4F2F3;
-	background: #8aa88b;
+	background-color: #5f6c60;
+  background-image: url('../../../public/img/concrete-wall.png');
 	
 	.container {
 		width: 450px;
@@ -12,7 +13,7 @@
 		
 		span {
 			padding: 0 .25em;
-			background: #230903;
+			background: #334234;
 		}
 	}
 	

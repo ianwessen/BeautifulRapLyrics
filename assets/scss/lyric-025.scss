@@ -12,30 +12,24 @@
 	padding: 240px 0;
 	text-align: center;
 	background: #5f2c82;
-	background: #6f749e;
-	background: -moz-linear-gradient(-45deg, #6f749e 0%, #9a8daf 31%, #d0a8b9 58%, #f8bbb1 80%, #fde6b1 100%);
-	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #6f749e), color-stop(31%, #9a8daf), color-stop(58%, #d0a8b9), color-stop(80%, #f8bbb1), color-stop(100%, #fde6b1));
-	background: -webkit-linear-gradient(-45deg, #6f749e 0%, #9a8daf 31%, #d0a8b9 58%, #f8bbb1 80%, #fde6b1 100%);
-	background: -o-linear-gradient(-45deg, #6f749e 0%, #9a8daf 31%, #d0a8b9 58%, #f8bbb1 80%, #fde6b1 100%);
-	background: -ms-linear-gradient(-45deg, #6f749e 0%, #9a8daf 31%, #d0a8b9 58%, #f8bbb1 80%, #fde6b1 100%);
-	background: linear-gradient(135deg, #6f749e 0%, #9a8daf 31%, #d0a8b9 58%, #f8bbb1 80%, #fde6b1 100%);
 
   .container {
-	display: inline-block;
-	padding: 2em 6em;
-	width: auto;
-	color: #444;
-	background: #f0f0f0;
+    display: inline-block;
+    padding: 4em 6em;
+    width: auto;
+    color: #fff;
+    background: #5f2c82;
+    box-shadow: 1px 1px 64px rgba(0,0,0,.5);
   }
 
   p {
-	font: 400 34px / 1.5em "Bangers", sans-serif;
+    font: 400 34px / 1.5em "Bangers", sans-serif;
   }
 
   h6 {
-	margin-top: 1em;
-	font: 400 18px / 1.4em  "Muli", sans-serif;
-	text-transform: uppercase;
+    margin-top: 1em;
+    font: 400 18px / 1.4em  "Muli", sans-serif;
+    text-transform: uppercase;
   }
 
 }
