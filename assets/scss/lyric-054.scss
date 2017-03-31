@@ -7,11 +7,11 @@
 	
 	p:first-of-type {
 		@include absolute-center(800px);
-		top: 17rem;
-		font: 400 4.6rem/1.6em 'Oswald', sans-serif;
+		top: 16rem;
+		font: 400 5rem/1.6em 'Oswald', sans-serif;
 		color: #F0f0f0;
 		text-transform: uppercase;
-    transform: rotate(-5deg);
+		letter-spacing: -.04em;
 	}
 	
 	p:last-of-type {
