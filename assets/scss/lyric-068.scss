@@ -1,0 +1,44 @@
+.lyric-68 {
+  
+  display: flex;
+  align-items: center;
+  height: 52em;
+  padding: 300px 0;
+  background: #ffda8e;
+  
+  .container {
+    width: 200px;
+    padding-top: 40px;
+    margin: 0 auto;
+    border: 20px double lighten(#ffda8e,5%);
+  }
+  
+  p {
+    font: 700 4em/1.4 'Merriweather', serif;
+    color: #004e66;
+    box-sizing: border-box;
+  }
+  
+  h6 {
+    margin-top: 40px;
+    font: 700 1.6em/2 'Libre Franklin', serif;
+    color: lighten(#566270,20%);
+    text-align: center;
+  }
+
+  p:nth-of-type(2n) {
+    text-align: right;
+  }
+  
+  p:nth-of-type(2n+1) {
+    transform: translateX(-.5em);
+  }
+  
+  p:nth-of-type(3n) {
+    transform: rotate(6deg);
+  }
+  p:nth-of-type(4n) {
+    transform: rotate(-4deg);
+  }
+  
+}

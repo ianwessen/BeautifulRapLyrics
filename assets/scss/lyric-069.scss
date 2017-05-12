@@ -1,0 +1,53 @@
+
+.lyric-69 {
+  
+  .container {
+    position: relative;
+    width: 400px;
+  }
+  
+  p {
+    margin: 0;
+    font-size: 22px;
+    line-height: 3;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+  }
+  
+  .love,
+  .hate {
+    padding-top: .3em;
+    font: 700 5em/1 'Crimson Text', serif;
+    text-transform: uppercase;
+    border-top: 18px solid;
+    border-bottom: 18px solid;
+  }
+  
+  .love {
+    border-color: #fff;
+  }
+
+  .hate {
+    border-color: #000;
+    color: #000;
+  }
+  
+  .amp {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font: 400 8em/1 'Crimson Text', serif;
+    font-style: italic;
+    color: #d84f4f;
+    transform: translate3d(-50%,-50%,0);
+  }
+  
+  h6 {
+    margin-top: 1.5em;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  
+}

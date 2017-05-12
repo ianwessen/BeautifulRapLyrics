@@ -1,24 +1,27 @@
 @import 'variables';
 
 .lyric-54 {
-	background: #fff;
+	background: lighten(#FEE16C,25%);
 	text-align: center;
 	height: 580px;
 	
 	p:first-of-type {
 		@include absolute-center(800px);
-		top: 16rem;
-		font: 400 5rem/1.6em 'Oswald', sans-serif;
-		color: #F0f0f0;
+		top: 15rem;
+		font: 400 6rem/1.5em 'Oswald', sans-serif;
+		color: #fff;
 		text-transform: uppercase;
-		letter-spacing: -.04em;
+		letter-spacing: -.1em;
+    -webkit-text-stroke: 1px #ddd;
 	}
 	
 	p:last-of-type {
 		@include absolute-center(800px);
-		top: 17rem;
-		font: 400 6rem/1.2em 'Grand Hotel', script;
-		color: #FEE16C;
+		top: 16rem;
+		font: 400 6.2rem/1.35em 'Grand Hotel', script;
+		color: lighten(#FEE16C,20%);
+    color: #FEE16C;
+    -webkit-text-stroke: 1px #ccc;
 	}
 	
 	h6 {
