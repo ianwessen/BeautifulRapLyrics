@@ -1,10 +1,10 @@
 .lyric-67 {
   
   background-color:#f4f4f4;
-  background-image: linear-gradient(rgba(#2980b9,.25) 2px, transparent 2px),
-  linear-gradient(90deg, rgba(#2980b9,.25) 2px, transparent 2px),
-  linear-gradient(rgba(#2980b9,.15) 1px, transparent 1px),
-  linear-gradient(90deg, rgba(#2980b9,.15) 1px, transparent 1px);
+  background-image: linear-gradient(rgba(#2980b9,.2) 2px, transparent 2px),
+  linear-gradient(90deg, rgba(#2980b9,.2) 2px, transparent 2px),
+  linear-gradient(rgba(#2980b9,.1) 1px, transparent 1px),
+  linear-gradient(90deg, rgba(#2980b9,.1) 1px, transparent 1px);
   background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
   background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
     
@@ -14,12 +14,12 @@
     top: 50%;
     left: 52%;
     width: 400px;
-  	height: 350px;
-  	-webkit-transform: skew(15deg) translate3D(-50%, -50%, 0);
-  	   -moz-transform: skew(15deg) translate3D(-50%, -50%, 0);
-  	     -o-transform: skew(15deg) translate3D(-50%, -50%, 0);
-  	background: white;
-    border: 2px solid #ccc;
+    height: 350px;
+    -webkit-transform: skew(15deg) translate3D(-50%, -50%, 0);
+    -moz-transform: skew(15deg) translate3D(-50%, -50%, 0);
+    -o-transform: skew(15deg) translate3D(-50%, -50%, 0);
+    background: white;
+    box-shadow: 1px 1px 42px rgba(0,0,0,.1);
   }
   
   .container {
