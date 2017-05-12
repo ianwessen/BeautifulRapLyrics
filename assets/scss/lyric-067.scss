@@ -15,9 +15,9 @@
     left: 52%;
     width: 400px;
     height: 350px;
-    -webkit-transform: skew(15deg) translate3D(-50%, -50%, 0);
-    -moz-transform: skew(15deg) translate3D(-50%, -50%, 0);
-    -o-transform: skew(15deg) translate3D(-50%, -50%, 0);
+    -webkit-transform: skew(5deg) translate3D(-50%, -50%, 0);
+    -moz-transform: skew(5deg) translate3D(-50%, -50%, 0);
+    -o-transform: skew(5deg) translate3D(-50%, -50%, 0);
     background: white;
     box-shadow: 1px 1px 42px rgba(0,0,0,.1);
   }
@@ -26,7 +26,8 @@
     position: relative;
     z-index: 2;
     padding: 150px 0;
-    width: 360px;
+    padding-left: 90px;
+    width: 400px;
   }
   
   p, h6 {
@@ -41,11 +42,11 @@
   
   p span {
     display: block;
-    padding-left: 10px;
+    padding-left: 3px;
   }
   
   h6 {
-    padding-left: 20px;
+    padding-left: 6px;
     color: #c0392b;
   }
 }

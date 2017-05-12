@@ -1,32 +1,32 @@
 .lyric-62 {
-	background: #CCDAD1;
-	padding: 250px 0;
+	background: #999;
+	padding: 150px 0 100px;
 	
 	.container {
-		width: 500px;
+		width: 100%;
 		text-align: center;
 	}
 
 	p {
 		display: block;
     font: 700 2rem/2em 'Oswald', sans-serif;
-		color: #788585;
+		color: #3E4348;
 		text-transform: uppercase;
 		
     &.either,
     &.or,
     &.stretcher {
       font-size: 3rem;
-      line-height: 3em;
-      background: #9CAEA9;
-      color: #CCDAD1;
+      line-height: 3.5em;
+      color: #3E4348;
+      background: #ac6b62;
     }
     
     &.m-y-o-b,
     &.b-y-o {
       line-height: .5em;
-	    -webkit-text-stroke-width: 4px;
-	    -webkit-text-stroke-color: #CCDAD1;
+	    // -webkit-text-stroke-width: 4px;
+	    // -webkit-text-stroke-color: #CCDAD1;
     }
     
     &.m-y-o-b {
@@ -40,9 +40,9 @@
 	
 	
 	h6 {
-		margin-top: 1rem;
-		font: 700 5rem/2em 'Oswald', sans-serif;
-		color: #6F6866;
+		margin-top: 4rem;
+		font: 700 2rem/2em 'Oswald', sans-serif;
+		color: #3E4348;
 		text-transform: uppercase;
 	}
 }
