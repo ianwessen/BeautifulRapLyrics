@@ -3,26 +3,28 @@
   display: flex;
   align-items: center;
   height: 52em;
-  padding: 300px 0;
+  padding: 50px 0;
   background: #ffda8e;
+  background: url(../../img/wov.png) 0% 0% / 20% #615652;
   
   .container {
     width: 200px;
     padding-top: 40px;
     margin: 0 auto;
-    border: 20px double lighten(#ffda8e,5%);
+    border: 20px double desaturate(lighten(#004e66,55%),80%);
   }
   
   p {
-    font: 700 4em/1.4 'Merriweather', serif;
+    font: 700 3em/1 'Merriweather', serif;
     color: #004e66;
     box-sizing: border-box;
   }
   
   h6 {
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     font: 700 1.6em/2 'Libre Franklin', serif;
-    color: lighten(#566270,20%);
+    color: lighten(#566270,10%);
     text-align: center;
   }
 

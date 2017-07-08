@@ -1,5 +1,5 @@
 .lyric-62 {
-	background: #999;
+	background: #82625e;
 	padding: 150px 0 100px;
 	
 	.container {
@@ -12,21 +12,24 @@
     font: 700 2rem/2em 'Oswald', sans-serif;
 		color: #3E4348;
 		text-transform: uppercase;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #CCDAD1;
 		
     &.either,
     &.or,
     &.stretcher {
-      font-size: 3rem;
-      line-height: 3.5em;
+      margin-bottom: .05em;
+      font-size: 4rem;
+      line-height: 1em;
       color: #3E4348;
-      background: #ac6b62;
+      
     }
     
     &.m-y-o-b,
-    &.b-y-o {
-      line-height: .5em;
-	    // -webkit-text-stroke-width: 4px;
-	    // -webkit-text-stroke-color: #CCDAD1;
+    &.b-y-o,
+    &.stretcher {
+      margin-bottom: .04em;
+      line-height: 1em;
     }
     
     &.m-y-o-b {
@@ -36,13 +39,17 @@
     &.b-y-o {
       font-size: 12rem;
     }
+    
+    &.stretcher {
+      font-size: 8rem;
+    }
 	}
 	
 	
 	h6 {
-		margin-top: 4rem;
-		font: 700 2rem/2em 'Oswald', sans-serif;
-		color: #3E4348;
+		margin-top: 1rem;
+		font: 700 3rem/2em 'Oswald', sans-serif;
+		color: #CCDAD1;
 		text-transform: uppercase;
 	}
 }

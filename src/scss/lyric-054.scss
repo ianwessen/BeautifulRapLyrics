@@ -6,12 +6,12 @@
 	height: 580px;
 	
 	p:first-of-type {
-		@include absolute-center(800px);
+		@include absolute-center(900px);
 		top: 15rem;
 		font: 400 6rem/1.5em 'Oswald', sans-serif;
 		color: #fff;
 		text-transform: uppercase;
-		letter-spacing: -.1em;
+		letter-spacing: -.06em;
     -webkit-text-stroke: 1px #ddd;
 	}
 	
@@ -19,9 +19,8 @@
 		@include absolute-center(800px);
 		top: 16rem;
 		font: 400 6.2rem/1.35em 'Grand Hotel', script;
-		color: lighten(#FEE16C,20%);
     color: #FEE16C;
-    -webkit-text-stroke: 1px #ccc;
+    letter-spacing: .03em;
 	}
 	
 	h6 {

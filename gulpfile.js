@@ -8,15 +8,15 @@ var gulp = require('gulp'),
  
 var paths = {
   sass: './src/styles/',
-  css: './public/css/',
+  css: './dist/css/',
 };
 
 gulp.task('compileSass', function() {
-  gulp.src('assets/**/*.scss')
+  gulp.src('src/**/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(concatCss("app.css"))
     .pipe(minify("app.css"))
-    .pipe(gulp.dest('./public/css/'))
+    .pipe(gulp.dest('./dist/css/'))
     .pipe(connect.reload());
 })
 
@@ -28,7 +28,7 @@ gulp.task('compilePug', function() {
 })
 
 gulp.task('watch', function() {
-  gulp.watch(['assets/**/*.scss'],['compileSass']),
+  gulp.watch(['src/**/*.scss'],['compileSass']),
   gulp.watch(['./*.pug'],['compilePug']);
 });
 
@@ -39,30 +39,3 @@ gulp.task('connect', function() {
 });
 
 gulp.task('default', ['watch', 'connect']);
-
-// var gulp = require('gulp'); 
-// var sass = require('gulp-sass');
-// var concatCss = require('gulp-concat-css');
-// var minify = require('gulp-clean-css');
-// var connect = require('gulp-connect');
-//     
-// gulp.task('compileSass', function() {
-// 	gulp.src('assets/**/*.scss')
-// 		.pipe(sass().on('error', sass.logError))
-// 		.pipe(concatCss("app.css"))
-// 		.pipe(minify("app.css"))
-// 		.pipe(gulp.dest('./public/css/'))
-// 		.pipe(connect.reload());
-// })
-// 
-// gulp.task('watchMyStyles', function() {
-// 	gulp.watch('assets/**/*.scss',['compileSass']);
-// });
-// 
-// gulp.task('connect', function() {
-// 	connect.server({
-// 		livereload: true
-// 	});
-// });
-// 
-// gulp.task('default', ['watchMyStyles', 'connect']);

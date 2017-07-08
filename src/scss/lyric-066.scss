@@ -6,27 +6,21 @@
   .foreground,
   .background {
     position: absolute;
+    top: 200px;
     width: 600px;
-    transform: translateX(-50%);
+    font: 400 5.6rem/1.2 'Yellowtail', cursive;
   }
   
   .foreground {
     z-index: 2;
-    top: 200px;
-    font-size: 5.6rem;
-    line-height: 1.1em;
-    font-family: 'Yellowtail', cursive;
     color: #475E8A;
+    transform: translate3d(-50%, 0, 0);
   }
   
   .background {
     z-index: 1;
-    top: 200px;
-    font-family: 'Oswald', sans-serif;;
-    font-size: 4.5rem;
-    line-height: 1.45em;
-    text-transform: uppercase;
     color: #1D1D2C;
+    transform: translate3d(-60%, 10%, 0);
   }
   
   h6 {
@@ -39,6 +33,7 @@
     font-family: 'Roboto', sans-serif;
     color: #475E8A;
     transform: translateX(-50%);
+    text-shadow: -20px 20px 0 #1D1D2C;
   }
   
 }
