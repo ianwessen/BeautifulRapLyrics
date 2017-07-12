@@ -11,14 +11,14 @@
 
 	padding: 240px 0;
 	text-align: center;
-	background: #5f2c82;
+	background: #42282F;
 
   .container {
     display: inline-block;
-    padding: 4em 6em;
+    padding: 4em 6em 2em;
     width: auto;
     color: #fff;
-    background: #5f2c82;
+    background: lighten(#42282F,5%);
     box-shadow: 1px 1px 64px rgba(0,0,0,.5);
   }
 
@@ -27,8 +27,9 @@
   }
 
   h6 {
-    margin-top: 1em;
-    font: 400 18px / 1.4em  "Muli", sans-serif;
+    margin-top: .5em;
+    font: 400 25px / 2em  "Muli", sans-serif;
+    color: lighten(#42282F,30%);
     text-transform: uppercase;
   }
 

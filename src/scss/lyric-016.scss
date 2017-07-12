@@ -2,7 +2,7 @@
 
 .lyric-16 {
   // E.E. Cumming on her face now that's poetry in motion
-  background: #C77966;
+  background: #01A2A6;
   background-image: url('../../img/connected.png');
   text-align: center;
 
@@ -11,20 +11,19 @@
   }
 
   p {
-	margin-bottom: 80px;
+	margin-bottom: 40px;
 	font-family: 'Bhavuka', cursive;
 	font-size: 54px;
-	color: #E3CDA4;
+	color: #fff;
   }
 
   h6 {
 	display: inline-block;
 	padding: .25em 1.25em;
-	font-family: 'Yanone Kaffeesatz', sans-serif;
-	font-size: 32px;
+	font-size: 20px;
 	letter-spacing: .08em;
 	text-transform: uppercase;
-	border: 2px solid #E3CDA4;
-	color: #E3CDA4;
+	border: 2px solid #fff;
+	color: #fff;
   }
 }

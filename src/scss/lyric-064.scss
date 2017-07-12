@@ -6,7 +6,7 @@
     position: relative;
     z-index: 2;
     width: 520px;
-    text-align: center;
+    // text-align: center;
   }
 
   .mountain {
@@ -33,24 +33,19 @@
   }
   
   p {
-    font-weight: 700;
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 3rem;
-    color: lighten(#CF665B,30%);
-  }
-  
-  p em {
-    font-weight: 400;
     font-family: 'Covered By Your Grace', cursive;
-    color: #CF665B;
+    font-size: 3rem;
+    font-weight: 400;
+    color: lighten(#CF665B,30%);
+    text-shadow: 1px 1px 16px rgba(#000,.2);
   }
   
   h6 {
-    margin-top: 1rem;
+    margin-top: 2rem;
     font-family: 'Noto Sans', sans-serif;
     font-size: 2rem;
     font-weight: 700;
-    text-transform: uppercase;
-    color: lighten(#CF665B,15%);
+    color: darken(#CF665B,5%);
+    text-shadow: 1px 1px 16px rgba(#000,.2);
   }
 }
