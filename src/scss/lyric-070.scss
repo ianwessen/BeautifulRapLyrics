@@ -4,16 +4,18 @@
   text-align: center;
   
   p {
-    font: 400 60px/2 'AbeeZee', sans-serif;
+    font: 400 60px/1.2 'AbeeZee', sans-serif;
     color: lighten(#8FA68E,20%);
+    z-index: 2;
   }
   
   .divider {
     display: inline-block;
-    height:3em;
+    height: 2em;
     width: 250px;
     margin: 0 2em;
     background: lighten(#8FA68E,5%);
+    z-index: 1;
   }
   
   .like {
@@ -22,7 +24,15 @@
   }
   
   h6 {
-    font: 400 40px/2 'AbeeZee', sans-serif;
+    margin-top: 1em;
+    font: 400 40px/1.5 'AbeeZee', sans-serif;
     color: #CCC59E;
+  }
+  
+  @media (max-width: 900px) {
+    .divider {
+      width: 90%;
+      margin: 0 auto;
+    }
   }
 }

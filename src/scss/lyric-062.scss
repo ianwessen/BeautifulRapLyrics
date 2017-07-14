@@ -1,6 +1,6 @@
 .lyric-62 {
-	background: #82625e;
-	padding: 150px 0 100px;
+	background: #836658;
+	padding: 250px 0 200px;
 	
 	.container {
 		width: 100%;
@@ -10,10 +10,9 @@
 	p {
 		display: block;
     font: 700 2rem/2em 'Oswald', sans-serif;
-		color: #3E4348;
+		color: #CCDAD1;
 		text-transform: uppercase;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #CCDAD1;
+    text-shadow: 1px 1px 32px rgba(0,0,0,.5);
 		
     &.either,
     &.or,
@@ -21,8 +20,6 @@
       margin-bottom: .05em;
       font-size: 4rem;
       line-height: 1em;
-      color: #3E4348;
-      
     }
     
     &.m-y-o-b,
@@ -47,9 +44,10 @@
 	
 	
 	h6 {
-		margin-top: 1rem;
+		margin-top: 3rem;
 		font: 700 3rem/2em 'Oswald', sans-serif;
 		color: #CCDAD1;
 		text-transform: uppercase;
+    text-shadow: 1px 1px 32px rgba(0,0,0,.5);
 	}
 }

@@ -16,15 +16,15 @@
 	
 	h5 {
 		// We don't do drive bys
-		font: 400 1.5rem/1em 'Work Sans', script;
+		font: 400 1.5rem/1em 'Roboto', sans-serif;
 		color: #575977;
 		text-align: center;
 	}
 	
 	h3 {
 		// We park infront of hosues and shoot
-		margin: 30px 0 10px;
-		font: 400 4rem/1.1em 'Playfair Display', script;
+		margin: 10px 0;
+		font: 700 4rem/1em 'Playfair Display', script;
 		font-style: italic;
 		color: #c16f70;
 		text-align: center;
@@ -34,7 +34,7 @@
 		// and if the police come...
 		margin: 0;
 		padding: .5em .5em;
-		font: 400 1.5rem/1.2em 'Work Sans', script;
+		font: 400 1.5rem/1.5em 'Roboto', script;
 		display: inline-block;
 		color: #575977;
 		text-align: center;
@@ -42,9 +42,9 @@
 	
 	h6 {
 		display: inline-block;
-		margin-top: .5em;
+		margin-top: 1em;
 		width: 160px;
-		font: 400 1.6rem/2em 'Work Sans', script;
+		font: 400 1.6rem/2em 'Roboto', script;
 		background: #575977;
 	}
 }

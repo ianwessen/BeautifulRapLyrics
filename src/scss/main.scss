@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   color: $base-text;
   background: $base-background;
+  overflow-x: hidden;
 }
 
 h1,
