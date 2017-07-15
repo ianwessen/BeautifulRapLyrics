@@ -1,0 +1,58 @@
+.lyric-74 {
+  
+  padding: 200px 0;
+  background: #E3CDA4;
+  
+  p {
+    color: #703030;
+  }
+  
+  .container {
+    width: 700px;
+  }
+  
+  .heading {
+    display: block;
+    margin-bottom: .25em;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: "Lora", serif;
+  }
+  
+  .subheading {
+    margin-bottom: 1em;
+    display: block;
+    line-height: 1.4;
+    font-weight: 300;
+    font-size: 28px;
+    font-family: "Lora", serif;
+  }
+  
+  .body {
+    display: block;
+    padding-left: 40%;
+    font-family: "Lora", serif;
+    line-height: 1.5em;
+  }
+  
+  .body:first-of-type {
+    border-top: 1px solid #fff;
+  }
+  
+  h6 {
+    margin-top: 1em;
+    line-height: 3;
+    font-size: 30px;
+    padding-left: 20%;
+    font-family: "Meddon", serif;
+    color: #C77966;
+  }
+  
+  @media (max-width: 700px) {
+    .body,
+    h6 {
+      padding-left: 0%;
+    }
+  }
+}

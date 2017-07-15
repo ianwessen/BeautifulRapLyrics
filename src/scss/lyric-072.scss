@@ -1,33 +1,53 @@
-@import 'variables';
-
 .lyric-72 {
-  height: 700px;
-  padding: 0;
-  background-color: #827989;
-  
-  .phonograph {
-    position: absolute;
-    transform: translate3d(-110%,-30%,0);
-    width: 500px;
-    height: 500px;
-    background: url(../../img/phonograph.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    opacity: .25;
-  }
+  background-color: #C77966;
   
   .container {
-    @include absolute-total-center(600px);
-    left: 70%;
+    position: relative;
+    width: 400px;
   }
   
   p {
-    margin-bottom: 1em;
-    font: 400 20px/1.4 'Scope One', serif;
+    margin: 0;
+    font-size: 22px;
+    line-height: 3;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+  }
+  
+  .love,
+  .hate {
+    padding-top: .3em;
+    font: 700 5em/1 'Crimson Text', serif;
+    text-transform: uppercase;
+    border-top: 18px solid;
+    border-bottom: 18px solid;
+  }
+  
+  .love {
+    border-color: #fff;
+  }
+
+  .hate {
+    border-color: #000;
+    color: #000;
+  }
+  
+  .amp {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font: 400 8em/1 'Crimson Text', serif;
+    font-style: italic;
+    color: #942424;
+    transform: translate3d(-50%,-50%,0);
   }
   
   h6 {
-    font: 400 20px/1.4 'Scope One', serif;
+    margin-top: 1.5em;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
   }
+  
   
 }

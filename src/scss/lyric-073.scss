@@ -1,0 +1,53 @@
+.lyric-73 {
+  padding: 300px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-color: #fff;
+  
+  .container {
+    width: 520px;
+  }
+  
+  p {
+    padding-left: 1.75em;
+    position: relative;
+    display: block;
+    font-family: "Yantramanav", sans-serif;
+    color: #555;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  p .dropcap {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate3d(-50%,-50%,0);
+    color: #fff;
+    font-family: "Playfair Display", cursive;
+    font-style: italic;
+    font-size: 150px;
+    line-height: 1.5;
+    background: #3A1C71;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom left, #FFAF7B, #D76D77, #3A1C71);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom left, #FFAF7B, #D76D77, #3A1C71); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  }
+  
+  p .nerves {
+    display: block;
+    padding-left: 1em;
+  }
+  
+  h6 {
+    padding-top: .75em;
+    padding-left: 4em;
+    font-size: 18px;
+    font-family: "Playfair Display", cursive;
+    font-style: italic;
+    color: #555;
+  }
+}
