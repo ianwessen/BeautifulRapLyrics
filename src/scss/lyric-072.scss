@@ -1,7 +1,33 @@
+@import 'variables';
+
 .lyric-72 {
+  height: 700px;
+  padding: 0;
+  background-color: #827989;
+  
+  .phonograph {
+    position: absolute;
+    transform: translate3d(-110%,-30%,0);
+    width: 500px;
+    height: 500px;
+    background: url(../../img/phonograph.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: .25;
+  }
   
   .container {
-    width: 600px;
+    @include absolute-total-center(600px);
+    left: 70%;
+  }
+  
+  p {
+    margin-bottom: 1em;
+    font: 400 20px/1.4 'Scope One', serif;
+  }
+  
+  h6 {
+    font: 400 20px/1.4 'Scope One', serif;
   }
   
 }

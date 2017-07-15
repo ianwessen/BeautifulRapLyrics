@@ -11,21 +11,29 @@ $base-text: #eee;
   margin-left: -1 * $width * 0.5
 }
 
-@mixin five-tone-diagonal-gradient($first-color, $first-color-position, 
-  $second-color, $second-color-position, $third-color, $third-color-position, 
+@mixin absolute-total-center($width) {
+  position: absolute;
+  width: $width;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%,-50%,0);
+}
+
+@mixin five-tone-diagonal-gradient($first-color, $first-color-position,
+  $second-color, $second-color-position, $third-color, $third-color-position,
   $fourth-color, $fourth-color-position, $fifth-color, $fifth-color-position) {
     /* Old browsers */
     background: $first-color;
     /* FF3.6+ */
-    background: -moz-linear-gradient(-45deg,  $first-color $first-color-position, 
-      $second-color $second-color-position, $third-color $third-color-position, 
+    background: -moz-linear-gradient(-45deg,  $first-color $first-color-position,
+      $second-color $second-color-position, $third-color $third-color-position,
       $fourth-color $fourth-color-position, $fifth-color $fifth-color-position);
     /* Chrome,Safari4+ */
-    background: -webkit-gradient(linear, left top, right bottom, 
-      color-stop($first-color-position,$first-color), 
-      color-stop($second-color-position,$second-color), 
-      color-stop($third-color-position,$third-color), 
-      color-stop($fourth-color-position,$fourth-color), 
+    background: -webkit-gradient(linear, left top, right bottom,
+      color-stop($first-color-position,$first-color),
+      color-stop($second-color-position,$second-color),
+      color-stop($third-color-position,$third-color),
+      color-stop($fourth-color-position,$fourth-color),
       color-stop($fifth-color-position,$fifth-color));
     /* Chrome10+,Safari5.1+ */
     background: -webkit-linear-gradient(-45deg, $first-color $first-color-position,

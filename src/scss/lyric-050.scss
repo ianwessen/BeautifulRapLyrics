@@ -2,7 +2,10 @@
 	padding: 270px 0;
 	background: #3c5063;
 	color: #eddb99;
-	text-align: center;
+  
+  .container {
+    width: 540px;
+  }
 	
 	h4 {
 		display: inline-block;
@@ -10,13 +13,14 @@
 	}
 	
 	p {
-		margin-top: -2em;
+		margin-bottom: 2em;
 		padding: 0 0 2em;
 		font: 400 18px/2 'Coustard', serif;
 		color: #fff;
 	}
 	
 	h6 {
+    margin-top: -2em;
 		font: 900 24px/1.7em 'Raleway', sans-serif;
 		text-transform: uppercase;
 		letter-spacing: .1em;

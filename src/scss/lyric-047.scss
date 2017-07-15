@@ -3,10 +3,18 @@
 // appetite for destruction but I scrape the plate
 
 .lyric-47 {
-	height: 500px;
+  padding: 0;
+	height: 800px;
 	text-align: center;
-	background-color: lighten(#34495e,20%);
+	background-color: lighten(#34495e,30%);
 	background-size: 120px  120px;
+  
+  .container {
+    position: relative;
+    width: 800px;
+    height: 100%;
+    background-color: lighten(#34495e,20%);
+  }
 	
 	.dish {
 		@include absolute-center(500px);
