@@ -11,42 +11,40 @@
   background: $background;
 
   .container {
-	position: relative;
-	width: 460px;
-	overflow: auto;
-  }
-
-  .column {
-	float: left;
-	width: 50%;
+    display: flex;
+  	width: 640px;
   }
 
   .left.column {
-	text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+  	text-align: center;
   }
 
   .right.column {
-	padding-left: 2em;
-	border-left: 4px solid lighten($background, 7%);
-	box-sizing: border-box;
+    flex: 2;
+  	padding-left: 2em;
+  	border-left: 4px solid lighten($background, 15%);
+  	box-sizing: border-box;
   }
 
   p {
-	margin-bottom: 1em;
-	font: 18px / 3em 'Crimson Text', serif;
-	color: $white;
+  	margin-bottom: 1em;
+  	font: 24px / 1.5em 'Crimson Text', serif;
+  	color: $white;
   }
 
   p:last-of-type {
-	margin: 0;
+  	margin: 0;
   }
 
   h6 {
-	margin-top: 6em;
-	font: 700 20px / 1em 'Crimson Text', sans-serif;
-	color: lighten($background, 10%);
-	text-transform: uppercase;
-	letter-spacing: .16em;
+  	font: 700 28px / 1em 'Crimson Text', sans-serif;
+  	color: lighten($background, 20%);
+  	text-transform: uppercase;
+  	letter-spacing: .16em;
   }
 
 }

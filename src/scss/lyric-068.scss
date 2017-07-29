@@ -2,10 +2,9 @@
   
   display: flex;
   align-items: center;
-  height: 52em;
+  height: 35em;
   padding: 50px 0;
   background: #ffda8e;
-  // background: url(../../img/wov.png) 0% 0% / 20% #615652;
   
   .container {
     width: 200px;
@@ -15,7 +14,7 @@
   }
   
   p {
-    font: 700 3em/1 'Merriweather', serif;
+    font: 700 3em/.8 'Merriweather', serif;
     color: #004e66;
     box-sizing: border-box;
   }

@@ -1,58 +1,51 @@
 .lyric-74 {
-  
-  padding: 200px 0;
-  background: #E3CDA4;
-  
-  p {
-    color: #703030;
-  }
-  
-  .container {
-    width: 700px;
-  }
-  
-  .heading {
-    display: block;
-    margin-bottom: .25em;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 1.2;
+    padding: 180px 0 150px;
+    background: #174C4F;
     font-family: "Lora", serif;
-  }
-  
-  .subheading {
-    margin-bottom: 1em;
-    display: block;
-    line-height: 1.4;
-    font-weight: 300;
-    font-size: 28px;
-    font-family: "Lora", serif;
-  }
-  
-  .body {
-    display: block;
-    padding-left: 40%;
-    font-family: "Lora", serif;
-    line-height: 1.5em;
-  }
-  
-  .body:first-of-type {
-    border-top: 1px solid #fff;
-  }
-  
-  h6 {
-    margin-top: 1em;
-    line-height: 3;
-    font-size: 30px;
-    padding-left: 20%;
-    font-family: "Meddon", serif;
-    color: #C77966;
-  }
-  
-  @media (max-width: 700px) {
-    .body,
-    h6 {
-      padding-left: 0%;
+    
+    .container {
+      width: 680px;
     }
-  }
+    
+    h3 {
+      font-size: 72px;
+      font-weight: 700;
+      color: #FF9666;
+    }
+    
+    h4 {
+      padding: .5em 0;
+      line-height: 1.6em;
+      font-size: 28px;
+      font-style: italic;
+      color: #FFE184;
+    }
+    
+    .body {
+      display: flex;
+    }
+    
+    .left {
+      flex: 3;
+      padding-top: 1.5em;
+      padding-right: 3em;
+    }
+    
+    .left h6 {
+      font-size: 30px;
+      font-family: "Questrial", sans-serif;
+      line-height: 1.5;
+      text-align: right;
+      color: #46868c;
+    }
+
+    .right {
+      flex: 5;
+    }
+    
+    .right span {
+      display: block;
+      line-height: 1.6;
+      color: #F5E9BE;
+    }
 }
