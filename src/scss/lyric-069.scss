@@ -1,34 +1,42 @@
 @import 'variables';
 
 .lyric-69 {
-  height: 800px;
+  height: 700px;
   padding: 0;
   background-color: #827989;
   
   .phonograph {
     position: absolute;
-    transform: translate3d(-80%,0,0);
-    width: 500px;
+    z-index: -1;
+    transform: translate3d(-70%,-20%,0);
+    width: 600px;
     height: 500px;
-    background: url(../../img/phonograph.jpg);
+    background: url(../../img/phonograph.png);
     background-size: contain;
     background-repeat: no-repeat;
-    opacity: .3;
+    opacity: .1;
   }
   
   .container {
     @include absolute-total-center(600px);
-    top: 40%;
-    left: 70%;
+    top: 50%;
+    left: 60%;
   }
   
   p {
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
     font: 400 20px/1.4 'Scope One', serif;
+  }
+
+  h6 span {
+    font: 400 16px/1.4 'Scope One', serif;
+    letter-spacing: .1em;
   }
   
   h6 {
-    font: 400 20px/1.4 'Scope One', serif;
+    font: 400 16px/1.4 'Scope One', serif;
   }
+
+
   
 }

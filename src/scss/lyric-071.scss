@@ -1,29 +1,48 @@
 .lyric-71 {
-  
-  padding: 200px 0;
-  background: #f0f5f9;
-  
+  padding: 0;
+  height: 800px;
+  background-image: url('../../img/chalkboard.jpg');
+  background-size: cover;
+  background-position: center 40%;
+
+  .overlay {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: .8;
+    background-color: #532C26;
+    box-shadow: 0px 0px 16px rgba(0,0,0,.5);
+  }
+
   .container {
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    left: 50%;
     width: 600px;
+    padding: 2em 4em;
+    transform: translate3d(-50%,-50%,0);
   }
   
   p {
-    font: 400 30px/2 'Raleway', sans-serif;
-    color: #52616a;
+    font: 400 22px/2 'Rock Salt', sans-serif;
+    text-shadow: 0px 0px 16px rgba(0,0,0,.75);
   }
   
   p span {
     display: block;
     font: 400 64px/2 'Meddon', cursive;
-    color: #c9d6de;
+    text-transform: none;
   }
   
   h6 {
     margin-top: 2em;
-    font: 900 18px/2 'Raleway', sans-serif;
-    letter-spacing: .2em;
-    text-transform: uppercase;
-    color: #52616a;
+    font: 400 22px/2 'Rock Salt', sans-serif;
+    text-shadow: 0px 0px 8px rgba(0,0,0,.5);
+    color: lighten(#532C26, 40%);
   }
   
 }

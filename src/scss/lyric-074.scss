@@ -1,51 +1,56 @@
 .lyric-74 {
-    padding: 180px 0 150px;
-    background: #174C4F;
+    padding: 180px 0;
     font-family: "Lora", serif;
+    color: #fff;
+    background-image: url('../../img/inkwater.jpg');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-color: #FEEAD6;
     
     .container {
-      width: 680px;
+      width: 700px;
     }
     
     h3 {
       font-size: 72px;
       font-weight: 700;
-      color: #FF9666;
+      color: lighten(#E44758,10%);
     }
     
     h4 {
-      padding: .5em 0;
-      line-height: 1.6em;
+      padding: .5em 0 1em;
+      line-height: 1.4em;
       font-size: 28px;
-      font-style: italic;
-      color: #FFE184;
+      font-family: "Quicksand", sans-serif;
+      color: #E44758;
     }
     
     .body {
       display: flex;
+      color: #883052;
     }
     
     .left {
-      flex: 3;
-      padding-top: 1.5em;
-      padding-right: 3em;
+      flex: 1;
+      margin-right: 3em;
+      padding-top: 1em;
+      border-top: 2px solid #E44758;
     }
     
     .left h6 {
-      font-size: 30px;
-      font-family: "Questrial", sans-serif;
+      font-size: 20px;
+      font-family: "Quicksand", sans-serif;
       line-height: 1.5;
-      text-align: right;
-      color: #46868c;
+      text-transform: uppercase;
     }
 
     .right {
-      flex: 5;
+      flex: 2;
     }
     
     .right span {
       display: block;
-      line-height: 1.6;
-      color: #F5E9BE;
+      line-height: 1.7;
     }
 }

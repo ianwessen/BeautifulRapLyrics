@@ -69,17 +69,23 @@ a {
 }
 
 .day-index {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   top: 50px;
   left: 50%;
+  height: 36px;
+  width: 36px;
   margin-left: -17px;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
 
   span {
-	display: inline-block;
+	display: flex;
+    align-items: center;
+    justify-content: center;
 	width: 34px;
 	height: 34px;
-	padding-top: 5px;
 	border: 1px solid $white;
 	border-radius: 50%;
 	box-sizing: border-box;
@@ -114,6 +120,10 @@ a {
 
 .pull-right {
 	float: right;
+}
+
+.uppercase {
+	text-transform: uppercase;
 }
 
 // =============================================================================

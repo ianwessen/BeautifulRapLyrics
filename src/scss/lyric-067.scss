@@ -1,44 +1,65 @@
 .lyric-67 {
-  
-  background-color:#f4f4f4;
-  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
-    
-  .rhombus {
+  position: relative;
+  padding: 0;
+  height: 600px;
+  text-align: center;
+  background-image: url('../../img/hollywood.jpg');
+  background-size: cover;
+  background-position: center top;
+
+  .container {
     position: absolute;
-    z-index: 1;
     top: 50%;
     left: 50%;
-    width: 350px;
-    height: 350px;
-    transform: skew(10deg) translate3D(-80%, -50%, 0);
-    background: rgba(0,0,0,.05);
+    transform: translate3d(-50%,-50%,0);
   }
-  
-  .container {
-    position: relative;
-    z-index: 2;
-    padding: 150px 0;
-    padding-left: 90px;
-    width: 400px;
-  }
-  
-  p, h6 {
-    font-family: 'Nixie One', sans-serif;
-    font-size: 1.6rem;
-    line-height: 1.6;
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,.5);
   }
   
   p {
-    color: #000;
+    font: 400 60px/1 'AbeeZee', sans-serif;
+    color: lighten(#8FA68E,20%);
+    z-index: 2;
+  }
+
+  p:first-of-type { text-shadow: 0px 0px 8px rgba(0,0,0,.33) }
+  p:last-of-type  { text-shadow: 0px 0px 16px rgba(0,0,0,.88) }
+  
+  .divider {
+    display: inline-block;
+    height: 2em;
+    width: 250px;
+    margin: 0 2em;
+    background: #8FA68E;
+    z-index: 1;
+    box-shadow: 0px 0px 16px rgba(0,0,0,.5);
   }
   
-  p span {
-    display: block;
-    padding-left: 3px;
+  .like {
+    font: 400 60px/1.4 "Pacifico", cursive;
+    color: #F1F2C0;
+    text-shadow: 0px 0px 16px rgba(0,0,0,.5);
   }
   
   h6 {
-    padding-left: 6px;
-    color: #c0392b;
+    margin-top: 1em;
+    font: 700 40px/1.5 'AbeeZee', sans-serif;
+    text-transform: uppercase;
+    color: #CCC59E;
+    text-shadow: 0px 0px 16px rgba(0,0,0,.75);
+  }
+  
+  @media (max-width: 900px) {
+    .divider {
+      width: 90%;
+      margin: 0 auto;
+    }
   }
 }
