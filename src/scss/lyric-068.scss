@@ -7,12 +7,12 @@
   background: #ffda8e;
   background-color:white;
   background-position: center center;
-  background-image: linear-gradient(90deg, rgba(200,0,0,.4) 50%, transparent 50%),
-  linear-gradient(rgba(200,0,0,.4) 50%, transparent 50%);
+  background-image: linear-gradient(90deg, rgba(200,0,0,.3) 50%, transparent 50%),
+  linear-gradient(rgba(200,0,0,.3) 50%, transparent 50%);
   background-size: 420px 420px;
   
   .container {
-    width: 200px;
+    width: 250px;
     padding-top: 40px;
     margin: 0 auto;
     border: 20px double desaturate(lighten(#004e66,50%),80%);
