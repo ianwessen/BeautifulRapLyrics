@@ -12,9 +12,9 @@
     left: 0;
     bottom: 0;
     right: 0;
-    opacity: .8;
+    opacity: .9;
     background-color: #532C26;
-    box-shadow: 0px 0px 16px rgba(0,0,0,.5);
+    background-image: linear-gradient(62deg, #402F2F 0%, #532C26 100%);
   }
 
   .container {
@@ -28,7 +28,7 @@
   }
   
   p {
-    font: 400 28px/2 'Permanent Marker', sans-serif;
+    font: 400 22px/2 'Rock Salt', sans-serif;
     text-shadow: 0px 0px 16px rgba(0,0,0,.7);
   }
   
@@ -40,10 +40,10 @@
   }
   
   h6 {
-    margin-top: 2em;
-    font: 400 22px/2 'Permanent Marker', sans-serif;
-    text-shadow: 0px 0px 8px rgba(0,0,0,.5);
+    margin-top: 1em;
+    font: 400 22px/2 'Rock Salt', sans-serif;
     color: lighten(#532C26, 40%);
+    text-shadow: 0px 0px 8px rgba(0,0,0,.5);
   }
   
 }

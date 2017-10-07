@@ -8,7 +8,7 @@
   
   p {
     margin: 0;
-    font-size: 22px;
+    font-size: 32px;
     line-height: 3;
     font-family: 'Inconsolata', monospace;
     text-align: center;
@@ -31,20 +31,41 @@
     border-color: #000;
     color: #000;
   }
+
+
+  .foreground {
+    position: absolute;
+    z-index: 10;
+  }
+
+  .love.foreground {
+    top: 114px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    border: 0;
+  }
+
+  .hate.foreground {
+    top: 254px;
+    left: 50%;
+    transform: translateX(-50%); 
+    border: 0;
+  }
   
   .amp {
     position: absolute;
+    z-index: 1;
     top: 50%;
     left: 50%;
-    font: 400 8em/1 'Crimson Text', serif;
+    font: 400 22em/1 'Crimson Text', serif;
     font-style: italic;
-    color: #942424;
+    color: #8a3f3f;
     transform: translate3d(-50%,-50%,0);
   }
   
   h6 {
     margin-top: 1.5em;
-    font-size: 18px;
+    font-size: 24px;
     color: #fff;
     text-align: center;
   }

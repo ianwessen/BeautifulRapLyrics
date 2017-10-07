@@ -3,29 +3,34 @@
   display: flex;
   align-items: center;
   height: 45em;
-  padding: 50px 0;
+  padding: 20px 0;
   background: #ffda8e;
-  background-image: url('../../img/crissxcross.png');
-  background-size: 20%;
+  background-color:white;
+  background-position: center center;
+  background-image: linear-gradient(90deg, rgba(200,0,0,.4) 50%, transparent 50%),
+  linear-gradient(rgba(200,0,0,.4) 50%, transparent 50%);
+  background-size: 420px 420px;
   
   .container {
     width: 200px;
     padding-top: 40px;
     margin: 0 auto;
-    border: 20px double rgba(#004e66,.1);
+    border: 20px double desaturate(lighten(#004e66,50%),80%);
   }
   
   p {
-    font: 700 3em/.8 'Merriweather', serif;
+    font: 700 4em/.8 'Merriweather', serif;
     color: #004e66;
     box-sizing: border-box;
+    // -webkit-text-stroke-width: 2px;
+    // -webkit-text-stroke-color: white;
   }
   
   h6 {
     margin-top: 20px;
     margin-bottom: 20px;
     font: 700 1.6em/2 'Libre Franklin', serif;
-    color: lighten(#566270,10%);
+    color: #004e66;
     text-align: center;
   }
 
