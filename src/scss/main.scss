@@ -33,7 +33,7 @@ header,
 section,
 footer {
   position: relative;
-  min-height: 50px;
+  min-height: 20px;
   padding: 150px 0;
 }
 
@@ -276,15 +276,16 @@ header {
 
 footer {
 	padding: 60px;
-
+	background: #eee;
   color: #999;
   text-align: center;
+
+  p {
+  	line-height: 1;
+  }
 
   a:hover {
 	  text-decoration: underline;
 	}
 
-  p {
-		// line-height: 50px;
-  }
 }

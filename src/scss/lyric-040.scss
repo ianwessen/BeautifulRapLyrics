@@ -14,7 +14,7 @@
   p {
 	@include absolute-center(700px);
 	z-index: 10;
-	top: 295px;
+	top: 260px;
 	font: 700 24px / 3em 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
@@ -31,9 +31,9 @@
   }
 
   h6 {
-		@include absolute-center(200px);
-		top: 170px;
-		font: 400 148px / .8em 'Ovo', serif;
+		@include absolute-center(300px);
+		top: 80px;
+		font: 900 180px / .8em 'Ovo', serif;
 		color: #427676;
 		text-transform: uppercase;
 		overflow-wrap: break-word;
