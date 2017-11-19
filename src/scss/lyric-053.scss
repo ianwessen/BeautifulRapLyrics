@@ -4,7 +4,7 @@ $green: #81A395;
 
 .lyric-53 {
 	background: #e9d5b2;
-	// background-image: url('../../img/tileable-wood-colored.png');
+	padding: 100px 0;
 	
 	.container {
 		height: 600px;
@@ -14,7 +14,6 @@ $green: #81A395;
 	.dollar {
 		background: #E9E6E1;
 	}
-
 
 	.dollar,
 	.dollar-inner,
@@ -56,7 +55,7 @@ $green: #81A395;
 	
 	.dollar {
 		@include absolute-center(800px);
-		top: 16em;
+		top: 13em;
 		height: 340px;
 		padding: 1em;
 		border: 1px solid $green;

@@ -12,7 +12,7 @@
   $attribution: #e99366;
 
   font-family: 'Vollkorn', serif;
-  padding: 300px 0;
+  padding: 160px 0;
   background: $background;
 
   .body {
@@ -23,20 +23,20 @@
   }
 
   .lyric {
-	padding: 2em 0;
-	margin-bottom: 2em;
-	font-size: 20px;
-	font-style: italic;
-	line-height: 1.6em;
-	color: $text;
-	border-top: 1px solid rgba($text, .5);
-	border-bottom: 1px solid rgba($text, .5);
+		padding: 1em 0;
+		margin-bottom: 2em;
+		font-size: 20px;
+		font-style: italic;
+		line-height: 1.6em;
+		color: $text;
+		border-top: 1px solid rgba($text, .5);
+		border-bottom: 1px solid rgba($text, .5);
   }
 
   .attribution {
-	font-weight: 700;
-	letter-spacing: .083em;
-	color: $attribution;
-	text-transform: uppercase;
+		font-weight: 700;
+		letter-spacing: .083em;
+		color: $attribution;
+		text-transform: uppercase;
   }
 }

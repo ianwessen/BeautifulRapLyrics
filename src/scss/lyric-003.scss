@@ -6,13 +6,13 @@
 
 .lyric-3 {
   // Real G's move in silence like lasagna
-  $background: #ffb03b;
-  $silence: #fff0a5;
+  $background: #ffd597;
+  $silence: #fffae1;
   $primary: #8e2800;
   $secondary: #b64926;
   $attribution: #468966;
 
-  padding: 200px 0;
+  padding: 150px 0;
   font-family: 'Playfair Display', serif;
   text-align: center;
   text-transform: uppercase;
@@ -35,7 +35,7 @@
 
   h3 {
 	// Like lasagna
-	margin-bottom: 1em;
+	margin-bottom: .5em;
 	font-size: 67px;
 	font-weight: 700;
 	color: $secondary;
@@ -45,7 +45,6 @@
 	// Lil Wayne
 	font-size: 40px;
 	font-style: italic;
-	font-weight: 700;
 	color: $attribution;
 	text-transform: none;
   }

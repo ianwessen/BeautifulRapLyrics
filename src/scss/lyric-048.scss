@@ -3,12 +3,10 @@
 // Now that's practicing sacrilegious activism Attack is for battle, and practical rap with wisdom Actually, it's pragmatic capitalism for actors that crack under pressure and collapse when I get 'em Monch is medicinal man made medical marijuana With a phase plasma rifle like I'm searchin' for Sarah Conner’
 
 .lyric-48 {
-	// background: #2a442f;
 	background: #152819;
 	
 	.container {
 		width: 680px;
-		padding: 8em 0;
 	}
 	
 	.circuit {
@@ -17,7 +15,6 @@
 		left: 0;
 		right: 0;
 		position: absolute;
-		background: url('../../img/circuit2.png');
 		background-size: cover;
 		opacity: .05;
 	}
@@ -38,8 +35,9 @@
 	}
 	
 	h6 {
-		font: 400 26px / 36px 'Exo', Courier, monospace;
+		font: 400 16px / 36px 'Exo', Courier, monospace;
 		color: lighten(#2b8a35,30%);
+		text-transform: uppercase;
 		text-shadow: 1px 1px 16px #2b8a35, 0px 0px 1em #2b8a35, 0px 0px 2em #2b8a35;
 	}
 	

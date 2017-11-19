@@ -1,26 +1,16 @@
 @import 'variables';
 
 .lyric-69 {
-  height: 700px;
+  height: 600px;
   padding: 0;
-  background-color: #827989;
-  
-  .phonograph {
-    position: absolute;
-    z-index: -1;
-    transform: translate3d(-70%,-20%,0);
-    width: 600px;
-    height: 500px;
-    background: url(../../img/phonograph.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    opacity: .1;
-  }
+  background-color: #D2D3CD;
+
   
   .container {
     @include absolute-total-center(600px);
     top: 50%;
     left: 60%;
+    color: #333;
   }
   
   p {

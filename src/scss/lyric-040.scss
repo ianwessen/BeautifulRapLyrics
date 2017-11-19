@@ -7,14 +7,14 @@
 .lyric-40 {
   // YOU COULDN’T MAKE THE FANS THROW UP THEIR HANDS IF THEY SWALLOWED THEIR FINGERS
 
-  height: 630px;
+  height: 500px;
   background: #3B596A;
   text-align: center;
 
   p {
 	@include absolute-center(700px);
 	z-index: 10;
-	top: 350px;
+	top: 295px;
 	font: 700 24px / 3em 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
@@ -31,13 +31,13 @@
   }
 
   h6 {
-	@include absolute-center(170px);
-	top: 200px;
-	font: 400 128px / 1em 'Ovo', serif;
-	color: #427676;
-	text-transform: uppercase;
-	overflow-wrap: break-word;
-	word-wrap: break-word;
+		@include absolute-center(200px);
+		top: 170px;
+		font: 400 148px / .8em 'Ovo', serif;
+		color: #427676;
+		text-transform: uppercase;
+		overflow-wrap: break-word;
+		word-wrap: break-word;
   }
 
 }
