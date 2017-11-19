@@ -1,4 +1,5 @@
-# 100DOR
-100 Days of Rap Lyrics
+# Beautiful Rap Lyrics
 
-Live: http://ianwessen.github.io/100DOR/
+Helvetica on the streets, Bodoni in the sheets.
+
+Project page: http://ianwessen.github.io/BeautifulRapLyrics/
