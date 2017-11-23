@@ -12,22 +12,22 @@
   text-align: center;
 
   p {
-	@include absolute-center(700px);
-	z-index: 10;
-	top: 260px;
-	font: 700 24px / 3em 'Montserrat', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 0.2em;
+		@include absolute-center(700px);
+		z-index: 10;
+		top: 260px;
+		font: 700 28px / 3em 'Montserrat', sans-serif;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
   }
 
   span.lyric:nth-of-type(1) {
-	color: #3F9A82;
+		color: #3F9A82;
   }
   span.lyric:nth-of-type(2) {
-	color: #A1CD73;
+		color: #A1CD73;
   }
   span.lyric:nth-of-type(3) {
-	color: #ECDB60;
+		color: #ECDB60;
   }
 
   h6 {
@@ -38,6 +38,7 @@
 		text-transform: uppercase;
 		overflow-wrap: break-word;
 		word-wrap: break-word;
+		opacity: .5;
   }
 
 }

@@ -5,26 +5,35 @@
   padding: 0;
   background-color: #D2D3CD;
 
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../../img/diagmonds-light.png');
+    background-color: #a4cec2;
+  }
+
   
   .container {
     @include absolute-total-center(600px);
-    top: 50%;
-    left: 60%;
     color: #333;
   }
   
   p {
     margin-bottom: 1.5em;
-    font: 400 20px/1.4 'Scope One', serif;
+    font: 400 24px/1.4 'Scope One', serif;
   }
 
   h6 span {
-    font: 400 16px/1.4 'Scope One', serif;
-    letter-spacing: .1em;
+    font: 400 18px/1.666 'Scope One', serif;
+    letter-spacing: .15em;
   }
   
   h6 {
-    font: 400 16px/1.4 'Scope One', serif;
+    font: 400 18px/1.5 'Scope One', serif;
   }
 
 

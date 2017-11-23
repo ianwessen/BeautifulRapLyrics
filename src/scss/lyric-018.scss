@@ -6,27 +6,44 @@
 
 .lyric-18 {
   // Her beauty is why god created eyeballs
+  position: relative;
   background: url('../../img/milky-way.jpg');
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 380px;
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #001247;
+    z-index: 0;
+    opacity: .2;
+  }
 
   .container {
-	width: 740px;
-	padding: 6em;
-	text-align: center;
-	border: 3px solid $white;
-	box-sizing: border-box;
+    @include abs-center;
+    width: 740px;
+    padding: 6em;
+    text-align: center;
+    border: 10px double $white;
+    box-sizing: border-box;
+    z-index: 2;
   }
 
   p {
-  	margin-bottom: 1.4em;
-  	font: 700 36px / 1.6em 'Playfair Display', sans-serif;
+    margin-bottom: 1.4em;
+    font: 700 36px / 1.6em 'Playfair Display', sans-serif;
     text-shadow: 1px 1px 12px rgba(0,0,0,.5);
   }
 
   h6 {
-	font-size: 28px;
-	font-family: 'Alegreya Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
   }
 }

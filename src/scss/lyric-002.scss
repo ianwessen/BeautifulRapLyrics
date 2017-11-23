@@ -13,30 +13,37 @@
 
   font-family: 'Vollkorn', serif;
   padding: 160px 0;
-  background: $background;
+  background-color: $background;
+	background-image: url('../../img/french-stucco.png');
 
   .body {
-	width: 300px;
-	margin: 0 auto;
-	overflow-y: hidden;
-	text-align: center;
+		width: 400px;
+		margin: 0 auto;
+		overflow-y: hidden;
+		text-align: center;
   }
 
   .lyric {
 		padding: 1em 0;
-		margin-bottom: 2em;
-		font-size: 20px;
+		font-size: 24px;
 		font-style: italic;
 		line-height: 1.6em;
 		color: $text;
 		border-top: 1px solid rgba($text, .5);
 		border-bottom: 1px solid rgba($text, .5);
+		opacity: .75;
   }
 
   .attribution {
+  	display: inline-block;
+  	padding: 0 1em;
 		font-weight: 700;
-		letter-spacing: .083em;
+		font-size: 16px;
+		letter-spacing: .2em;
 		color: $attribution;
+		transform: translateY(-50%);
 		text-transform: uppercase;
+		background-color: $background;
+		background-image: url('../../img/french-stucco.png');
   }
 }

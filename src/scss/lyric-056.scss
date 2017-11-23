@@ -2,7 +2,7 @@
 
 
 .lyric-56 {
-	padding: 200px 0 150px;
+	padding: 200px 0;
 	color: #F4F2F3;
 	background-color: #5f6c60;
   background-image: url('../../../dist/img/concrete-wall.png');
@@ -22,6 +22,9 @@
 	}
 	
 	h6 {
-		font: 700 2rem/4em 'Cabin', sans-serif;
+		margin-top: 3rem;
+		font: 400 1.6rem/1.6em 'Bitter', sans-serif;
+		color: #fff;
+		background: #334234;
 	}
 }

@@ -13,16 +13,16 @@
   background: $background;
 
   .container {
-	width: 620px;
-	text-align: center;
+		width: 620px;
+		text-align: center;
   }
 
   p {
-		margin-bottom: .5em;
+		padding-bottom: .5em;
 		font-size: 60px;
 		font-weight: 700;
-		letter-spacing: -.05em;
-		line-height: 1.2em;
+		letter-spacing: -.07em;
+		line-height: 1em;
 		background: #3CA55C;
 		background: -webkit-linear-gradient(45deg, rgba(47, 144, 54, 1) 0%, rgba(47, 144, 54, 1) 18%, rgba(208, 150, 37, 1) 33%, rgba(255, 153, 0, 1) 62%, #9c0707 100%);
 		background: linear-gradient(45deg, rgba(47, 144, 54, 1) 0%, rgba(47, 144, 54, 1) 18%, rgba(208, 150, 37, 1) 33%, rgba(255, 153, 0, 1) 62%, #9c0707 100%);
@@ -31,7 +31,8 @@
   }
 
   h6 {
-		font-size: 24px;
+		font-size: 28px;
+		font-weight: 700;
 		letter-spacing: .03em;
 		color: darken($background,60%);
 		font-family: 'Montserrat', sans-serif;

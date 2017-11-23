@@ -5,37 +5,33 @@
 // =============================================================================
 
 .lyric-24 {
-  // Life is hell, death's a bitch
-  // And these FUBAR rulers getting rich
   padding: 150px 0;
   background: #2A2C2B;
 
   .container {
-	width: 400px;
-	padding-bottom: 40px;
-	overflow: auto;
-	color: #D9CB9E;
-	text-align: center;
-  }
-
-  h1 {
-	// El-P
-	margin: 0;
-	font: 700 64px / 1em 'Domine', serif;
-	color: $white;
+		width: 600px;
+		padding-bottom: 40px;
+		overflow: auto;
+		text-align: center;
   }
 
   h4 {
-	// Run The Jewels
-	margin-bottom: 1em;
-	font: 400 20px / 2em 'Work Sans', serif;
-	color: #707d7b;
-	text-transform: uppercase;
-	border-bottom: 2px solid #374140;
+		margin-bottom: 1em;
+		font: 400 20px / 2em 'Work Sans', sans-serif;
+		color: #707d7b;
+		text-transform: uppercase;
   }
 
-  p {
-	font: 400 14px / 2em 'Domine', serif;
+  h1 {
+		margin: 0;
+		font: 700 42px / 1.4em 'Domine', serif;
+		color: #fef8b8;
+		text-shadow: 0px 2px 16px rgba(#D9CB9E,.2);
+  }
+
+  h6 {
+  	color: #D9CB9E;
+		font: 400 26px / 4em 'Work Sans', sans-serif;
   }
 
 }
