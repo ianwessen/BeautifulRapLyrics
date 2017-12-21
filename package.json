@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "./bin/build-css",
     "watch-css": "./bin/watch-css",
-    "start": "gulp"
+    "start": "gulp",
+    "deploy": "git push origin master && git checkout gh-pages && git pull origin master && git push origin gh-pages && git checkout master"
   },
   "repository": {
     "type": "git",

@@ -1,1 +1,0 @@
-git push origin master && git checkout gh-pages && git pull origin master && git push origin gh-pages && git checkout master
