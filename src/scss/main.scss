@@ -121,6 +121,12 @@ header {
 		width: 700px;
 		text-align: center;
 	}
+
+	.row {
+		display: flex;
+		
+		& > * { flex: 1 }
+	}
 	
 	a:hover {
 		text-decoration: underline;

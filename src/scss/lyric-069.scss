@@ -12,14 +12,14 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('../../img/diagmonds-light.png');
-    background-color: #a4cec2;
+    // background-image: url('../../img/diagmonds-light.png');
+    background-color: #171F26;
   }
 
   
   .container {
     @include absolute-total-center(600px);
-    color: #333;
+    color: #CB9838;
   }
   
   p {
@@ -34,6 +34,10 @@
   
   h6 {
     font: 400 18px/1.5 'Scope One', serif;
+  }
+
+  .specimen {
+    opacity: .5;
   }
 
 

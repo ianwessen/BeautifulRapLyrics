@@ -11,23 +11,23 @@
   $text: #2c3e50;
   $attribution: #e99366;
 
-  font-family: 'Vollkorn', serif;
+  font-family: 'Radley', serif;
   padding: 160px 0;
   background-color: $background;
 	background-image: url('../../img/french-stucco.png');
 
   .body {
-		width: 400px;
+		width: 500px;
 		margin: 0 auto;
 		overflow-y: hidden;
 		text-align: center;
   }
 
   .lyric {
-		padding: 1em 0;
+		padding: 2em 0;
 		font-size: 24px;
 		font-style: italic;
-		line-height: 1.6em;
+		line-height: 1.8em;
 		color: $text;
 		border-top: 1px solid rgba($text, .5);
 		border-bottom: 1px solid rgba($text, .5);
