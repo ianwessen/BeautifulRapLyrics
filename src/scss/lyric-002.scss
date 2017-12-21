@@ -7,13 +7,12 @@
 
 .lyric-2 {
   // Dead in the middle of little Italy
-  $background: #f6f0e3;
   $text: #2c3e50;
   $attribution: #e99366;
 
   font-family: 'Radley', serif;
   padding: 160px 0;
-  background-color: $background;
+  background-color: #f6f0e3;
 	background-image: url('../../img/french-stucco.png');
 
   .body {
@@ -43,7 +42,7 @@
 		color: $attribution;
 		transform: translateY(-50%);
 		text-transform: uppercase;
-		background-color: $background;
+		background-color: #f6f0e3;
 		background-image: url('../../img/french-stucco.png');
   }
 }

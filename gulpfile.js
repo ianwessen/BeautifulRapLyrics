@@ -6,22 +6,17 @@ var gulp = require('gulp'),
   data = require('gulp-data'),
   pug = require('gulp-pug');
  
-var paths = {
-  sass: './src/styles/',
-  css: './dist/css/',
-};
-
 gulp.task('compileSass', function() {
   gulp.src('src/**/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(concatCss("app.css"))
     .pipe(minify("app.css"))
-    .pipe(gulp.dest('./dist/css/'))
+    .pipe(gulp.dest('./public/css/'))
     .pipe(connect.reload());
 })
 
 gulp.task('compilePug', function() {
-  gulp.src('./*.pug')
+  gulp.src('./src/*.pug')
     .pipe(pug())
     .pipe(gulp.dest('.'))
     .pipe(connect.reload());
@@ -29,7 +24,7 @@ gulp.task('compilePug', function() {
 
 gulp.task('watch', function() {
   gulp.watch(['src/**/*.scss'],['compileSass']),
-  gulp.watch(['./*.pug'],['compilePug']);
+  gulp.watch(['./src/*.pug'],['compilePug']);
 });
 
 gulp.task('connect', function() {
