@@ -9,8 +9,9 @@
   // I got nines in the bedroom, Glocks in the kitchen. A shotty by the shower
   // if you wanna shoot me while I’m shittin’.
 
-  padding: 240px 0;
-  background: #6EA89C;
+  padding: 180px 0 200px;
+  background: #673939;
+  color: #fff;
 
   .container {
 	width: 590px;
@@ -19,25 +20,26 @@
 
   .quote {
 	display: block;
-	font-size: 60px;
+	font-size: 120px;
+    color: #964f4f;
   }
 
   p {
-	font: 700 34px / 1.6em 'Cardo', serif;
+	font: 700 28px / 1.5em 'Cardo', serif;
   }
 
   hr {
 	width: 75px;
 	height: 4px;
 	margin: 2em auto;
-	background: $white;
+	background: #964f4f;;
 	border: 0;
   }
 
   h6 {
 	font: 700 22px / 1.6em 'Montserrat', serif;
 	text-transform: uppercase;
-	letter-spacing: .05em;
+	letter-spacing: .2em;
 
 	span {
 	  font-weight: 300;

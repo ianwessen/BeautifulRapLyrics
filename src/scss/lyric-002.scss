@@ -13,7 +13,6 @@
   font-family: 'Radley', serif;
   padding: 160px 0;
   background-color: #f6f0e3;
-	background-image: url('../../img/french-stucco.png');
 
   .body {
 		width: 500px;
@@ -35,14 +34,11 @@
 
   .attribution {
   	display: inline-block;
-  	padding: 0 1em;
-		font-weight: 700;
-		font-size: 16px;
-		letter-spacing: .2em;
-		color: $attribution;
-		transform: translateY(-50%);
-		text-transform: uppercase;
-		background-color: #f6f0e3;
-		background-image: url('../../img/french-stucco.png');
+  	padding: 2em 1em;
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: .2em;
+	color: $attribution;
+	text-transform: uppercase;
   }
 }

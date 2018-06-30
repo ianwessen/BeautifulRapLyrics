@@ -251,17 +251,22 @@ header {
 // =============================================================================
 
 footer {
-	padding: 60px;
-	background: #eee;
-  color: #999;
-  text-align: center;
+	padding: 20px;
+	background: #666;
+    color: #eee;
+    text-align: center;
 
-  p {
-  	line-height: 1;
-  }
+    p {
+  	 line-height: 1;
+    }
 
-  a:hover {
-	  text-decoration: underline;
+    a {
+        opacity: .7;
+    }
+
+    a:hover {
+	    text-decoration: underline;
+        opacity: 1;
 	}
 
 }

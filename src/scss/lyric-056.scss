@@ -3,27 +3,26 @@
 
 .lyric-56 {
 	padding: 160px 0;
-	color: #F4F2F3;
-	background-color: #888;
-  background-image: url('../../img/concrete-wall.png');
+	color: #5b5b5b;
+	background: linear-gradient(200deg,#fffcf9 0,#b1ede8 100%);
 	
 	.container {
 		width: 450px;
 		text-align: center;
 		
 		span {
-			padding: 0 .25em;
-			background: #EF5A30;
+			font-style: italic;
 		}
 	}
 	
 	p {
-		font: 400 1.6rem/1.6em 'Bitter', serif;
+		font: 400 1.6rem/1.6em 'IM Fell Great Primer', serif;
 	}
 	
 	h6 {
 		margin-top: 3rem;
-		font: 400 1.6rem/1.6em 'Bitter', sans-serif;
-		color: #fff;
+		font: 400 16px/1.6em 'IM Fell Great Primer', sans-serif;
+		letter-spacing: .25em;
+		text-transform: uppercase;
 	}
 }
